@@ -1,0 +1,1105 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsItem.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x1C|max=14|FIXED_SLOT] Wooden Sword
+[000001|off=0x40|max=14|FIXED_SLOT] Iron Core Swrd
+[000002|off=0x64|max=14|FIXED_SLOT] Steel Sword
+[000003|off=0x88|max=14|FIXED_SLOT] Dagger
+[000004|off=0xAC|max=14|FIXED_SLOT] Gladius
+[000005|off=0xD0|max=14|FIXED_SLOT] Shortsword
+[000006|off=0xF4|max=14|FIXED_SLOT] Saber
+[000007|off=0x118|max=14|FIXED_SLOT] Longsword
+[000008|off=0x13C|max=14|FIXED_SLOT] Rapier
+[000009|off=0x160|max=14|FIXED_SLOT] Born Sword
+[000010|off=0x184|max=14|FIXED_SLOT] Sword Breaker
+[000011|off=0x1A8|max=14|FIXED_SLOT] Longsword
+[000012|off=0x1CC|max=14|FIXED_SLOT] Kanda
+[000013|off=0x1F0|max=14|FIXED_SLOT] Gram
+[000014|off=0x214|max=14|FIXED_SLOT] Damascus
+[000015|off=0x238|max=14|FIXED_SLOT] Bastard Sword
+[000016|off=0x25C|max=14|FIXED_SLOT] Two Hand Sword
+[000017|off=0x280|max=14|FIXED_SLOT] Greatsword
+[000018|off=0x2A4|max=14|FIXED_SLOT] Crimson
+[000019|off=0x2C8|max=14|FIXED_SLOT] Glay Sword
+[000020|off=0x2EC|max=14|FIXED_SLOT] Chaos Sword
+[000021|off=0x310|max=14|FIXED_SLOT] Lighting Sword
+[000022|off=0x334|max=14|FIXED_SLOT] Holy sword
+[000023|off=0x358|max=14|FIXED_SLOT] Mogray
+[000024|off=0x37C|max=14|FIXED_SLOT] Saber
+[000025|off=0x3A0|max=14|FIXED_SLOT] Yerina
+[000026|off=0x3C4|max=14|FIXED_SLOT] Casandra
+[000027|off=0x3E8|max=14|FIXED_SLOT] Sylphide
+[000028|off=0x40C|max=14|FIXED_SLOT] Pelleti
+[000029|off=0x430|max=14|FIXED_SLOT] Falchion
+[000030|off=0x454|max=14|FIXED_SLOT] Fegushe
+[000031|off=0x478|max=14|FIXED_SLOT] Scimitar
+[000032|off=0x49C|max=14|FIXED_SLOT] Samshir
+[000033|off=0x4C0|max=14|FIXED_SLOT] Francisca
+[000034|off=0x4E4|max=14|FIXED_SLOT] Hell Valkyrie
+[000035|off=0x508|max=14|FIXED_SLOT] Zephyr
+[000036|off=0x52C|max=14|FIXED_SLOT] Valmont
+[000037|off=0x550|max=14|FIXED_SLOT] Balisarda
+[000038|off=0x574|max=14|FIXED_SLOT] Angervadil
+[000039|off=0x598|max=14|FIXED_SLOT] Zicrogen
+[000040|off=0x5BC|max=14|FIXED_SLOT] Probargen
+[000041|off=0x5E0|max=14|FIXED_SLOT] Askaron
+[000042|off=0x604|max=14|FIXED_SLOT] Sartain
+[000043|off=0x628|max=14|FIXED_SLOT] Timothy
+[000044|off=0x64C|max=14|FIXED_SLOT] Thessalonica
+[000045|off=0x670|max=14|FIXED_SLOT] Katar
+[000046|off=0x694|max=14|FIXED_SLOT] Zweihander
+[000047|off=0x6B8|max=14|FIXED_SLOT] Sting
+[000048|off=0x6DC|max=14|FIXED_SLOT] Durendal
+[000049|off=0x700|max=14|FIXED_SLOT] Excalibur
+[000050|off=0x724|max=14|FIXED_SLOT] Chrysaor
+[000051|off=0x748|max=14|FIXED_SLOT] Pragaragh
+[000052|off=0x76C|max=14|FIXED_SLOT] Prctc Pistol
+[000053|off=0x790|max=14|FIXED_SLOT] Hunting Pistol
+[000054|off=0x7B4|max=14|FIXED_SLOT] Precise Pistol
+[000055|off=0x7D8|max=14|FIXED_SLOT] Rmdld Pistol
+[000056|off=0x7FC|max=14|FIXED_SLOT] Brass
+[000057|off=0x820|max=14|FIXED_SLOT] Assault Pistol
+[000058|off=0x844|max=14|FIXED_SLOT] Rmdld Pistol
+[000059|off=0x868|max=14|FIXED_SLOT] 30 Clbr Pistol
+[000060|off=0x88C|max=14|FIXED_SLOT] Atmtc Pistol
+[000061|off=0x8B0|max=14|FIXED_SLOT] 30 Clbr Magnum
+[000062|off=0x8D4|max=14|FIXED_SLOT] Shooter
+[000063|off=0x8F8|max=14|FIXED_SLOT] 34 Caliber
+[000064|off=0x91C|max=14|FIXED_SLOT] Punisher
+[000065|off=0x940|max=14|FIXED_SLOT] Valkyr
+[000066|off=0x964|max=14|FIXED_SLOT] Handgun
+[000067|off=0x988|max=14|FIXED_SLOT] Dellinger
+[000068|off=0x9AC|max=14|FIXED_SLOT] Hand Smith
+[000069|off=0x9D0|max=14|FIXED_SLOT] Full Auto
+[000070|off=0x9F4|max=14|FIXED_SLOT] Buster
+[000071|off=0xA18|max=14|FIXED_SLOT] Try gun
+[000072|off=0xA3C|max=14|FIXED_SLOT] Lex
+[000073|off=0xA60|max=14|FIXED_SLOT] Burning
+[000074|off=0xA84|max=14|FIXED_SLOT] Winchester
+[000075|off=0xAA8|max=14|FIXED_SLOT] 30 Clbr Limit
+[000076|off=0xACC|max=14|FIXED_SLOT] Scout
+[000077|off=0xAF0|max=14|FIXED_SLOT] 34 Clbr Limit
+[000078|off=0xB14|max=14|FIXED_SLOT] Stranger
+[000079|off=0xB38|max=14|FIXED_SLOT] Bow gun
+[000080|off=0xB5C|max=14|FIXED_SLOT] Balkan
+[000081|off=0xB80|max=14|FIXED_SLOT] Black foot
+[000082|off=0xBA4|max=14|FIXED_SLOT] Cross Gun
+[000083|off=0xBC8|max=14|FIXED_SLOT] Ballista
+[000084|off=0xBEC|max=14|FIXED_SLOT] Enear
+[000085|off=0xC10|max=14|FIXED_SLOT] Unit
+[000086|off=0xC34|max=14|FIXED_SLOT] Rebi
+[000087|off=0xC58|max=14|FIXED_SLOT] Legion
+[000088|off=0xC7C|max=14|FIXED_SLOT] Ezis
+[000089|off=0xCA0|max=14|FIXED_SLOT] Centurion
+[000090|off=0xCC4|max=14|FIXED_SLOT] Squad
+[000091|off=0xCE8|max=14|FIXED_SLOT] Vitellian
+[000092|off=0xD0C|max=14|FIXED_SLOT] Destroyer
+[000093|off=0xD30|max=14|FIXED_SLOT] Berserker
+[000094|off=0xD54|max=14|FIXED_SLOT] General
+[000095|off=0xD78|max=14|FIXED_SLOT] Fererati
+[000096|off=0xD9C|max=14|FIXED_SLOT] Slayer
+[000097|off=0xDC0|max=14|FIXED_SLOT] Astra P
+[000098|off=0xDE4|max=14|FIXED_SLOT] Handcannon S
+[000099|off=0xE08|max=14|FIXED_SLOT] Stranger S
+[000100|off=0xE2C|max=14|FIXED_SLOT] Legion C
+[000101|off=0xE50|max=14|FIXED_SLOT] Dragonbuster
+[000102|off=0xE74|max=14|FIXED_SLOT] Wolf Hunter
+[000103|off=0xE98|max=14|FIXED_SLOT] Gungnir
+[000104|off=0xEBC|max=14|FIXED_SLOT] Prctc Armlet
+[000105|off=0xEE0|max=14|FIXED_SLOT] Leather Armlet
+[000106|off=0xF04|max=14|FIXED_SLOT] Runic Armlet
+[000107|off=0xF28|max=14|FIXED_SLOT] Ruine
+[000108|off=0xF4C|max=14|FIXED_SLOT] Rusio
+[000109|off=0xF70|max=14|FIXED_SLOT] Aqua
+[000110|off=0xF94|max=14|FIXED_SLOT] Terra
+[000111|off=0xFB8|max=14|FIXED_SLOT] Caelum
+[000112|off=0xFDC|max=14|FIXED_SLOT] Ventus
+[000113|off=0x1000|max=14|FIXED_SLOT] Stella
+[000114|off=0x1024|max=14|FIXED_SLOT] Silentium
+[000115|off=0x1048|max=14|FIXED_SLOT] Floos
+[000116|off=0x106C|max=14|FIXED_SLOT] Gratia
+[000117|off=0x1090|max=14|FIXED_SLOT] Lunatic
+[000118|off=0x10B4|max=14|FIXED_SLOT] Ignis
+[000119|off=0x10D8|max=14|FIXED_SLOT] Ira
+[000120|off=0x10FC|max=14|FIXED_SLOT] Violentia
+[000121|off=0x1120|max=14|FIXED_SLOT] Diablo
+[000122|off=0x1144|max=14|FIXED_SLOT] Bellum
+[000123|off=0x1168|max=14|FIXED_SLOT] Angelus
+[000124|off=0x118C|max=14|FIXED_SLOT] Magane
+[000125|off=0x11B0|max=14|FIXED_SLOT] Pueram
+[000126|off=0x11D4|max=14|FIXED_SLOT] Tempus
+[000127|off=0x11F8|max=14|FIXED_SLOT] Pragaragh
+[000128|off=0x121C|max=14|FIXED_SLOT] Praeteta
+[000129|off=0x1240|max=14|FIXED_SLOT] Praesentia
+[000130|off=0x1264|max=14|FIXED_SLOT] Fragmentu
+[000131|off=0x1288|max=14|FIXED_SLOT] Armio
+[000132|off=0x12AC|max=14|FIXED_SLOT] Rucio
+[000133|off=0x12D0|max=14|FIXED_SLOT] Aon
+[000134|off=0x12F4|max=14|FIXED_SLOT] Rumion
+[000135|off=0x1318|max=14|FIXED_SLOT] Ruach
+[000136|off=0x133C|max=14|FIXED_SLOT] Rusnox
+[000137|off=0x1360|max=14|FIXED_SLOT] Infer
+[000138|off=0x1384|max=14|FIXED_SLOT] Rusnex
+[000139|off=0x13A8|max=14|FIXED_SLOT] Lumen Caligo
+[000140|off=0x13CC|max=14|FIXED_SLOT] Nell
+[000141|off=0x13F0|max=14|FIXED_SLOT] Nemell
+[000142|off=0x1414|max=14|FIXED_SLOT] Netro
+[000143|off=0x1438|max=14|FIXED_SLOT] Nebela
+[000144|off=0x145C|max=14|FIXED_SLOT] Nebula
+[000145|off=0x1480|max=14|FIXED_SLOT] Terec
+[000146|off=0x14A4|max=14|FIXED_SLOT] Crinos
+[000147|off=0x14C8|max=14|FIXED_SLOT] Autatium
+[000148|off=0x14EC|max=14|FIXED_SLOT] Spes
+[000149|off=0x1510|max=14|FIXED_SLOT] Ventus L
+[000150|off=0x1534|max=14|FIXED_SLOT] Diablo L
+[000151|off=0x1558|max=14|FIXED_SLOT] Fragmentu L
+[000152|off=0x157C|max=14|FIXED_SLOT] Rusnex L
+[000153|off=0x15A0|max=14|FIXED_SLOT] Crimson crino
+[000154|off=0x15C4|max=14|FIXED_SLOT] Placia
+[000155|off=0x15E8|max=14|FIXED_SLOT] Crimson Lake
+[000156|off=0x160C|max=14|FIXED_SLOT] Prctc Knuckle
+[000157|off=0x1630|max=14|FIXED_SLOT] Power Knuckle
+[000158|off=0x1654|max=14|FIXED_SLOT] Strong Knuckle
+[000159|off=0x1678|max=14|FIXED_SLOT] Bear Knuckle
+[000160|off=0x169C|max=14|FIXED_SLOT] Wolf Claw
+[000161|off=0x16C0|max=14|FIXED_SLOT] Eagle Arms
+[000162|off=0x16E4|max=14|FIXED_SLOT] Edge Arms
+[000163|off=0x1708|max=14|FIXED_SLOT] Demonic Arms
+[000164|off=0x172C|max=14|FIXED_SLOT] Gd's Hand Arms
+[000165|off=0x1750|max=14|FIXED_SLOT] Hunter Crash
+[000166|off=0x1774|max=14|FIXED_SLOT] Assassin Crash
+[000167|off=0x1798|max=14|FIXED_SLOT] Dex Claw
+[000168|off=0x17BC|max=14|FIXED_SLOT] Steel Claw
+[000169|off=0x17E0|max=14|FIXED_SLOT] Dbl Tail Claw
+[000170|off=0x1804|max=14|FIXED_SLOT] Dread Note
+[000171|off=0x1828|max=14|FIXED_SLOT] Gorgeo Steam
+[000172|off=0x184C|max=14|FIXED_SLOT] Steam Palrus
+[000173|off=0x1870|max=14|FIXED_SLOT] Metallic Claw
+[000174|off=0x1894|max=14|FIXED_SLOT] Earth Claw
+[000175|off=0x18B8|max=14|FIXED_SLOT] Noble Claw
+[000176|off=0x18DC|max=14|FIXED_SLOT] Wind Claw
+[000177|off=0x1900|max=14|FIXED_SLOT] Drgn Tgr Claw
+[000178|off=0x1924|max=14|FIXED_SLOT] Thunder Claw
+[000179|off=0x1948|max=14|FIXED_SLOT] Eagle Claw
+[000180|off=0x196C|max=14|FIXED_SLOT] Won Claw
+[000181|off=0x1990|max=14|FIXED_SLOT] Conifer Claw
+[000182|off=0x19B4|max=14|FIXED_SLOT] Lotus Claw
+[000183|off=0x19D8|max=14|FIXED_SLOT] Drill Fist
+[000184|off=0x19FC|max=14|FIXED_SLOT] Storm Fist
+[000185|off=0x1A20|max=14|FIXED_SLOT] Reser Fist
+[000186|off=0x1A44|max=14|FIXED_SLOT] Thunder Fist
+[000187|off=0x1A68|max=14|FIXED_SLOT] Cyclop
+[000188|off=0x1A8C|max=14|FIXED_SLOT] Mgc Chain Ring
+[000189|off=0x1AB0|max=14|FIXED_SLOT] Slvr Chn Ring
+[000190|off=0x1AD4|max=14|FIXED_SLOT] Rnc Chain Ring
+[000191|off=0x1AF8|max=14|FIXED_SLOT] Orcn Chn Ring
+[000192|off=0x1B1C|max=14|FIXED_SLOT] Spirit Ring
+[000193|off=0x1B40|max=14|FIXED_SLOT] Rising Dex
+[000194|off=0x1B64|max=14|FIXED_SLOT] Soul Dex
+[000195|off=0x1B88|max=14|FIXED_SLOT] Light Hit
+[000196|off=0x1BAC|max=14|FIXED_SLOT] Eternal Throw
+[000197|off=0x1BD0|max=14|FIXED_SLOT] Seven Claw
+[000198|off=0x1BF4|max=14|FIXED_SLOT] Taeguk Claw
+[000199|off=0x1C18|max=14|FIXED_SLOT] Cloud Claw
+[000200|off=0x1C3C|max=14|FIXED_SLOT] Spirit Claw
+[000201|off=0x1C60|max=14|FIXED_SLOT] Soul Straight
+[000202|off=0x1C84|max=14|FIXED_SLOT] Full Mtl Spike
+[000203|off=0x1CA8|max=14|FIXED_SLOT] God Power Claw
+[000204|off=0x1CCC|max=14|FIXED_SLOT] Runic Aude
+[000205|off=0x1CF0|max=14|FIXED_SLOT] Heaven Jumper
+[000206|off=0x1D14|max=14|FIXED_SLOT] Invisible Claw
+[000207|off=0x1D38|max=14|FIXED_SLOT] Thsnd Brkthrgh
+[000208|off=0x1D5C|max=14|FIXED_SLOT] Practice Kepi
+[000209|off=0x1D80|max=14|FIXED_SLOT] Battle Kepi
+[000210|off=0x1DA4|max=14|FIXED_SLOT] Wooden Kepi
+[000211|off=0x1DC8|max=14|FIXED_SLOT] Bone Kepi
+[000212|off=0x1DEC|max=14|FIXED_SLOT] Bronze Kepi
+[000213|off=0x1E10|max=14|FIXED_SLOT] Thin Mtl Kepi
+[000214|off=0x1E34|max=14|FIXED_SLOT] Metal Kepi
+[000215|off=0x1E58|max=14|FIXED_SLOT] Strngthnd Kepi
+[000216|off=0x1E7C|max=14|FIXED_SLOT] Advntrr Kepi
+[000217|off=0x1EA0|max=14|FIXED_SLOT] Combatant Kepi
+[000218|off=0x1EC4|max=14|FIXED_SLOT] Knight Kepi
+[000219|off=0x1EE8|max=14|FIXED_SLOT] Gilt Kepi
+[000220|off=0x1F0C|max=14|FIXED_SLOT] Mithril Kepi
+[000221|off=0x1F30|max=14|FIXED_SLOT] Thorium Kepi
+[000222|off=0x1F54|max=14|FIXED_SLOT] Tether Kepi
+[000223|off=0x1F78|max=14|FIXED_SLOT] Gold Pltd Kepi
+[000224|off=0x1F9C|max=14|FIXED_SLOT] Guardian Kepi
+[000225|off=0x1FC0|max=14|FIXED_SLOT] Stimulant Kepi
+[000226|off=0x1FE4|max=14|FIXED_SLOT] Royal Kepi
+[000227|off=0x2008|max=14|FIXED_SLOT] Halcon Kepi
+[000228|off=0x202C|max=14|FIXED_SLOT] Runic Kepi
+[000229|off=0x2050|max=14|FIXED_SLOT] Orcon Kepi
+[000230|off=0x2074|max=14|FIXED_SLOT] Plated Kepi
+[000231|off=0x2098|max=14|FIXED_SLOT] Holy Kepi
+[000232|off=0x20BC|max=14|FIXED_SLOT] Protector
+[000233|off=0x20E0|max=14|FIXED_SLOT] Steel Kepi
+[000234|off=0x2104|max=14|FIXED_SLOT] Adaman Kepi
+[000235|off=0x2128|max=14|FIXED_SLOT] Orhalcon Kepi
+[000236|off=0x214C|max=14|FIXED_SLOT] Dynasty
+[000237|off=0x2170|max=14|FIXED_SLOT] Devine Pose
+[000238|off=0x2194|max=14|FIXED_SLOT] Bgnnr Helmet
+[000239|off=0x21B8|max=14|FIXED_SLOT] Linen Helmet
+[000240|off=0x21DC|max=14|FIXED_SLOT] Woolen Helmet
+[000241|off=0x2200|max=14|FIXED_SLOT] Visor Hat
+[000242|off=0x2224|max=14|FIXED_SLOT] Windshield Hat
+[000243|off=0x2248|max=14|FIXED_SLOT] Cld Prtctn Hat
+[000244|off=0x226C|max=14|FIXED_SLOT] Thin Lthr Hlmt
+[000245|off=0x2290|max=14|FIXED_SLOT] Chain Helmet
+[000246|off=0x22B4|max=14|FIXED_SLOT] Thck Lthr Hlmt
+[000247|off=0x22D8|max=14|FIXED_SLOT] StrngthChnHlmt
+[000248|off=0x22FC|max=14|FIXED_SLOT] Tether Helmet
+[000249|off=0x2320|max=14|FIXED_SLOT] Archer Helmet
+[000250|off=0x2344|max=14|FIXED_SLOT] Advntrr Helmet
+[000251|off=0x2368|max=14|FIXED_SLOT] Elt Unit Hlmt
+[000252|off=0x238C|max=14|FIXED_SLOT] Thunder Helmet
+[000253|off=0x23B0|max=14|FIXED_SLOT] Luna Helmet
+[000254|off=0x23D4|max=14|FIXED_SLOT] Assssn Helmet
+[000255|off=0x23F8|max=14|FIXED_SLOT] Hunter Helmet
+[000256|off=0x241C|max=14|FIXED_SLOT] Ranger Helmet
+[000257|off=0x2440|max=14|FIXED_SLOT] Mithril Helmet
+[000258|off=0x2464|max=14|FIXED_SLOT] Helium Helmet
+[000259|off=0x2488|max=14|FIXED_SLOT] Felt Helmet
+[000260|off=0x24AC|max=14|FIXED_SLOT] Dererch
+[000261|off=0x24D0|max=14|FIXED_SLOT] Wind Helmet
+[000262|off=0x24F4|max=14|FIXED_SLOT] Gravy
+[000263|off=0x2518|max=14|FIXED_SLOT] Knotted Helmet
+[000264|off=0x253C|max=14|FIXED_SLOT] Enchntd Helmet
+[000265|off=0x2560|max=14|FIXED_SLOT] Rnc stick Hlmt
+[000266|off=0x2584|max=14|FIXED_SLOT] Wind Flu
+[000267|off=0x25A8|max=14|FIXED_SLOT] Astra
+[000268|off=0x25CC|max=14|FIXED_SLOT] Practioner Cap
+[000269|off=0x25F0|max=14|FIXED_SLOT] Linen Cap
+[000270|off=0x2614|max=14|FIXED_SLOT] Woolen Cap
+[000271|off=0x2638|max=14|FIXED_SLOT] White Cap
+[000272|off=0x265C|max=14|FIXED_SLOT] Silver Cap
+[000273|off=0x2680|max=14|FIXED_SLOT] Holy Cap
+[000274|off=0x26A4|max=14|FIXED_SLOT] Glass
+[000275|off=0x26C8|max=14|FIXED_SLOT] Aura Cap
+[000276|off=0x26EC|max=14|FIXED_SLOT] Invstgtr Cap
+[000277|off=0x2710|max=14|FIXED_SLOT] Researcher Cap
+[000278|off=0x2734|max=14|FIXED_SLOT] Wise Man Cap
+[000279|off=0x2758|max=14|FIXED_SLOT] Woundime
+[000280|off=0x277C|max=14|FIXED_SLOT] Endyron
+[000281|off=0x27A0|max=14|FIXED_SLOT] Elastra
+[000282|off=0x27C4|max=14|FIXED_SLOT] Shilling Cap
+[000283|off=0x27E8|max=14|FIXED_SLOT] Bubbling Cap
+[000284|off=0x280C|max=14|FIXED_SLOT] Expert Cap
+[000285|off=0x2830|max=14|FIXED_SLOT] Master Cap
+[000286|off=0x2854|max=14|FIXED_SLOT] Road Cap
+[000287|off=0x2878|max=14|FIXED_SLOT] Chinchilla Cap
+[000288|off=0x289C|max=14|FIXED_SLOT] Serion Cap
+[000289|off=0x28C0|max=14|FIXED_SLOT] Sunshine Cap
+[000290|off=0x28E4|max=14|FIXED_SLOT] Hypnotism
+[000291|off=0x2908|max=14|FIXED_SLOT] Sharpen Cap
+[000292|off=0x292C|max=14|FIXED_SLOT] Index
+[000293|off=0x2950|max=14|FIXED_SLOT] Lynn Cap
+[000294|off=0x2974|max=14|FIXED_SLOT] Nylon Cap
+[000295|off=0x2998|max=14|FIXED_SLOT] Rnc stick Cap
+[000296|off=0x29BC|max=14|FIXED_SLOT] Intelli
+[000297|off=0x29E0|max=14|FIXED_SLOT] Sycrone
+[000298|off=0x2A04|max=14|FIXED_SLOT] Expert Hood
+[000299|off=0x2A28|max=14|FIXED_SLOT] Cotton Hood
+[000300|off=0x2A4C|max=14|FIXED_SLOT] Prlngng Hood
+[000301|off=0x2A70|max=14|FIXED_SLOT] Earth Hood
+[000302|off=0x2A94|max=14|FIXED_SLOT] Moon Hood
+[000303|off=0x2AB8|max=14|FIXED_SLOT] Sun Hood
+[000304|off=0x2ADC|max=14|FIXED_SLOT] Hood of Pledge
+[000305|off=0x2B00|max=14|FIXED_SLOT] Prvdnc Hood
+[000306|off=0x2B24|max=14|FIXED_SLOT] Smokeless Hood
+[000307|off=0x2B48|max=14|FIXED_SLOT] Wht Cloud Hood
+[000308|off=0x2B6C|max=14|FIXED_SLOT] Fur Hood
+[000309|off=0x2B90|max=14|FIXED_SLOT] Ironfight Hood
+[000310|off=0x2BB4|max=14|FIXED_SLOT] Dvn River Hood
+[000311|off=0x2BD8|max=14|FIXED_SLOT] Wasat Hood
+[000312|off=0x2BFC|max=14|FIXED_SLOT] Silk Hood
+[000313|off=0x2C20|max=14|FIXED_SLOT] Jade Rose Hood
+[000314|off=0x2C44|max=14|FIXED_SLOT] Monk Hood
+[000315|off=0x2C68|max=14|FIXED_SLOT] Stimulant Hood
+[000316|off=0x2C8C|max=14|FIXED_SLOT] Paragon Hood
+[000317|off=0x2CB0|max=14|FIXED_SLOT] Ghost Hood
+[000318|off=0x2CD4|max=14|FIXED_SLOT] Siho Hood
+[000319|off=0x2CF8|max=14|FIXED_SLOT] Tiger Hood
+[000320|off=0x2D1C|max=14|FIXED_SLOT] Hood of Hermit
+[000321|off=0x2D40|max=14|FIXED_SLOT] Net Hood
+[000322|off=0x2D64|max=14|FIXED_SLOT] Ample Gear
+[000323|off=0x2D88|max=14|FIXED_SLOT] Hood Giant Man
+[000324|off=0x2DAC|max=14|FIXED_SLOT] Pure Silk Hood
+[000325|off=0x2DD0|max=14|FIXED_SLOT] Hood of Guilt
+[000326|off=0x2DF4|max=14|FIXED_SLOT] Moon Shadow
+[000327|off=0x2E18|max=14|FIXED_SLOT] Thunder Armor
+[000328|off=0x2E3C|max=14|FIXED_SLOT] Practice Armor
+[000329|off=0x2E60|max=14|FIXED_SLOT] Battle Armor
+[000330|off=0x2E84|max=14|FIXED_SLOT] Wooden Armor
+[000331|off=0x2EA8|max=14|FIXED_SLOT] Bone Armor
+[000332|off=0x2ECC|max=14|FIXED_SLOT] Bronze Armor
+[000333|off=0x2EF0|max=14|FIXED_SLOT] Iron Armor
+[000334|off=0x2F14|max=14|FIXED_SLOT] Chain Armor
+[000335|off=0x2F38|max=14|FIXED_SLOT] Plate
+[000336|off=0x2F5C|max=14|FIXED_SLOT] Advntrr Armor
+[000337|off=0x2F80|max=14|FIXED_SLOT] Cmbtnt Armor
+[000338|off=0x2FA4|max=14|FIXED_SLOT] Knight Armor
+[000339|off=0x2FC8|max=14|FIXED_SLOT] Tether Armor
+[000340|off=0x2FEC|max=14|FIXED_SLOT] Mithril Armor
+[000341|off=0x3010|max=14|FIXED_SLOT] Thorium Armor
+[000342|off=0x3034|max=14|FIXED_SLOT] Plated Armor
+[000343|off=0x3058|max=14|FIXED_SLOT] Gold Pltd Armr
+[000344|off=0x307C|max=14|FIXED_SLOT] Guardian Armor
+[000345|off=0x30A0|max=14|FIXED_SLOT] Ryl Grd Armor
+[000346|off=0x30C4|max=14|FIXED_SLOT] Royal Armor
+[000347|off=0x30E8|max=14|FIXED_SLOT] Halcon Armor
+[000348|off=0x310C|max=14|FIXED_SLOT] Elemental
+[000349|off=0x3130|max=14|FIXED_SLOT] Orcon Armor
+[000350|off=0x3154|max=14|FIXED_SLOT] Metal Armor
+[000351|off=0x3178|max=14|FIXED_SLOT] Duke Armor
+[000352|off=0x319C|max=14|FIXED_SLOT] Legend Armor
+[000353|off=0x31C0|max=14|FIXED_SLOT] Steel Armor
+[000354|off=0x31E4|max=14|FIXED_SLOT] Adaman Armor
+[000355|off=0x3208|max=14|FIXED_SLOT] Orhalcon Armor
+[000356|off=0x322C|max=14|FIXED_SLOT] Gideon Plate
+[000357|off=0x3250|max=14|FIXED_SLOT] Thessalonica
+[000358|off=0x3274|max=14|FIXED_SLOT] Beginner Tunic
+[000359|off=0x3298|max=14|FIXED_SLOT] Linen Tunic
+[000360|off=0x32BC|max=14|FIXED_SLOT] Scale Tunic
+[000361|off=0x32E0|max=14|FIXED_SLOT] Woolen Tunic
+[000362|off=0x3304|max=14|FIXED_SLOT] Thin Lthr Tnc
+[000363|off=0x3328|max=14|FIXED_SLOT] Tgh Lthr Tunic
+[000364|off=0x334C|max=14|FIXED_SLOT] Wndshld Tunic
+[000365|off=0x3370|max=14|FIXED_SLOT] Cld Prtctn Tnc
+[000366|off=0x3394|max=14|FIXED_SLOT] Thck Lthr Tnc
+[000367|off=0x33B8|max=14|FIXED_SLOT] Chain Tunic
+[000368|off=0x33DC|max=14|FIXED_SLOT] Tether Tunic
+[000369|off=0x3400|max=14|FIXED_SLOT] Knotted Tunic
+[000370|off=0x3424|max=14|FIXED_SLOT] Advntrr Tunic
+[000371|off=0x3448|max=14|FIXED_SLOT] Elt Unit Tunic
+[000372|off=0x346C|max=14|FIXED_SLOT] Enchntd Tunic
+[000373|off=0x3490|max=14|FIXED_SLOT] Arm Scl Tunic
+[000374|off=0x34B4|max=14|FIXED_SLOT] Assassin Tunic
+[000375|off=0x34D8|max=14|FIXED_SLOT] Hunter Tunic
+[000376|off=0x34FC|max=14|FIXED_SLOT] Ranger Tunic
+[000377|off=0x3520|max=14|FIXED_SLOT] Mtl Scl Tunic
+[000378|off=0x3544|max=14|FIXED_SLOT] Helium Tunic
+[000379|off=0x3568|max=14|FIXED_SLOT] Felt Tunic
+[000380|off=0x358C|max=14|FIXED_SLOT] Dry Earth
+[000381|off=0x35B0|max=14|FIXED_SLOT] Aspis
+[000382|off=0x35D4|max=14|FIXED_SLOT] Morian
+[000383|off=0x35F8|max=14|FIXED_SLOT] Knotted Tunic
+[000384|off=0x361C|max=14|FIXED_SLOT] Round Tunic
+[000385|off=0x3640|max=14|FIXED_SLOT] Sentry
+[000386|off=0x3664|max=14|FIXED_SLOT] Druid
+[000387|off=0x3688|max=14|FIXED_SLOT] Star Shine
+[000388|off=0x36AC|max=14|FIXED_SLOT] Prctnr Robe
+[000389|off=0x36D0|max=14|FIXED_SLOT] Linen Robe
+[000390|off=0x36F4|max=14|FIXED_SLOT] Woolen Robe
+[000391|off=0x3718|max=14|FIXED_SLOT] Intel Robe
+[000392|off=0x373C|max=14|FIXED_SLOT] Silver Robe
+[000393|off=0x3760|max=14|FIXED_SLOT] Holy Robe
+[000394|off=0x3784|max=14|FIXED_SLOT] Crystal Robe
+[000395|off=0x37A8|max=14|FIXED_SLOT] Slim Robe
+[000396|off=0x37CC|max=14|FIXED_SLOT] Invstgtr Robe
+[000397|off=0x37F0|max=14|FIXED_SLOT] Rsrchr Robe
+[000398|off=0x3814|max=14|FIXED_SLOT] Wise Man Robe
+[000399|off=0x3838|max=14|FIXED_SLOT] Noim Robe
+[000400|off=0x385C|max=14|FIXED_SLOT] Noes Robe
+[000401|off=0x3880|max=14|FIXED_SLOT] Noeanen Robe
+[000402|off=0x38A4|max=14|FIXED_SLOT] Petit Robe
+[000403|off=0x38C8|max=14|FIXED_SLOT] Bubbling Robe
+[000404|off=0x38EC|max=14|FIXED_SLOT] Expert Robe
+[000405|off=0x3910|max=14|FIXED_SLOT] Lodge Robe
+[000406|off=0x3934|max=14|FIXED_SLOT] Road Robe
+[000407|off=0x3958|max=14|FIXED_SLOT] Chnchll Robe
+[000408|off=0x397C|max=14|FIXED_SLOT] Aura Robe
+[000409|off=0x39A0|max=14|FIXED_SLOT] Sunshine Robe
+[000410|off=0x39C4|max=14|FIXED_SLOT] Acid
+[000411|off=0x39E8|max=14|FIXED_SLOT] Noas
+[000412|off=0x3A0C|max=14|FIXED_SLOT] Burning Robe
+[000413|off=0x3A30|max=14|FIXED_SLOT] Glass Robe
+[000414|off=0x3A54|max=14|FIXED_SLOT] Shilling Robe
+[000415|off=0x3A78|max=14|FIXED_SLOT] Fury Robe
+[000416|off=0x3A9C|max=14|FIXED_SLOT] Rapid
+[000417|off=0x3AC0|max=14|FIXED_SLOT] Blood Moon
+[000418|off=0x3AE4|max=14|FIXED_SLOT] Prctnr Garb
+[000419|off=0x3B08|max=14|FIXED_SLOT] Cotton Garb
+[000420|off=0x3B2C|max=14|FIXED_SLOT] Prlngng Garb
+[000421|off=0x3B50|max=14|FIXED_SLOT] Earth Garb
+[000422|off=0x3B74|max=14|FIXED_SLOT] Moon Garb
+[000423|off=0x3B98|max=14|FIXED_SLOT] Sun Garb
+[000424|off=0x3BBC|max=14|FIXED_SLOT] Giant Garb
+[000425|off=0x3BE0|max=14|FIXED_SLOT] Cotton Garb
+[000426|off=0x3C04|max=14|FIXED_SLOT] Smokeless Garb
+[000427|off=0x3C28|max=14|FIXED_SLOT] Wht Cloud Garb
+[000428|off=0x3C4C|max=14|FIXED_SLOT] Fur Garb
+[000429|off=0x3C70|max=14|FIXED_SLOT] Ironfight Garb
+[000430|off=0x3C94|max=14|FIXED_SLOT] Dvn River Garb
+[000431|off=0x3CB8|max=14|FIXED_SLOT] Wasat Garb
+[000432|off=0x3CDC|max=14|FIXED_SLOT] Prvdnc Garb
+[000433|off=0x3D00|max=14|FIXED_SLOT] Jade Garb
+[000434|off=0x3D24|max=14|FIXED_SLOT] Monk's Garb
+[000435|off=0x3D48|max=14|FIXED_SLOT] Dark Garb
+[000436|off=0x3D6C|max=14|FIXED_SLOT] Paragon Garb
+[000437|off=0x3D90|max=14|FIXED_SLOT] Blue Drgn Garb
+[000438|off=0x3DB4|max=14|FIXED_SLOT] Blck Drgn Garb
+[000439|off=0x3DD8|max=14|FIXED_SLOT] Mad Drgn Garb
+[000440|off=0x3DFC|max=14|FIXED_SLOT] Garb of Hermit
+[000441|off=0x3E20|max=14|FIXED_SLOT] Victory Garb
+[000442|off=0x3E44|max=14|FIXED_SLOT] Garb of Guilt
+[000443|off=0x3E68|max=14|FIXED_SLOT] Garb of Pledge
+[000444|off=0x3E8C|max=14|FIXED_SLOT] Silk Garb
+[000445|off=0x3EB0|max=14|FIXED_SLOT] Saint Dancing
+[000446|off=0x3ED4|max=14|FIXED_SLOT] Third Sky Suit
+[000447|off=0x3EF8|max=14|FIXED_SLOT] Big Death Suit
+[000448|off=0x3F1C|max=14|FIXED_SLOT] Prctc Gauntlet
+[000449|off=0x3F40|max=14|FIXED_SLOT] Battle Gntlt
+[000450|off=0x3F64|max=14|FIXED_SLOT] Wooden Gntlt
+[000451|off=0x3F88|max=14|FIXED_SLOT] Dll Brnz Gntlt
+[000452|off=0x3FAC|max=14|FIXED_SLOT] Metal Gauntlet
+[000453|off=0x3FD0|max=14|FIXED_SLOT] Full Mtl Gntlt
+[000454|off=0x3FF4|max=14|FIXED_SLOT] StrngthndGntlt
+[000455|off=0x4018|max=14|FIXED_SLOT] Snake Brace
+[000456|off=0x403C|max=14|FIXED_SLOT] Advntrr Gntlt
+[000457|off=0x4060|max=14|FIXED_SLOT] Cmbtnt Gntlt
+[000458|off=0x4084|max=14|FIXED_SLOT] Knight Gntlt
+[000459|off=0x40A8|max=14|FIXED_SLOT] Silver Gntlt
+[000460|off=0x40CC|max=14|FIXED_SLOT] Mithril Gntlt
+[000461|off=0x40F0|max=14|FIXED_SLOT] Thorium Gntlt
+[000462|off=0x4114|max=14|FIXED_SLOT] Tether Gntlt
+[000463|off=0x4138|max=14|FIXED_SLOT] Adaman Gntlt
+[000464|off=0x415C|max=14|FIXED_SLOT] Grdn Gauntlet
+[000465|off=0x4180|max=14|FIXED_SLOT] Guard Gauntlet
+[000466|off=0x41A4|max=14|FIXED_SLOT] Royal Gauntlet
+[000467|off=0x41C8|max=14|FIXED_SLOT] Halcon Gntlt
+[000468|off=0x41EC|max=14|FIXED_SLOT] Elem. Gauntlet
+[000469|off=0x4210|max=14|FIXED_SLOT] Orcon Gauntlet
+[000470|off=0x4234|max=14|FIXED_SLOT] Bronze Gntlt
+[000471|off=0x4258|max=14|FIXED_SLOT] Gld Stck Gntlt
+[000472|off=0x427C|max=14|FIXED_SLOT] StrngtPltGntlt
+[000473|off=0x42A0|max=14|FIXED_SLOT] Orhlcn Gntlt
+[000474|off=0x42C4|max=14|FIXED_SLOT] Titan Gauntlet
+[000475|off=0x42E8|max=14|FIXED_SLOT] Stone Singe
+[000476|off=0x430C|max=14|FIXED_SLOT] Temple Gntlt
+[000477|off=0x4330|max=14|FIXED_SLOT] Ascal
+[000478|off=0x4354|max=14|FIXED_SLOT] Beginner Glove
+[000479|off=0x4378|max=14|FIXED_SLOT] Linen Glove
+[000480|off=0x439C|max=14|FIXED_SLOT] Woolen Glove
+[000481|off=0x43C0|max=14|FIXED_SLOT] Vntltng Glov.
+[000482|off=0x43E4|max=14|FIXED_SLOT] CldPrtctnGlv.
+[000483|off=0x4408|max=14|FIXED_SLOT] Thin Lthr Glv.
+[000484|off=0x442C|max=14|FIXED_SLOT] Tgh Lthr Glov.
+[000485|off=0x4450|max=14|FIXED_SLOT] StrngtLthrGlv.
+[000486|off=0x4474|max=14|FIXED_SLOT] Knotted Glove
+[000487|off=0x4498|max=14|FIXED_SLOT] Chain Glove
+[000488|off=0x44BC|max=14|FIXED_SLOT] Tether Glove
+[000489|off=0x44E0|max=14|FIXED_SLOT] Expert Glove
+[000490|off=0x4504|max=14|FIXED_SLOT] Elt Unit Glov.
+[000491|off=0x4528|max=14|FIXED_SLOT] Shadow Glove
+[000492|off=0x454C|max=14|FIXED_SLOT] Enchntd Glov.
+[000493|off=0x4570|max=14|FIXED_SLOT] Dark Fog Glove
+[000494|off=0x4594|max=14|FIXED_SLOT] Assassin Glove
+[000495|off=0x45B8|max=14|FIXED_SLOT] Hunter Glove
+[000496|off=0x45DC|max=14|FIXED_SLOT] Ranger Glove
+[000497|off=0x4600|max=14|FIXED_SLOT] Mtl Scl Glov.
+[000498|off=0x4624|max=14|FIXED_SLOT] Helium Glove
+[000499|off=0x4648|max=14|FIXED_SLOT] Felt Glove
+[000500|off=0x466C|max=14|FIXED_SLOT] Crusher Glove
+[000501|off=0x4690|max=14|FIXED_SLOT] Schreyd
+[000502|off=0x46B4|max=14|FIXED_SLOT] Vanguard
+[000503|off=0x46D8|max=14|FIXED_SLOT] Wndshld Glov.
+[000504|off=0x46FC|max=14|FIXED_SLOT] Advntrr Glov.
+[000505|off=0x4720|max=14|FIXED_SLOT] Stalker
+[000506|off=0x4744|max=14|FIXED_SLOT] Clippers
+[000507|off=0x4768|max=14|FIXED_SLOT] Valkyrie
+[000508|off=0x478C|max=14|FIXED_SLOT] Prctnr Gage
+[000509|off=0x47B0|max=14|FIXED_SLOT] Linen Gage
+[000510|off=0x47D4|max=14|FIXED_SLOT] Woolen Gage
+[000511|off=0x47F8|max=14|FIXED_SLOT] White Gage
+[000512|off=0x481C|max=14|FIXED_SLOT] Holy Gage
+[000513|off=0x4840|max=14|FIXED_SLOT] Glass Gage
+[000514|off=0x4864|max=14|FIXED_SLOT] Crystal Gage
+[000515|off=0x4888|max=14|FIXED_SLOT] Aura Gage
+[000516|off=0x48AC|max=14|FIXED_SLOT] Invstgtr Gage
+[000517|off=0x48D0|max=14|FIXED_SLOT] Rsrchr Gage
+[000518|off=0x48F4|max=14|FIXED_SLOT] Wise Man Gage
+[000519|off=0x4918|max=14|FIXED_SLOT] Selist Gage
+[000520|off=0x493C|max=14|FIXED_SLOT] Saleana Gage
+[000521|off=0x4960|max=14|FIXED_SLOT] Shilling Gage
+[000522|off=0x4984|max=14|FIXED_SLOT] Petit Gage
+[000523|off=0x49A8|max=14|FIXED_SLOT] Bubbling Gage
+[000524|off=0x49CC|max=14|FIXED_SLOT] Expert Gage
+[000525|off=0x49F0|max=14|FIXED_SLOT] Master Gage
+[000526|off=0x4A14|max=14|FIXED_SLOT] Road Gage
+[000527|off=0x4A38|max=14|FIXED_SLOT] Chnchll Gage
+[000528|off=0x4A5C|max=14|FIXED_SLOT] Serion Gage
+[000529|off=0x4A80|max=14|FIXED_SLOT] Sunshine Gage
+[000530|off=0x4AA4|max=14|FIXED_SLOT] Sallion Gage
+[000531|off=0x4AC8|max=14|FIXED_SLOT] Burning Hands
+[000532|off=0x4AEC|max=14|FIXED_SLOT] Python Horn
+[000533|off=0x4B10|max=14|FIXED_SLOT] Silver Gage
+[000534|off=0x4B34|max=14|FIXED_SLOT] Saline Gage
+[000535|off=0x4B58|max=14|FIXED_SLOT] Chill Touch
+[000536|off=0x4B7C|max=14|FIXED_SLOT] Shroud
+[000537|off=0x4BA0|max=14|FIXED_SLOT] Chaos Cube
+[000538|off=0x4BC4|max=14|FIXED_SLOT] Prctnr Cuffs
+[000539|off=0x4BE8|max=14|FIXED_SLOT] Cotton Cuffs
+[000540|off=0x4C0C|max=14|FIXED_SLOT] Prlngng Cuffs
+[000541|off=0x4C30|max=14|FIXED_SLOT] Earth Cuffs
+[000542|off=0x4C54|max=14|FIXED_SLOT] Sun Cuffs
+[000543|off=0x4C78|max=14|FIXED_SLOT] Cuffs Pledge
+[000544|off=0x4C9C|max=14|FIXED_SLOT] Cffs Giant Man
+[000545|off=0x4CC0|max=14|FIXED_SLOT] Cuffs Prvdnc
+[000546|off=0x4CE4|max=14|FIXED_SLOT] Smklss Cuffs
+[000547|off=0x4D08|max=14|FIXED_SLOT] Wht Cld Cuffs
+[000548|off=0x4D2C|max=14|FIXED_SLOT] Fur Cuffs
+[000549|off=0x4D50|max=14|FIXED_SLOT] Irnfght Cuffs
+[000550|off=0x4D74|max=14|FIXED_SLOT] Wasat Cuffs
+[000551|off=0x4D98|max=14|FIXED_SLOT] Silk Cuffs
+[000552|off=0x4DBC|max=14|FIXED_SLOT] Real Silk Cffs
+[000553|off=0x4DE0|max=14|FIXED_SLOT] Jade Cuffs
+[000554|off=0x4E04|max=14|FIXED_SLOT] Monk Cuffs
+[000555|off=0x4E28|max=14|FIXED_SLOT] Thebis Cuffs
+[000556|off=0x4E4C|max=14|FIXED_SLOT] Paragon Cuffs
+[000557|off=0x4E70|max=14|FIXED_SLOT] Aqua Cuffs
+[000558|off=0x4E94|max=14|FIXED_SLOT] Fire Cuffs
+[000559|off=0x4EB8|max=14|FIXED_SLOT] Soul Drgn Cffs
+[000560|off=0x4EDC|max=14|FIXED_SLOT] Cuffs Deceased
+[000561|off=0x4F00|max=14|FIXED_SLOT] Cuffs of Guilt
+[000562|off=0x4F24|max=14|FIXED_SLOT] Frbld Cuffs
+[000563|off=0x4F48|max=14|FIXED_SLOT] Moon Cuffs
+[000564|off=0x4F6C|max=14|FIXED_SLOT] Dvn Rvr Cuffs
+[000565|off=0x4F90|max=14|FIXED_SLOT] Cuffs Hermit
+[000566|off=0x4FB4|max=14|FIXED_SLOT] Gold Riverside
+[000567|off=0x4FD8|max=14|FIXED_SLOT] Black Flame
+[000568|off=0x4FFC|max=14|FIXED_SLOT] Practice Boots
+[000569|off=0x5020|max=14|FIXED_SLOT] Battle Boots
+[000570|off=0x5044|max=14|FIXED_SLOT] Wooden Boots
+[000571|off=0x5068|max=14|FIXED_SLOT] Dull Brnz Bts
+[000572|off=0x508C|max=14|FIXED_SLOT] Bronze Boots
+[000573|off=0x50B0|max=14|FIXED_SLOT] Thin Iron Bts
+[000574|off=0x50D4|max=14|FIXED_SLOT] Iron Boots
+[000575|off=0x50F8|max=14|FIXED_SLOT] Steel Boots
+[000576|off=0x511C|max=14|FIXED_SLOT] Strngthnd Bts
+[000577|off=0x5140|max=14|FIXED_SLOT] Cmbtnt Boots
+[000578|off=0x5164|max=14|FIXED_SLOT] Knight Boots
+[000579|off=0x5188|max=14|FIXED_SLOT] Quake
+[000580|off=0x51AC|max=14|FIXED_SLOT] Winkie
+[000581|off=0x51D0|max=14|FIXED_SLOT] Mithril Boots
+[000582|off=0x51F4|max=14|FIXED_SLOT] Thorium Boots
+[000583|off=0x5218|max=14|FIXED_SLOT] Tether Boots
+[000584|off=0x523C|max=14|FIXED_SLOT] Guardian Boots
+[000585|off=0x5260|max=14|FIXED_SLOT] Guard Boots
+[000586|off=0x5284|max=14|FIXED_SLOT] Royal Boots
+[000587|off=0x52A8|max=14|FIXED_SLOT] Halcon Boots
+[000588|off=0x52CC|max=14|FIXED_SLOT] Elem. Boots
+[000589|off=0x52F0|max=14|FIXED_SLOT] Orcon Boots
+[000590|off=0x5314|max=14|FIXED_SLOT] StrngthnPltBts
+[000591|off=0x5338|max=14|FIXED_SLOT] Orhalcon Boots
+[000592|off=0x535C|max=14|FIXED_SLOT] Anguish Port
+[000593|off=0x5380|max=14|FIXED_SLOT] Advntrr Boots
+[000594|off=0x53A4|max=14|FIXED_SLOT] Adaman Boots
+[000595|off=0x53C8|max=14|FIXED_SLOT] Light Wind
+[000596|off=0x53EC|max=14|FIXED_SLOT] Robbia
+[000597|off=0x5410|max=14|FIXED_SLOT] Road Empire
+[000598|off=0x5434|max=14|FIXED_SLOT] Bgnnr Galosh
+[000599|off=0x5458|max=14|FIXED_SLOT] Linen Galosh
+[000600|off=0x547C|max=14|FIXED_SLOT] Woolen Galosh
+[000601|off=0x54A0|max=14|FIXED_SLOT] Thermo Galosh
+[000602|off=0x54C4|max=14|FIXED_SLOT] Wndshld Galosh
+[000603|off=0x54E8|max=14|FIXED_SLOT] CldPrtctnGlsh
+[000604|off=0x550C|max=14|FIXED_SLOT] Thin Lthr Glsh
+[000605|off=0x5530|max=14|FIXED_SLOT] Thck Lthr Glsh
+[000606|off=0x5554|max=14|FIXED_SLOT] Tgh Lthr Glsh
+[000607|off=0x5578|max=14|FIXED_SLOT] Chain Galosh
+[000608|off=0x559C|max=14|FIXED_SLOT] Tether Galosh
+[000609|off=0x55C0|max=14|FIXED_SLOT] Expert Galosh
+[000610|off=0x55E4|max=14|FIXED_SLOT] Advntrr Galosh
+[000611|off=0x5608|max=14|FIXED_SLOT] Elt Unit Glsh
+[000612|off=0x562C|max=14|FIXED_SLOT] Ahmet Galosh
+[000613|off=0x5650|max=14|FIXED_SLOT] Enchntd Galosh
+[000614|off=0x5674|max=14|FIXED_SLOT] Assssn Galosh
+[000615|off=0x5698|max=14|FIXED_SLOT] Hunter Galosh
+[000616|off=0x56BC|max=14|FIXED_SLOT] Ranger Galosh
+[000617|off=0x56E0|max=14|FIXED_SLOT] Mithril Galosh
+[000618|off=0x5704|max=14|FIXED_SLOT] Helium Galosh
+[000619|off=0x5728|max=14|FIXED_SLOT] Felt Galosh
+[000620|off=0x574C|max=14|FIXED_SLOT] Saytung
+[000621|off=0x5770|max=14|FIXED_SLOT] Avenger
+[000622|off=0x5794|max=14|FIXED_SLOT] Arch Galosh
+[000623|off=0x57B8|max=14|FIXED_SLOT] Knotted Galosh
+[000624|off=0x57DC|max=14|FIXED_SLOT] Sallit Galosh
+[000625|off=0x5800|max=14|FIXED_SLOT] Spike
+[000626|off=0x5824|max=14|FIXED_SLOT] Safety
+[000627|off=0x5848|max=14|FIXED_SLOT] Raven
+[000628|off=0x586C|max=14|FIXED_SLOT] Expert Shoe
+[000629|off=0x5890|max=14|FIXED_SLOT] Linen Shoe
+[000630|off=0x58B4|max=14|FIXED_SLOT] Woolen Shoe
+[000631|off=0x58D8|max=14|FIXED_SLOT] White Shoe
+[000632|off=0x58FC|max=14|FIXED_SLOT] Silver Shoe
+[000633|off=0x5920|max=14|FIXED_SLOT] Holy Shoe
+[000634|off=0x5944|max=14|FIXED_SLOT] Glass Shoe
+[000635|off=0x5968|max=14|FIXED_SLOT] Crystal Shoe
+[000636|off=0x598C|max=14|FIXED_SLOT] Aura Shoe
+[000637|off=0x59B0|max=14|FIXED_SLOT] Rsrchr Shoe
+[000638|off=0x59D4|max=14|FIXED_SLOT] Wise Man Shoe
+[000639|off=0x59F8|max=14|FIXED_SLOT] Rafael Shoe
+[000640|off=0x5A1C|max=14|FIXED_SLOT] Lion Shoes
+[000641|off=0x5A40|max=14|FIXED_SLOT] Festin Shoe
+[000642|off=0x5A64|max=14|FIXED_SLOT] Shilling Shoe
+[000643|off=0x5A88|max=14|FIXED_SLOT] Petit Shoe
+[000644|off=0x5AAC|max=14|FIXED_SLOT] Expert Shoe
+[000645|off=0x5AD0|max=14|FIXED_SLOT] Master Shoe
+[000646|off=0x5AF4|max=14|FIXED_SLOT] Road Shoe
+[000647|off=0x5B18|max=14|FIXED_SLOT] Chnchll Shoe
+[000648|off=0x5B3C|max=14|FIXED_SLOT] Serion Shoe
+[000649|off=0x5B60|max=14|FIXED_SLOT] Sunshine Shoe
+[000650|off=0x5B84|max=14|FIXED_SLOT] Sypilion
+[000651|off=0x5BA8|max=14|FIXED_SLOT] Life Mitten
+[000652|off=0x5BCC|max=14|FIXED_SLOT] Bramble
+[000653|off=0x5BF0|max=14|FIXED_SLOT] Invstgtr Shoe
+[000654|off=0x5C14|max=14|FIXED_SLOT] Bubbling Shoe
+[000655|off=0x5C38|max=14|FIXED_SLOT] Frozen Chester
+[000656|off=0x5C5C|max=14|FIXED_SLOT] Endure
+[000657|off=0x5C80|max=14|FIXED_SLOT] Erteyl
+[000658|off=0x5CA4|max=14|FIXED_SLOT] Prctnr Ovrsh
+[000659|off=0x5CC8|max=14|FIXED_SLOT] Cotton Ovrsh
+[000660|off=0x5CEC|max=14|FIXED_SLOT] Prlngng Ovrsh
+[000661|off=0x5D10|max=14|FIXED_SLOT] Earth Overshoe
+[000662|off=0x5D34|max=14|FIXED_SLOT] Moon Overshoe
+[000663|off=0x5D58|max=14|FIXED_SLOT] Sun Overshoe
+[000664|off=0x5D7C|max=14|FIXED_SLOT] Ovrsh Pledge
+[000665|off=0x5DA0|max=14|FIXED_SLOT] Overshoe Giant
+[000666|off=0x5DC4|max=14|FIXED_SLOT] Ovrsh Prvdnc
+[000667|off=0x5DE8|max=14|FIXED_SLOT] Wht Cld Ovrsh
+[000668|off=0x5E0C|max=14|FIXED_SLOT] Fur Overshoe
+[000669|off=0x5E30|max=14|FIXED_SLOT] Irnfght Ovrsh
+[000670|off=0x5E54|max=14|FIXED_SLOT] Dvn Rvr Ovrsh
+[000671|off=0x5E78|max=14|FIXED_SLOT] Wasat Overshoe
+[000672|off=0x5E9C|max=14|FIXED_SLOT] Silk Overshoe
+[000673|off=0x5EC0|max=14|FIXED_SLOT] Rl Silk Ovrsh
+[000674|off=0x5EE4|max=14|FIXED_SLOT] Monk Overshoe
+[000675|off=0x5F08|max=14|FIXED_SLOT] Thebis Ovrsh
+[000676|off=0x5F2C|max=14|FIXED_SLOT] Paragon Ovrsh
+[000677|off=0x5F50|max=14|FIXED_SLOT] Red Dmn Ovrsh
+[000678|off=0x5F74|max=14|FIXED_SLOT] Flm Dmn Ovrsh
+[000679|off=0x5F98|max=14|FIXED_SLOT] Blck Dmn Ovrsh
+[000680|off=0x5FBC|max=14|FIXED_SLOT] Ovrsh Hermit
+[000681|off=0x5FE0|max=14|FIXED_SLOT] Ovrsh Deceased
+[000682|off=0x6004|max=14|FIXED_SLOT] Overshoe Guilt
+[000683|off=0x6028|max=14|FIXED_SLOT] Guard Overshoe
+[000684|off=0x604C|max=14|FIXED_SLOT] Jade Overshoe
+[000685|off=0x6070|max=14|FIXED_SLOT] MnrlSprngOvrsh
+[000686|off=0x6094|max=14|FIXED_SLOT] Explsn Ovrsh
+[000687|off=0x60B8|max=14|FIXED_SLOT] Hurricane
+[000688|off=0x60DC|max=14|FIXED_SLOT] Prctc Shield
+[000689|off=0x6100|max=14|FIXED_SLOT] Wooden Shield
+[000690|off=0x6124|max=14|FIXED_SLOT] Gold Shield
+[000691|off=0x6148|max=14|FIXED_SLOT] Hoplon Shield
+[000692|off=0x616C|max=14|FIXED_SLOT] Buckler Shield
+[000693|off=0x6190|max=14|FIXED_SLOT] Round Shield
+[000694|off=0x61B4|max=14|FIXED_SLOT] Edge Shield
+[000695|off=0x61D8|max=14|FIXED_SLOT] Shield Wall
+[000696|off=0x61FC|max=14|FIXED_SLOT] Arm Guard
+[000697|off=0x6220|max=14|FIXED_SLOT] Runic Shield
+[000698|off=0x6244|max=14|FIXED_SLOT] Elite Shield
+[000699|off=0x6268|max=14|FIXED_SLOT] Champion
+[000700|off=0x628C|max=14|FIXED_SLOT] Mirror Guard
+[000701|off=0x62B0|max=14|FIXED_SLOT] Runic Guard
+[000702|off=0x62D4|max=14|FIXED_SLOT] Holy Shield
+[000703|off=0x62F8|max=14|FIXED_SLOT] Crusader
+[000704|off=0x631C|max=14|FIXED_SLOT] Tower Guard
+[000705|off=0x6340|max=14|FIXED_SLOT] Royal Guard
+[000706|off=0x6364|max=14|FIXED_SLOT] Abaddon
+[000707|off=0x6388|max=14|FIXED_SLOT] Scutum
+[000708|off=0x63AC|max=14|FIXED_SLOT] Steel Shield
+[000709|off=0x63D0|max=14|FIXED_SLOT] Mithril Guard
+[000710|off=0x63F4|max=14|FIXED_SLOT] Adaman Guard
+[000711|off=0x6418|max=14|FIXED_SLOT] Orhalcon Guard
+[000712|off=0x643C|max=14|FIXED_SLOT] Elem. Guard
+[000713|off=0x6460|max=14|FIXED_SLOT] Prctc Shotgun
+[000714|off=0x6484|max=14|FIXED_SLOT] Prcsn Shotgun
+[000715|off=0x64A8|max=14|FIXED_SLOT] Machine Gun
+[000716|off=0x64CC|max=14|FIXED_SLOT] Rifle
+[000717|off=0x64F0|max=14|FIXED_SLOT] Finisher
+[000718|off=0x6514|max=14|FIXED_SLOT] Mustang
+[000719|off=0x6538|max=14|FIXED_SLOT] Musket
+[000720|off=0x655C|max=14|FIXED_SLOT] Dragoon
+[000721|off=0x6580|max=14|FIXED_SLOT] Balkan
+[000722|off=0x65A4|max=14|FIXED_SLOT] Gallon
+[000723|off=0x65C8|max=14|FIXED_SLOT] Guillotine
+[000724|off=0x65EC|max=14|FIXED_SLOT] Snake
+[000725|off=0x6610|max=14|FIXED_SLOT] Firebolt
+[000726|off=0x6634|max=14|FIXED_SLOT] Big Team
+[000727|off=0x6658|max=14|FIXED_SLOT] Plasma
+[000728|off=0x667C|max=14|FIXED_SLOT] Zero Hunter
+[000729|off=0x66A0|max=14|FIXED_SLOT] Scramble
+[000730|off=0x66C4|max=14|FIXED_SLOT] Rittinger
+[000731|off=0x66E8|max=14|FIXED_SLOT] Eagle Eye
+[000732|off=0x670C|max=14|FIXED_SLOT] Black Pose
+[000733|off=0x6730|max=14|FIXED_SLOT] Scope Shotgun
+[000734|off=0x6754|max=14|FIXED_SLOT] Mustang P
+[000735|off=0x6778|max=14|FIXED_SLOT] Balkan C
+[000736|off=0x679C|max=14|FIXED_SLOT] Zero Hunter C
+[000737|off=0x67C0|max=14|FIXED_SLOT] Dread Buster
+[000738|off=0x67E4|max=14|FIXED_SLOT] Spell Book
+[000739|off=0x6808|max=14|FIXED_SLOT] Book Cncntrtn
+[000740|off=0x682C|max=14|FIXED_SLOT] Vow Discipline
+[000741|off=0x6850|max=14|FIXED_SLOT] Book of Raziel
+[000742|off=0x6874|max=14|FIXED_SLOT] Goetia
+[000743|off=0x6898|max=14|FIXED_SLOT] Deukia
+[000744|off=0x68BC|max=14|FIXED_SLOT] Lemegeton
+[000745|off=0x68E0|max=14|FIXED_SLOT] Necronomicon
+[000746|off=0x6904|max=14|FIXED_SLOT] Armadel
+[000747|off=0x6928|max=14|FIXED_SLOT] Arvadel
+[000748|off=0x694C|max=14|FIXED_SLOT] Shadow Truth
+[000749|off=0x6970|max=14|FIXED_SLOT] Book Solomon
+[000750|off=0x6994|max=14|FIXED_SLOT] Spll Book Pr
+[000751|off=0x69B8|max=14|FIXED_SLOT] Saromonai
+[000752|off=0x69DC|max=14|FIXED_SLOT] Book of Shadow
+[000753|off=0x6A00|max=14|FIXED_SLOT] Luminous
+[000754|off=0x6A24|max=14|FIXED_SLOT] Antgra
+[000755|off=0x6A48|max=14|FIXED_SLOT] Light Heaven
+[000756|off=0x6A6C|max=14|FIXED_SLOT] Book of Heaven
+[000757|off=0x6A90|max=14|FIXED_SLOT] Apclyps Light
+[000758|off=0x6AB4|max=14|FIXED_SLOT] Ethnikos
+[000759|off=0x6AD8|max=14|FIXED_SLOT] Rnc Bk Strngth
+[000760|off=0x6AFC|max=14|FIXED_SLOT] Rnc Book Life
+[000761|off=0x6B20|max=14|FIXED_SLOT] Rnc Book Dmnsn
+[000762|off=0x6B44|max=14|FIXED_SLOT] Rnc Book Birth
+[000763|off=0x6B68|max=14|FIXED_SLOT] Practice Orb
+[000764|off=0x6B8C|max=14|FIXED_SLOT] Strngthnd Orb
+[000765|off=0x6BB0|max=14|FIXED_SLOT] Crew Orb
+[000766|off=0x6BD4|max=14|FIXED_SLOT] Lapis
+[000767|off=0x6BF8|max=14|FIXED_SLOT] Steel Orb
+[000768|off=0x6C1C|max=14|FIXED_SLOT] Ironwall Orb
+[000769|off=0x6C40|max=14|FIXED_SLOT] Golden Orb
+[000770|off=0x6C64|max=14|FIXED_SLOT] Citrine
+[000771|off=0x6C88|max=14|FIXED_SLOT] Magi Orb
+[000772|off=0x6CAC|max=14|FIXED_SLOT] Hollow Orb
+[000773|off=0x6CD0|max=14|FIXED_SLOT] Bear Head
+[000774|off=0x6CF4|max=14|FIXED_SLOT] Providence Orb
+[000775|off=0x6D18|max=14|FIXED_SLOT] Grdn Silence
+[000776|off=0x6D3C|max=14|FIXED_SLOT] Fist of Rage
+[000777|off=0x6D60|max=14|FIXED_SLOT] Fury Orb
+[000778|off=0x6D84|max=14|FIXED_SLOT] Vital Orb
+[000779|off=0x6DA8|max=14|FIXED_SLOT] Apocalypse Orb
+[000780|off=0x6DCC|max=14|FIXED_SLOT] Skullgic Orb
+[000781|off=0x6DF0|max=14|FIXED_SLOT] Silent Orb
+[000782|off=0x6E14|max=14|FIXED_SLOT] Thunder Orb
+[000783|off=0x6E38|max=14|FIXED_SLOT] Cncntrtn Orb
+[000784|off=0x6E5C|max=14|FIXED_SLOT] Superhuman Orb
+[000785|off=0x6E80|max=14|FIXED_SLOT] Life Orb
+[000786|off=0x6EA4|max=14|FIXED_SLOT] Enchanted Orb
+[000787|off=0x6EC8|max=14|FIXED_SLOT] Heat of Light
+[000788|off=0x6EEC|max=14|FIXED_SLOT] Beginner Neck.
+[000789|off=0x6F10|max=14|FIXED_SLOT] Expert Neck.
+[000790|off=0x6F34|max=14|FIXED_SLOT] Neck. Bravery
+[000791|off=0x6F58|max=14|FIXED_SLOT] Nck. Enchntmnt
+[000792|off=0x6F7C|max=14|FIXED_SLOT] Snwflwr Neck.
+[000793|off=0x6FA0|max=14|FIXED_SLOT] Advntrr Neck.
+[000794|off=0x6FC4|max=14|FIXED_SLOT] Explorer Neck.
+[000795|off=0x6FE8|max=14|FIXED_SLOT] Wise Man Neck.
+[000796|off=0x700C|max=14|FIXED_SLOT] Drgn Trb Neck.
+[000797|off=0x7030|max=14|FIXED_SLOT] Tears of Golem
+[000798|off=0x7054|max=14|FIXED_SLOT] Neck. Seal
+[000799|off=0x7078|max=14|FIXED_SLOT] Neck. Grace
+[000800|off=0x709C|max=14|FIXED_SLOT] Dust Nerkir
+[000801|off=0x70C0|max=14|FIXED_SLOT] Elvin Nerkir
+[000802|off=0x70E4|max=14|FIXED_SLOT] Florencia
+[000803|off=0x7108|max=14|FIXED_SLOT] Elvin Flora
+[000804|off=0x712C|max=14|FIXED_SLOT] Ruby Slime
+[000805|off=0x7150|max=14|FIXED_SLOT] Libri
+[000806|off=0x7174|max=14|FIXED_SLOT] Dawn's Light
+[000807|off=0x7198|max=14|FIXED_SLOT] Grace Slvtn
+[000808|off=0x71BC|max=14|FIXED_SLOT] Neck. Cnqrr
+[000809|off=0x71E0|max=14|FIXED_SLOT] Neck. Monarchy
+[000810|off=0x7204|max=14|FIXED_SLOT] Neck. Dynast
+[000811|off=0x7228|max=14|FIXED_SLOT] Absolute Neck.
+[000812|off=0x724C|max=14|FIXED_SLOT] Beginner Cape
+[000813|off=0x7270|max=14|FIXED_SLOT] Expert Cape
+[000814|off=0x7294|max=14|FIXED_SLOT] Cape Bravery
+[000815|off=0x72B8|max=14|FIXED_SLOT] Cape Enchntmnt
+[000816|off=0x72DC|max=14|FIXED_SLOT] Cape Snwflds
+[000817|off=0x7300|max=14|FIXED_SLOT] Guardian Cape
+[000818|off=0x7324|max=14|FIXED_SLOT] Advntrr Cape
+[000819|off=0x7348|max=14|FIXED_SLOT] Cape Wise Man
+[000820|off=0x736C|max=14|FIXED_SLOT] Rage Volcano
+[000821|off=0x7390|max=14|FIXED_SLOT] Gift of Stone
+[000822|off=0x73B4|max=14|FIXED_SLOT] Clock
+[000823|off=0x73D8|max=14|FIXED_SLOT] Wimple
+[000824|off=0x73FC|max=14|FIXED_SLOT] Feather Wind
+[000825|off=0x7420|max=14|FIXED_SLOT] Zephyrus
+[000826|off=0x7444|max=14|FIXED_SLOT] Defender
+[000827|off=0x7468|max=14|FIXED_SLOT] Pluto
+[000828|off=0x748C|max=14|FIXED_SLOT] Shadow Memory
+[000829|off=0x74B0|max=14|FIXED_SLOT] Thread of Soul
+[000830|off=0x74D4|max=14|FIXED_SLOT] Nemesis
+[000831|off=0x74F8|max=14|FIXED_SLOT] Blessing Gaia
+[000832|off=0x751C|max=14|FIXED_SLOT] Cape Conqueror
+[000833|off=0x7540|max=14|FIXED_SLOT] Cape Monarchy
+[000834|off=0x7564|max=14|FIXED_SLOT] Cape of Dynast
+[000835|off=0x7588|max=14|FIXED_SLOT] Absolute Cape
+[000836|off=0x75AC|max=14|FIXED_SLOT] Beginner Ring
+[000837|off=0x75D0|max=14|FIXED_SLOT] Expert Ring
+[000838|off=0x75F4|max=14|FIXED_SLOT] Ring Bravery
+[000839|off=0x7618|max=14|FIXED_SLOT] Ring Enchntmnt
+[000840|off=0x763C|max=14|FIXED_SLOT] Silver Ring
+[000841|off=0x7660|max=14|FIXED_SLOT] Gold Ring
+[000842|off=0x7684|max=14|FIXED_SLOT] Advntrr Ring
+[000843|off=0x76A8|max=14|FIXED_SLOT] Ring Wise Man
+[000844|off=0x76CC|max=14|FIXED_SLOT] Spark Chllng
+[000845|off=0x76F0|max=14|FIXED_SLOT] Ring of Fate
+[000846|off=0x7714|max=14|FIXED_SLOT] Rnc Engrvd Rng
+[000847|off=0x7738|max=14|FIXED_SLOT] Orcon Ring
+[000848|off=0x775C|max=14|FIXED_SLOT] Waterholic
+[000849|off=0x7780|max=14|FIXED_SLOT] Heart of Sea
+[000850|off=0x77A4|max=14|FIXED_SLOT] Circle Limit
+[000851|off=0x77C8|max=14|FIXED_SLOT] Mobius Ring
+[000852|off=0x77EC|max=14|FIXED_SLOT] Ring of Lord
+[000853|off=0x7810|max=14|FIXED_SLOT] Ring of Vow
+[000854|off=0x7834|max=14|FIXED_SLOT] Elvn Soul Ring
+[000855|off=0x7858|max=14|FIXED_SLOT] Tears of Angel
+[000856|off=0x787C|max=14|FIXED_SLOT] Ring Conqueror
+[000857|off=0x78A0|max=14|FIXED_SLOT] Ring Monarchy
+[000858|off=0x78C4|max=14|FIXED_SLOT] Ring of Dynast
+[000859|off=0x78E8|max=14|FIXED_SLOT] Absolute Ring
+[000860|off=0x790C|max=14|FIXED_SLOT] Bgnnr Amulet
+[000861|off=0x7930|max=14|FIXED_SLOT] Expert Amulet
+[000862|off=0x7954|max=14|FIXED_SLOT] Amulet Bravery
+[000863|off=0x7978|max=14|FIXED_SLOT] Amlt Enchntmnt
+[000864|off=0x799C|max=14|FIXED_SLOT] Hezron
+[000865|off=0x79C0|max=14|FIXED_SLOT] Heart Glacier
+[000866|off=0x79E4|max=14|FIXED_SLOT] Advntrr Amulet
+[000867|off=0x7A08|max=14|FIXED_SLOT] Amlt Wise Man
+[000868|off=0x7A2C|max=14|FIXED_SLOT] Breath Desert
+[000869|off=0x7A50|max=14|FIXED_SLOT] Light Brllnc
+[000870|off=0x7A74|max=14|FIXED_SLOT] Grdn Amulet
+[000871|off=0x7A98|max=14|FIXED_SLOT] Circular Maze
+[000872|off=0x7ABC|max=14|FIXED_SLOT] Trail Anguish
+[000873|off=0x7AE0|max=14|FIXED_SLOT] Amulet Despair
+[000874|off=0x7B04|max=14|FIXED_SLOT] Crimson Amulet
+[000875|off=0x7B28|max=14|FIXED_SLOT] Vanished Hero
+[000876|off=0x7B4C|max=14|FIXED_SLOT] Amulet of Past
+[000877|off=0x7B70|max=14|FIXED_SLOT] Blood Solomon
+[000878|off=0x7B94|max=14|FIXED_SLOT] Heredia
+[000879|off=0x7BB8|max=14|FIXED_SLOT] Soul of Saul
+[000880|off=0x7BDC|max=14|FIXED_SLOT] Amulet Cnqrr
+[000881|off=0x7C00|max=14|FIXED_SLOT] Amulet Mnrchy
+[000882|off=0x7C24|max=14|FIXED_SLOT] Amulet Dynast
+[000883|off=0x7C48|max=14|FIXED_SLOT] Abslt Amulet
+[000884|off=0x7C6C|max=14|FIXED_SLOT] 
+[000885|off=0x7C90|max=14|FIXED_SLOT] 
+[000886|off=0x7CB4|max=14|FIXED_SLOT] 
+[000887|off=0x7CD8|max=14|FIXED_SLOT] 
+[000888|off=0x7CFC|max=14|FIXED_SLOT] 
+[000889|off=0x7D20|max=14|FIXED_SLOT] 
+[000890|off=0x7D44|max=14|FIXED_SLOT] 
+[000891|off=0x7D68|max=14|FIXED_SLOT] 
+[000892|off=0x7D8C|max=14|FIXED_SLOT] 
+[000893|off=0x7DB0|max=14|FIXED_SLOT] 
+[000894|off=0x7DD4|max=14|FIXED_SLOT] 
+[000895|off=0x7DF8|max=14|FIXED_SLOT] 
+[000896|off=0x7E1C|max=14|FIXED_SLOT] 
+[000897|off=0x7E40|max=14|FIXED_SLOT] 
+[000898|off=0x7E64|max=14|FIXED_SLOT] 
+[000899|off=0x7E88|max=14|FIXED_SLOT] 
+[000900|off=0x7EAC|max=14|FIXED_SLOT] 
+[000901|off=0x7ED0|max=14|FIXED_SLOT] 
+[000902|off=0x7EF4|max=14|FIXED_SLOT] Sheathe Stn(S)
+[000903|off=0x7F18|max=14|FIXED_SLOT] Sheathe Stn(M)
+[000904|off=0x7F3C|max=14|FIXED_SLOT] Sheathe Stn(L)
+[000905|off=0x7F60|max=14|FIXED_SLOT] Shth Stn(XL)
+[000906|off=0x7F84|max=14|FIXED_SLOT] Low Level Hoe
+[000907|off=0x7FA8|max=14|FIXED_SLOT] Mid Level Hoe
+[000908|off=0x7FCC|max=14|FIXED_SLOT] High Level Hoe
+[000909|off=0x7FF0|max=14|FIXED_SLOT] Bread
+[000910|off=0x8014|max=14|FIXED_SLOT] Chx Crm Bread
+[000911|off=0x8038|max=14|FIXED_SLOT] Vgtbl Salad
+[000912|off=0x805C|max=14|FIXED_SLOT] Fruit Salad
+[000913|off=0x8080|max=14|FIXED_SLOT] Spanish Mckrl
+[000914|off=0x80A4|max=14|FIXED_SLOT] Mackerel
+[000915|off=0x80C8|max=14|FIXED_SLOT] Sugar Cake
+[000916|off=0x80EC|max=14|FIXED_SLOT] Cheesecake
+[000917|off=0x8110|max=14|FIXED_SLOT] Chicken Skewer
+[000918|off=0x8134|max=14|FIXED_SLOT] Chicken Nugget
+[000919|off=0x8158|max=14|FIXED_SLOT] Sponge Cake
+[000920|off=0x817C|max=14|FIXED_SLOT] Wll-bng Salad
+[000921|off=0x81A0|max=14|FIXED_SLOT] Smoked Salmon
+[000922|off=0x81C4|max=14|FIXED_SLOT] Frsh Crm Cake
+[000923|off=0x81E8|max=14|FIXED_SLOT] Tender Steak
+[000924|off=0x820C|max=14|FIXED_SLOT] Mystrs Stew
+[000925|off=0x8230|max=14|FIXED_SLOT] Potion Stmn(S)
+[000926|off=0x8254|max=14|FIXED_SLOT] Potion Stmn(M)
+[000927|off=0x8278|max=14|FIXED_SLOT] Potion Stmn(L)
+[000928|off=0x829C|max=14|FIXED_SLOT] Elixir Stmn(S)
+[000929|off=0x82C0|max=14|FIXED_SLOT] Elixir Stmn(M)
+[000930|off=0x82E4|max=14|FIXED_SLOT] Elixir Stmn(L)
+[000931|off=0x8308|max=14|FIXED_SLOT] Slow Hlng Ptn
+[000932|off=0x832C|max=14|FIXED_SLOT] Stun Hlng Ptn
+[000933|off=0x8350|max=14|FIXED_SLOT] PrlyssHlngPtn
+[000934|off=0x8374|max=14|FIXED_SLOT] Bldng Hlng Ptn
+[000935|off=0x8398|max=14|FIXED_SLOT] AddctnHlngPtn
+[000936|off=0x83BC|max=14|FIXED_SLOT] Cnfsn Hlng Ptn
+[000937|off=0x83E0|max=14|FIXED_SLOT] Omni Potion
+[000938|off=0x8404|max=14|FIXED_SLOT] Examine Scroll
+[000939|off=0x8428|max=14|FIXED_SLOT] Repair Hammer
+[000940|off=0x844C|max=14|FIXED_SLOT] Teleport Scr.
+[000941|off=0x8470|max=14|FIXED_SLOT] Two Way Portal
+[000942|off=0x8494|max=14|FIXED_SLOT] Combined Sup.
+[000943|off=0x84B8|max=14|FIXED_SLOT] Refining Sup.
+[000944|off=0x84DC|max=14|FIXED_SLOT] Wpn Cmbn Scr.
+[000945|off=0x8500|max=14|FIXED_SLOT] Armr Cmbn Scr.
+[000946|off=0x8524|max=14|FIXED_SLOT] Mat. Cmbn Scr.
+[000947|off=0x8548|max=14|FIXED_SLOT] Othr Cmbn Scr.
+[000948|off=0x856C|max=14|FIXED_SLOT] 
+[000949|off=0x8590|max=14|FIXED_SLOT] Copper
+[000950|off=0x85B4|max=14|FIXED_SLOT] Iron
+[000951|off=0x85D8|max=14|FIXED_SLOT] Mithril
+[000952|off=0x85FC|max=14|FIXED_SLOT] Thorium
+[000953|off=0x8620|max=14|FIXED_SLOT] Halcon
+[000954|off=0x8644|max=14|FIXED_SLOT] Orcon
+[000955|off=0x8668|max=14|FIXED_SLOT] Linen Cloth
+[000956|off=0x868C|max=14|FIXED_SLOT] Woolen Cloth
+[000957|off=0x86B0|max=14|FIXED_SLOT] Runic Cloth
+[000958|off=0x86D4|max=14|FIXED_SLOT] Thin Leather
+[000959|off=0x86F8|max=14|FIXED_SLOT] Thick Leather
+[000960|off=0x871C|max=14|FIXED_SLOT] Strong Leather
+[000961|off=0x8740|max=14|FIXED_SLOT] Runic Dust
+[000962|off=0x8764|max=14|FIXED_SLOT] Mystic Dust
+[000963|off=0x8788|max=14|FIXED_SLOT] Fairy Dust
+[000964|off=0x87AC|max=14|FIXED_SLOT] Herbal Mdcn
+[000965|off=0x87D0|max=14|FIXED_SLOT] Magical Leaf
+[000966|off=0x87F4|max=14|FIXED_SLOT] Wild Chive
+[000967|off=0x8818|max=14|FIXED_SLOT] Pine Tree
+[000968|off=0x883C|max=14|FIXED_SLOT] Oak Tree
+[000969|off=0x8860|max=14|FIXED_SLOT] Birch Tree
+[000970|off=0x8884|max=14|FIXED_SLOT] Pure Pllr Stn
+[000971|off=0x88A8|max=14|FIXED_SLOT] Pure Slvr Stn
+[000972|off=0x88CC|max=14|FIXED_SLOT] Pure Gold Stn
+[000973|off=0x88F0|max=14|FIXED_SLOT] Iron Frame
+[000974|off=0x8914|max=14|FIXED_SLOT] Mithril Frame
+[000975|off=0x8938|max=14|FIXED_SLOT] Thorium Frame
+[000976|off=0x895C|max=14|FIXED_SLOT] Linen Thread
+[000977|off=0x8980|max=14|FIXED_SLOT] Woolen Thread
+[000978|off=0x89A4|max=14|FIXED_SLOT] Runic Thread
+[000979|off=0x89C8|max=14|FIXED_SLOT] Artificial Dye
+[000980|off=0x89EC|max=14|FIXED_SLOT] Salt Dye
+[000981|off=0x8A10|max=14|FIXED_SLOT] Enchanted Dye
+[000982|off=0x8A34|max=14|FIXED_SLOT] Glss Mdcn Bttl
+[000983|off=0x8A58|max=14|FIXED_SLOT] Cry. Mdcn Bttl
+[000984|off=0x8A7C|max=14|FIXED_SLOT] Mgc Mdcn Bttl
+[000985|off=0x8AA0|max=14|FIXED_SLOT] Glass Marble
+[000986|off=0x8AC4|max=14|FIXED_SLOT] Crystal Marble
+[000987|off=0x8AE8|max=14|FIXED_SLOT] Magic Marble
+[000988|off=0x8B0C|max=14|FIXED_SLOT] Thin Paper
+[000989|off=0x8B30|max=14|FIXED_SLOT] Thick Paper
+[000990|off=0x8B54|max=14|FIXED_SLOT] HghQltyPrchmnt
+[000991|off=0x8B78|max=14|FIXED_SLOT] Water of Power
+[000992|off=0x8B9C|max=14|FIXED_SLOT] Water of Light
+[000993|off=0x8BC0|max=14|FIXED_SLOT] Water of Life
+[000994|off=0x8BE4|max=14|FIXED_SLOT] Wtr Enchntmnt
+[000995|off=0x8C08|max=14|FIXED_SLOT] Water Dmnsn
+[000996|off=0x8C2C|max=14|FIXED_SLOT] Water Universe
+[000997|off=0x8C50|max=14|FIXED_SLOT] Bronze
+[000998|off=0x8C74|max=14|FIXED_SLOT] Cast Iron
+[000999|off=0x8C98|max=14|FIXED_SLOT] Sarona
+[001000|off=0x8CBC|max=14|FIXED_SLOT] Steel
+[001001|off=0x8CE0|max=14|FIXED_SLOT] Adaman
+[001002|off=0x8D04|max=14|FIXED_SLOT] Orhalcon
+[001003|off=0x8D28|max=14|FIXED_SLOT] Linen Scroll
+[001004|off=0x8D4C|max=14|FIXED_SLOT] Woolen Scroll
+[001005|off=0x8D70|max=14|FIXED_SLOT] Runic Scroll
+[001006|off=0x8D94|max=14|FIXED_SLOT] Knotted Lthr
+[001007|off=0x8DB8|max=14|FIXED_SLOT] Enchanted Lthr
+[001008|off=0x8DDC|max=14|FIXED_SLOT] Rnc Pttrn Lthr
+[001009|off=0x8E00|max=14|FIXED_SLOT] Dual Hilt
+[001010|off=0x8E24|max=14|FIXED_SLOT] Runic Hilt
+[001011|off=0x8E48|max=14|FIXED_SLOT] Orcon Hilt
+[001012|off=0x8E6C|max=14|FIXED_SLOT] Barrel(S)
+[001013|off=0x8E90|max=14|FIXED_SLOT] Barrel(M)
+[001014|off=0x8EB4|max=14|FIXED_SLOT] Barrel(L)
+[001015|off=0x8ED8|max=14|FIXED_SLOT] Enchant(1)
+[001016|off=0x8EFC|max=14|FIXED_SLOT] Enchant(2)
+[001017|off=0x8F20|max=14|FIXED_SLOT] Enchant(3)
+[001018|off=0x8F44|max=14|FIXED_SLOT] Bronze Gong
+[001019|off=0x8F68|max=14|FIXED_SLOT] Cast Iron Gong
+[001020|off=0x8F8C|max=14|FIXED_SLOT] Sarona Gong
+[001021|off=0x8FB0|max=14|FIXED_SLOT] Cooking Salt
+[001022|off=0x8FD4|max=14|FIXED_SLOT] Spices Set
+[001023|off=0x8FF8|max=14|FIXED_SLOT] HghQltySpcsSet
+[001024|off=0x901C|max=14|FIXED_SLOT] Red Key
+[001025|off=0x9040|max=14|FIXED_SLOT] Yellow Key
+[001026|off=0x9064|max=14|FIXED_SLOT] Blue Key
+[001027|off=0x9088|max=14|FIXED_SLOT] Soft Bread
+[001028|off=0x90AC|max=14|FIXED_SLOT] Lettuce
+[001029|off=0x90D0|max=14|FIXED_SLOT] Salmon
+[001030|off=0x90F4|max=14|FIXED_SLOT] Fresh Cream
+[001031|off=0x9118|max=14|FIXED_SLOT] Steak
+[001032|off=0x913C|max=14|FIXED_SLOT] Natural Honey
+[001033|off=0x9160|max=14|FIXED_SLOT] Iron Gemstone
+[001034|off=0x9184|max=14|FIXED_SLOT] Mukaka's Molar
+[001035|off=0x91A8|max=14|FIXED_SLOT] Huge Bone
+[001036|off=0x91CC|max=14|FIXED_SLOT] Mrrr Enchntmnt
+[001037|off=0x91F0|max=14|FIXED_SLOT] Blue Gem
+[001038|off=0x9214|max=14|FIXED_SLOT] Yellow Gem
+[001039|off=0x9238|max=14|FIXED_SLOT] Green Gem
+[001040|off=0x925C|max=14|FIXED_SLOT] Red Gem
+[001041|off=0x9280|max=14|FIXED_SLOT] Golden Book
+[001042|off=0x92A4|max=14|FIXED_SLOT] Gold Key
+[001043|off=0x92C8|max=14|FIXED_SLOT] Hoe
+[001044|off=0x92EC|max=14|FIXED_SLOT] Orb Piece
+[001045|off=0x9310|max=14|FIXED_SLOT] Sky Crystal
+[001046|off=0x9334|max=14|FIXED_SLOT] Harp
+[001047|off=0x9358|max=14|FIXED_SLOT] Fertilizer
+[001048|off=0x937C|max=14|FIXED_SLOT] Snowman Lthr
+[001049|off=0x93A0|max=14|FIXED_SLOT] Merman's Tail
+[001050|off=0x93C4|max=14|FIXED_SLOT] Ring Rmmbrnc
+[001051|off=0x93E8|max=14|FIXED_SLOT] Master Marble
+[001052|off=0x940C|max=14|FIXED_SLOT] Zombie Powder
+[001053|off=0x9430|max=14|FIXED_SLOT] Fmly Tree Trry
+[001054|off=0x9454|max=14|FIXED_SLOT] Worn Bandage
+[001055|off=0x9478|max=14|FIXED_SLOT] Golden Powder
+[001056|off=0x949C|max=14|FIXED_SLOT] Golden Relic
+[001057|off=0x94C0|max=14|FIXED_SLOT] Tiger Ball
+[001058|off=0x94E4|max=14|FIXED_SLOT] Best Seller
+[001059|off=0x9508|max=14|FIXED_SLOT] Scrap Metal
+[001060|off=0x952C|max=14|FIXED_SLOT] Lava Stone
+[001061|off=0x9550|max=14|FIXED_SLOT] Dragon Stmlnt
+[001062|off=0x9574|max=14|FIXED_SLOT] Worn Relic
+[001063|off=0x9598|max=14|FIXED_SLOT] Safety Neck.
+[001064|off=0x95BC|max=14|FIXED_SLOT] Ring of Yuri
+[001065|off=0x95E0|max=14|FIXED_SLOT] Snwflwr Herb
+[001066|off=0x9604|max=14|FIXED_SLOT] Willow Tree
+[001067|off=0x9628|max=14|FIXED_SLOT] 
+[001068|off=0x964C|max=14|FIXED_SLOT] 
+[001069|off=0x9670|max=14|FIXED_SLOT] Origin of Life
+[001070|off=0x9694|max=14|FIXED_SLOT] Examine Scroll
+[001071|off=0x96B8|max=14|FIXED_SLOT] Candle Magic
+[001072|off=0x96DC|max=14|FIXED_SLOT] Nectarine
+[001073|off=0x9700|max=14|FIXED_SLOT] Holy Medicine
+[001074|off=0x9724|max=14|FIXED_SLOT] Feather Oblvn
+[001075|off=0x9748|max=14|FIXED_SLOT] Hammer Ladon
+[001076|off=0x976C|max=14|FIXED_SLOT] Stone Impact
+[001077|off=0x9790|max=14|FIXED_SLOT] Stone of Swift
+[001078|off=0x97B4|max=14|FIXED_SLOT] Stone Wealth
+[001079|off=0x97D8|max=14|FIXED_SLOT] Stone Fortune
+[001080|off=0x97FC|max=14|FIXED_SLOT] Stat Rst Stone
+[001081|off=0x9820|max=14|FIXED_SLOT] Skll Rst Stone
+[001082|off=0x9844|max=14|FIXED_SLOT] Elixir Stamina
+[001083|off=0x9868|max=14|FIXED_SLOT] Golden Hammer
+[001084|off=0x988C|max=14|FIXED_SLOT] Two Way Portal
+[001085|off=0x98B0|max=14|FIXED_SLOT] Restore Stone
+[001086|off=0x98D4|max=14|FIXED_SLOT] Rfnng Elixir
+[001087|off=0x98F8|max=14|FIXED_SLOT] Dlx Rfnng Elxr
+[001088|off=0x991C|max=14|FIXED_SLOT] Rgnrtn Scr.
+[001089|off=0x9940|max=14|FIXED_SLOT] Magical Hoe
+[001090|off=0x9964|max=14|FIXED_SLOT] Relic Box(S)
+[001091|off=0x9988|max=14|FIXED_SLOT] Relic Box(M)
+[001092|off=0x99AC|max=14|FIXED_SLOT] Relic Box(L)
+[001093|off=0x99D0|max=14|FIXED_SLOT] Relic Box(XL)
+[001094|off=0x99F4|max=14|FIXED_SLOT] Ntnl Trsr Box
+[001095|off=0x9A18|max=14|FIXED_SLOT] Lgnd Trsr Box
+[001096|off=0x9A3C|max=14|FIXED_SLOT] Mjstc Trsr Box

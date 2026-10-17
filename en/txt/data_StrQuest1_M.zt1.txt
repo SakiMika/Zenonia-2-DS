@@ -1,0 +1,143 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrQuest1_M.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=7] Unused
+[000001|nul=1|len=1] 
+[000002|nul=1|len=1] 
+[000003|nul=1|len=1] 
+[000004|nul=1|len=1] 
+[000005|nul=1|len=1] 
+[000006|nul=1|len=1] 
+[000007|nul=1|len=1] 
+[000008|nul=1|len=1] 
+[000009|nul=1|len=1] 
+[000010|nul=1|len=45] Cooking salt can be bought at the item shop.
+[000011|nul=1|len=1] 
+[000012|nul=1|len=1] 
+[000013|nul=1|len=1] 
+[000014|nul=1|len=1] 
+[000015|nul=1|len=47] Karin is at the central street of Deva Castle.
+[000016|nul=1|len=47] Why are you wriggling around for? Scaredy-cat!
+[000017|nul=1|len=61] The person is at the blacksmith's house, south west of here!
+[000018|nul=1|len=1] 
+[000019|nul=1|len=1] 
+[000020|nul=1|len=1] 
+[000021|nul=1|len=1] 
+[000022|nul=1|len=1] 
+[000023|nul=1|len=1] 
+[000024|nul=1|len=1] 
+[000025|nul=1|len=1] 
+[000026|nul=1|len=1] 
+[000027|nul=1|len=1] 
+[000028|nul=1|len=1] 
+[000029|nul=1|len=1] 
+[000030|nul=1|len=1] 
+[000031|nul=1|len=1] 
+[000032|nul=1|len=29] Our lives are in your hands!
+[000033|nul=1|len=38] West of town! Deep within Deva Woods!
+[000034|nul=1|len=16] Please find it.
+[000035|nul=1|len=1] 
+[000036|nul=1|len=1] 
+[000037|nul=1|len=1] 
+[000038|nul=1|len=1] 
+[000039|nul=1|len=1] 
+[000040|nul=1|len=1] 
+[000041|nul=1|len=1] 
+[000042|nul=1|len=1] 
+[000043|nul=1|len=1] 
+[000044|nul=1|len=1] 
+[000045|nul=1|len=54] The golden book is somewhere west of the Ruin region.
+[000046|nul=1|len=1] 
+[000047|nul=1|len=62] Merhen, the archangel is at the house north west of Coelraum.
+[000048|nul=1|len=1] 
+[000049|nul=1|len=1] 
+[000050|nul=1|len=1] 
+[000051|nul=1|len=1] 
+[000052|nul=1|len=1] 
+[000053|nul=1|len=34] Hurry and inspect your equipment.
+[000054|nul=1|len=1] 
+[000055|nul=1|len=1] 
+[000056|nul=1|len=1] 
+[000057|nul=1|len=1] 
+[000058|nul=1|len=1] 
+[000059|nul=1|len=1] 
+[000060|nul=1|len=1] 
+[000061|nul=1|len=1] 
+[000062|nul=1|len=1] 
+[000063|nul=1|len=1] 
+[000064|nul=1|len=1] 
+[000065|nul=1|len=1] 
+[000066|nul=1|len=1] 
+[000067|nul=1|len=1] 
+[000068|nul=1|len=123] The lair of the Dragon Tribe is at central Crusis Volcano.!NHead towards Crusis Volcano!!NP.S Get a move on, NOW! - Lisa -
+[000069|nul=1|len=1] 
+[000070|nul=1|len=1] 
+[000071|nul=1|len=1] 
+[000072|nul=1|len=22] Destroy them quickly!
+[000073|nul=1|len=50] The sky official is in front of the Tree of Life.
+[000074|nul=1|len=1] 
+[000075|nul=1|len=1] 
+[000076|nul=1|len=1] 
+[000077|nul=1|len=32] Hurry and collect sky crystals.
+[000078|nul=1|len=1] 
+[000079|nul=1|len=1] 
+[000080|nul=1|len=1] 
+[000081|nul=1|len=1] 
+[000082|nul=1|len=46] I'll tell you when you bring me a sugar cake.
+[000083|nul=1|len=1] 
+[000084|nul=1|len=1] 
+[000085|nul=1|len=1] 
+[000086|nul=1|len=1] 
+[000087|nul=1|len=1] 
+[000088|nul=1|len=1] 
+[000089|nul=1|len=1] 
+[000090|nul=1|len=41] Haven't you still found my owner? *Bark*
+[000091|nul=1|len=1] 
+[000092|nul=1|len=1] 
+[000093|nul=1|len=1] 
+[000094|nul=1|len=1] 
+[000095|nul=1|len=1] 
+[000096|nul=1|len=45] Find the house with a small door and window.
+[000097|nul=1|len=1] 
+[000098|nul=1|len=35] Still no signs of the willow tree?
+[000099|nul=1|len=53] Catch and bring them if you want to become stronger.
+[000100|nul=1|len=37] Tell Hotdog I'm at the Town of Iris.
+[000101|nul=1|len=27] Still no news of the harp?
+[000102|nul=1|len=51] It's a pain in the ass to talk when you're hungry.
+[000103|nul=1|len=1] 
+[000104|nul=1|len=25] Flowers need fertilizer.
+[000105|nul=1|len=27] Show them what you've got!
+[000106|nul=1|len=1] 
+[000107|nul=1|len=35] I can see a mysterious dark space.
+[000108|nul=1|len=1] 
+[000109|nul=1|len=29] Shatis are at the Highlands.
+[000110|nul=1|len=1] 
+[000111|nul=1|len=30] Relics might be inside boxes.
+[000112|nul=1|len=40] It was a valuable book. Please find it!
+[000113|nul=1|len=51] Combining ingredients makes more delicious dishes~
+[000114|nul=1|len=42] Eating should make me feel better. *Sigh*
+[000115|nul=1|len=24] Please find my brother.
+[000116|nul=1|len=34] Franken. Hungry! Eat scrap metal.
+[000117|nul=1|len=42] Becareful wondering around town at night.
+[000118|nul=1|len=20] The healing potion.
+[000119|nul=1|len=51] Teleport scroll is needed to return to the castle.
+[000120|nul=1|len=44] Golem of heaven are outside of town! Hurry!
+[000121|nul=1|len=11] Save them!
+[000122|nul=1|len=1] 
+[000123|nul=1|len=1] 
+[000124|nul=1|len=1] 
+[000125|nul=1|len=1] 
+[000126|nul=1|len=1] 
+[000127|nul=1|len=25] Hey! It's urgent! Hurry!
+[000128|nul=1|len=1] 
+[000129|nul=1|len=40] The archangel is at north west of town.
+[000130|nul=1|len=1] 
+[000131|nul=1|len=1] 
+[000132|nul=1|len=1] 
+[000133|nul=1|len=1] 
+[000134|nul=1|len=1] 

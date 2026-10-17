@@ -1,0 +1,154 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrPopup.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=52] !C!cFFFFFFWould you like to connect to the network?
+[000001|nul=1|len=57] !C!cFF2F2FFailed to connect to network!NPlease try again
+[000002|nul=1|len=24] !C!cFF2F2FNo saved data
+[000003|nul=1|len=133] !C!cFF2F2FCurrent data on server will be overwritten.!NExisting saved data (in-game) will be deleted.!N!NWould you like to continue?
+[000004|nul=1|len=32] !C!cFFFFFFUpload was successful
+[000005|nul=1|len=42] !C!cFFFFFFCharacter registration complete
+[000006|nul=1|len=133] !C!cFF2F2FCurrent data on server will be deleted.!NExisting saved data (in-game) will be overwritten.!N!NWould you like to continue?
+[000007|nul=1|len=34] !C!cFFFFFFDownload was successful
+[000008|nul=1|len=47] !C!cFF2F00Would you like to delete the letter?
+[000009|nul=1|len=44] !C!cFFFFFFLetter has been successfully sent
+[000010|nul=1|len=34] !C!cFFFFFFLetter has been deleted
+[000011|nul=1|len=34] !C!cFFFFFFPurchase was successful
+[000012|nul=1|len=162] !C!cFFFFFFRecommend !c80FF00ZENONIA 2!cFFFFFF to your friends!NYou will receive !c80FF00100 gold!cFFFFFF per person!N!cFF0000(Max 10, cannot resend to same user)
+[000013|nul=1|len=77] !C!cFFFFFFRecommendation was successful!NCollect reward from the Network Gal
+[000014|nul=1|len=55] !C!cFFFF00New letter received!NTalk to the Network Gal
+[000015|nul=1|len=61] !C!cFFFFFFAttached gift has been inserted into the inventory
+[000016|nul=1|len=38] !C!cFF2F2FCannot send unexamined item
+[000017|nul=1|len=35] !C!cFF2F2FThis item cannot be sent
+[000018|nul=1|len=28] !C!cFF2F2FID cannot be used
+[000019|nul=1|len=67] !C!cFF2F2FNot enough origin of life!N!cFFFFFFRevive for 3000 gold?
+[000020|nul=1|len=42] !cFFFFFFGroup registration was successful
+[000021|nul=1|len=109] !cFFFFFFWould you like to download the opponent's data?!N(Inventory space is needed to receive item)!N!N!N!N
+[000022|nul=1|len=77] !C!cFFFFFFThe current character is unregistered!NWould you like to register?
+[000023|nul=1|len=64] !C!cFFFFFFWould you like to update the character's information?
+[000024|nul=1|len=87] !C!cFFFFFF[%s]!NData has been updated!NWould you like to download the opponent's data?
+[000025|nul=1|len=117] !C!cFF0000You have been defeated!!N!cFFFFFFWould you like to list the player as an opponent?!N(Maximum of 3 allowed)
+[000026|nul=1|len=27] Requested data unavailable
+[000027|nul=1|len=27] Friend's ID does not exist
+[000028|nul=1|len=18] ID does not exist
+[000029|nul=1|len=61] Monthly purchase limit exceeded, please try again next month
+[000030|nul=1|len=57] Daily purchase limit exceeded, please try again tomorrow
+[000031|nul=1|len=50] Hacking user!!NPlease contact android@gamevil.com
+[000032|nul=1|len=31] Cannot send letter to yourself
+[000033|nul=1|len=43] ID already exists or the ID cannot be used
+[000034|nul=1|len=30] Billing has been blocked (%d)
+[000035|nul=1|len=24] Already registered user
+[000036|nul=1|len=42] Maximum recommendations have been reached
+[000037|nul=1|len=40] Daily recommendation limit exceeded(10)
+[000038|nul=1|len=92] Abnormal user, network functions have been disabled.!NPlease enquire at the official forum.
+[000039|nul=1|len=50] Not enough free space, cannot restore game's data
+[000040|nul=1|len=27] Backup data does not exist
+[000041|nul=1|len=55] Daily gift amount exceeded!!N(Max 30,000 gold/per day)
+[000042|nul=1|len=26] Cannot search your own ID
+[000043|nul=1|len=23] Connection failed (%d)
+[000044|nul=1|len=37] !C!cFF2F2FThis slot contains no data
+[000045|nul=1|len=70] !C!cFF2F2FThe slot is empty!N!cFFFFFFWould you like to use this slot?
+[000046|nul=1|len=72] !C!cFF2F2FThis slot contains data!N!cFFFFFFWould you like to overwrite?
+[000047|nul=1|len=51] !C!cFFFFFFWould you like to save the current game?
+[000048|nul=1|len=30] !C!cFFFFFFGame has been saved
+[000049|nul=1|len=30] !C!cFF2F2FGame failed to save
+[000050|nul=1|len=41] !C!cFF2F2FYou can't save within this map
+[000051|nul=1|len=35] !C!cFFFF00Choose method of revival
+[000052|nul=1|len=93] !C!c000000Penalty revival !cFF0000(EXP%d%%, Gold%d%%, Weapon Durability%d%% will be reduced)
+[000053|nul=1|len=61] !C!c000000Use origin of life!N!c2424AARevive without penalty
+[000054|nul=1|len=26] !C!cFFFFFFHow can I help?
+[000055|nul=1|len=58] !C!cFFFFFFIt's %d gold per night!NWould you like to stay?
+[000056|nul=1|len=56] !C!cFFFFFFSet !c00FF00(%s), !cFFFFFFas the destination?
+[000057|nul=1|len=67] !C!c00FF00Move to %s?!N!cFFFFFF(!cFFFF00500 gold required!cFFFFFF)
+[000058|nul=1|len=37] !C!cFFFFFFSelect town of destination
+[000059|nul=1|len=58] !C!c00FF00[%s] !cFFFFFF%s has been set as the destination
+[000060|nul=1|len=47] !C!c00FF00[%s] !cFFFFFFwould you like to move?
+[000061|nul=1|len=34] !C!cFF2F2FNo towns to teleport to
+[000062|nul=1|len=56] !cFF2F2FYou can't use the teleport scroll from this map
+[000063|nul=1|len=36] !cFF2F2FNo destination has been set
+[000064|nul=1|len=37] !cFF2F2FCurrently in set destination
+[000065|nul=1|len=35] !C!cFF2F2FHoe exists in inventory!
+[000066|nul=1|len=26] !C!cFF2F2FNot enough gold
+[000067|nul=1|len=32] !C!cFF2F2FCannot destroy weapon
+[000068|nul=1|len=55] !C!cFF2F2FWould you like to destroy the selected item?
+[000069|nul=1|len=33] !C!cFF2F2FCan no longer be fixed
+[000070|nul=1|len=32] !C!cFF2F2FMaximum level reached
+[000071|nul=1|len=34] !C!cFF2F2FItem cannot be upgraded
+[000072|nul=1|len=52] !C!cFFFFFFWould you like to quit the current quest?
+[000073|nul=1|len=57] !C!cFFFFFF[%s]!c00EBFF!N!CWould you like to buy!cFFFFFF?
+[000074|nul=1|len=58] !C!cFFFFFF[%s]!cFF1493!N!CWould you like to sell!cFFFFFF?
+[000075|nul=1|len=24] !C!cFFFFFFApply points?
+[000076|nul=1|len=39] !C!cFF2F2FCannot move to different bag
+[000077|nul=1|len=42] !C!cFF2F2FCannot use unexamined equipment
+[000078|nul=1|len=49] !C!cFF2F2FCannot equip different class equipment
+[000079|nul=1|len=36] !C!cFF2F2FCannot equip damaged item
+[000080|nul=1|len=37] !C!cFF2F2FA higher level is required
+[000081|nul=1|len=35] !C!cFF2F2FEquipment has been fixed
+[000082|nul=1|len=36] !C!cFFFFFFFixed (Max level reduced)
+[000083|nul=1|len=16] !C!cFFFFFFFixed
+[000084|nul=1|len=33] !C!cFF2F2FCannot quit main quest
+[000085|nul=1|len=24] !cFF2F2FCannot use item
+[000086|nul=1|len=34] !C!cFFFFFFStrengthening completed
+[000087|nul=1|len=35] !C!cFF2F2FDetails are not complete
+[000088|nul=1|len=67] !C!cFF2F2FNot enough examine scroll!NBuy more from the Network Gal
+[000089|nul=1|len=70] !C!cFF2F2FCannot save game in the boss room!NWould you like to enter?
+[000090|nul=1|len=56] !C%s[%s] !cFFFFFF!NCombining is successful, %s acquired
+[000091|nul=1|len=33] !C!cFF2F2F(%d%% weight overload)
+[000092|nul=1|len=37] !C!cFF2F2FNot enough inventory space
+[000093|nul=1|len=25] !C!cFF2F2FCannot combine
+[000094|nul=1|len=22] !C!cFF2F2FCannot sell
+[000095|nul=1|len=33] Can only be used at !cFFFF00[%s]
+[000096|nul=1|len=55] !C!cFF2F2FMaximum number of quests(5) have been filled
+[000097|nul=1|len=36] !cFFFF00Hard mode has been unlocked
+[000098|nul=1|len=36] !cFFFF00Hell mode has been unlocked
+[000099|nul=1|len=30] !cFFFF00Stats have been reset
+[000100|nul=1|len=31] !cFFFF00Skills have been reset
+[000101|nul=1|len=66] !C!cFFFFFF%s!cFF2F2F Not enough inventory space to complete quest
+[000102|nul=1|len=55] !C!cFF2F2FNot enough inventory or combine scroll space
+[000103|nul=1|len=27] Select item to be repaired
+[000104|nul=1|len=27] Select item to be examined
+[000105|nul=1|len=36] Select equipment to be strengthened
+[000106|nul=1|len=35] Select item to reach maximum level
+[000107|nul=1|len=55] EXP(%d%%), Gold(%d%%), Weapon Durability(%d%%) reduced
+[000108|nul=1|len=33] Revived using the origin of life
+[000109|nul=1|len=33] %d%% overweight, movement slowed
+[000110|nul=1|len=29] %d%% overweight, cannot move
+[000111|nul=1|len=14] Not enough SP
+[000112|nul=1|len=29] Too full to consume any more
+[000113|nul=1|len=23] Already consuming food
+[000114|nul=1|len=24] Wrong place of mounting
+[000115|nul=1|len=19] Overweight by %d%%
+[000116|nul=1|len=27] Not enough inventory space
+[000117|nul=1|len=21] Completely destroyed
+[000118|nul=1|len=31] !C%s !cAFFF00changing...!N!N!L
+[000119|nul=1|len=20] !cFFFF00Game saved.
+[000120|nul=1|len=30] Cannot save in current status
+[000121|nul=1|len=23] Door has been unlocked
+[000122|nul=1|len=14] Acquired [%s]
+[000123|nul=1|len=54] Magic scroll to strengthen additional ability of item
+[000124|nul=1|len=37] Scroll to examine additional ability
+[000125|nul=1|len=34] Fix and increase durability by 10
+[000126|nul=1|len=43] Scroll to teleport to selected destination
+[000127|nul=1|len=23] [PALADIN] Sword/Shield
+[000128|nul=1|len=22] [SHOOTER] Ranged/Guns
+[000129|nul=1|len=24] [MAGICIAN] Ranged/Magic
+[000130|nul=1|len=22] [WARRIOR] Melee/Power
+[000131|nul=1|len=37] !C!cFFFFFFWould you like to combine?
+[000132|nul=1|len=75] !C!c00FFFF[Item successfully combined]!N!cFFFFFFSuccessfully acquired item
+[000133|nul=1|len=55] !C!cFF0000Items can only be combined by the blacksmith
+[000134|nul=1|len=44] !C!cFF0000Not enough ingredients to combine
+[000135|nul=1|len=80] !C!c0000FF[Item failed to combine]!N!cFFFFFFAll ingredients have been destroyed
+[000136|nul=1|len=29] !C!cFFFFFFContinue refining?
+[000137|nul=1|len=68] !C!cFFFF00[Refining successful]!N!cFFFFFFAbility has been increased
+[000138|nul=1|len=33] !C!cFF0000Cannot refine any more
+[000139|nul=1|len=32] !C!cFF0000Select item to refine
+[000140|nul=1|len=90] !C!c0000FF[Failed to refine]!N!cFFFFFFItem has been destroyed!NWould you like to restore?
+[000141|nul=1|len=72] !C!cFF2F2FNot enough restoration scroll!N!cFFFFFFWould you like to buy?
+[000142|nul=1|len=42] !C!cFF0000Only magic items can be refined
+[000143|nul=1|len=40] !C!cFF0000Sub weapons cannot be refined
+[000144|nul=1|len=49] !C!cFF0000Cannot equip or unequip in current map
+[000145|nul=1|len=61] !C!cFF0000Maximum level has been reached in the current mode

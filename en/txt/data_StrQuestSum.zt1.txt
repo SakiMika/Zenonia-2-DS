@@ -1,0 +1,106 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrQuestSum.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=27] Find Karin at town square.
+[000001|nul=1|len=26] Deliver iron to Lindaman.
+[000002|nul=1|len=25] Find iron at Deva Woods.
+[000003|nul=1|len=32] Find Amos north of Deva Castle.
+[000004|nul=1|len=31] Destroy Mukakas in Deva Woods.
+[000005|nul=1|len=33] Meet Monica at the Town of Iris.
+[000006|nul=1|len=13] Rescue Lepe.
+[000007|nul=1|len=18] Return to Monica.
+[000008|nul=1|len=50] Collect five Snowflower herbs from north of town.
+[000009|nul=1|len=45] Examine the unusual events of the Highlands.
+[000010|nul=1|len=28] Examine the Frosty Dungeon.
+[000011|nul=1|len=32] Examine where the gem might be.
+[000012|nul=1|len=18] Return to Monica.
+[000013|nul=1|len=28] Meet the others at the inn.
+[000014|nul=1|len=36] Find the suspicious person in town.
+[000015|nul=1|len=34] Find the person from Deva Castle.
+[000016|nul=1|len=44] Catch the gem's thief and report to Monica.
+[000017|nul=1|len=37] Destroy orcs at the southern region.
+[000018|nul=1|len=58] Find out about the Laka Ruins from the migrated civilian.
+[000019|nul=1|len=22] Find the golden book.
+[000020|nul=1|len=25] Go to the Golden Temple.
+[000021|nul=1|len=27] Examine the Golden Temple.
+[000022|nul=1|len=21] Acquire the 2nd gem.
+[000023|nul=1|len=18] Report to Monica.
+[000024|nul=1|len=27] Go to the Town of Barpore.
+[000025|nul=1|len=38] Escort Monica to the town of Barpore.
+[000026|nul=1|len=22] Return to the others.
+[000027|nul=1|len=17] Check equipment.
+[000028|nul=1|len=41] Follow the others who have already left.
+[000029|nul=1|len=28] Rescue others in captivity.
+[000030|nul=1|len=26] Find the location of gem.
+[000031|nul=1|len=16] Destroy Sonian.
+[000032|nul=1|len=20] Find the orb piece.
+[000033|nul=1|len=25] Create an enchanted orb.
+[000034|nul=1|len=20] Leave for Teradore.
+[000035|nul=1|len=22] Go to Crusis Volcano.
+[000036|nul=1|len=17] Destroy Bereren.
+[000037|nul=1|len=19] Go to Deva Castle.
+[000038|nul=1|len=33] Destroy the mummies of darkness.
+[000039|nul=1|len=33] Interfere with Zavkiel's ritual.
+[000040|nul=1|len=17] Protect Zealous.
+[000041|nul=1|len=17] Destroy Zavkiel.
+[000042|nul=1|len=24] Go to the Town of Iris.
+[000043|nul=1|len=13] Meet Monica.
+[000044|nul=1|len=21] Find the sky portal.
+[000045|nul=1|len=16] Go to Sky City.
+[000046|nul=1|len=28] Meet Merhen, the archangel.
+[000047|nul=1|len=53] Go to the sky official in front of the tree of life.
+[000048|nul=1|len=22] Collect sky crystals.
+[000049|nul=1|len=13] Meet Merhen.
+[000050|nul=1|len=30] Go to the Demon Tribe Castle.
+[000051|nul=1|len=32] Destroy the golems of darkness.
+[000052|nul=1|len=15] Destroy Ladon.
+[000053|nul=1|len=18] Return to others.
+[000054|nul=1|len=16] Destroy Tiaris.
+[000055|nul=1|len=33] Learn about the combine scrolls.
+[000056|nul=1|len=32] Learn about the network system.
+[000057|nul=1|len=23] Help the lost old man.
+[000058|nul=1|len=27] Collect firewood for Anna.
+[000059|nul=1|len=31] Catch limes for stronger body.
+[000060|nul=1|len=33] Bring mukaka's molar for a bulk.
+[000061|nul=1|len=21] Find Hotdog's owner.
+[000062|nul=1|len=27] Tell Hotdog where Mimi is.
+[000063|nul=1|len=43] Find troubadour's harp at Revival Dungeon.
+[000064|nul=1|len=30] Deliver linen cloth to Honey.
+[000065|nul=1|len=35] Listen to the story about fairies.
+[000066|nul=1|len=28] Bring fertilizer for Airis.
+[000067|nul=1|len=30] Destroy Lizardman for Hawker.
+[000068|nul=1|len=43] Collect and deliver mithril to blacksmith.
+[000069|nul=1|len=31] Find master marbles for Airis.
+[000070|nul=1|len=42] Collect and deliver orcons to blacksmith.
+[000071|nul=1|len=24] Help the dark merchant.
+[000072|nul=1|len=28] Help Doctor Z to find cure.
+[000073|nul=1|len=28] Help Doctor Z to find cure.
+[000074|nul=1|len=28] Help Doctor Z to find cure.
+[000075|nul=1|len=25] Find Langue's lost item.
+[000076|nul=1|len=39] Find family tree of Terry at the Ruin.
+[000077|nul=1|len=39] Deliver relics of Golden City to Indy.
+[000078|nul=1|len=39] Deliver relics of Golden City to Indy.
+[000079|nul=1|len=28] Help Doctor Z to find cure.
+[000080|nul=1|len=28] Help Doctor Z to find cure.
+[000081|nul=1|len=39] Find the tiger balls at Golden Temple.
+[000082|nul=1|len=41] Find Brooks' lost book from the goblins.
+[000083|nul=1|len=31] Find mysterious stew for Mary.
+[000084|nul=1|len=44] Find well-being salad for the sick old man.
+[000085|nul=1|len=31] Find the lost brother of Yuri.
+[000086|nul=1|len=41] Deliver the news of her brother to Yuri.
+[000087|nul=1|len=42] Confirm the validity of the town's rumor.
+[000088|nul=1|len=32] Deliver scrap metal to Franken.
+[000089|nul=1|len=31] Make Franken a member of town.
+[000090|nul=1|len=42] Find lava stones for Ikin the blacksmith.
+[000091|nul=1|len=39] Accept Ikin, the blacksmith's, request
+[000092|nul=1|len=28] Help Doctor Z to find cure.
+[000093|nul=1|len=28] Help Doctor Z to find cure.
+[000094|nul=1|len=27] Help Earth, the geologist.
+[000095|nul=1|len=30] Give Lucky a teleport scroll.
+[000096|nul=1|len=42] Destroy golems dirtying Michael's garden.
+[000097|nul=1|len=45] Rescue Death Angel as requested by Kabshiel.

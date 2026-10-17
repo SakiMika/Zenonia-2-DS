@@ -1,0 +1,22 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsSetItem.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x16|max=6|FIXED_SLOT] Chllng
+[000001|off=0x1D|max=65|FIXED_SLOT] Increase attack.
+[000002|off=0x65|max=6|FIXED_SLOT] Advntr
+[000003|off=0x6C|max=65|FIXED_SLOT] Increase attack and defense.
+[000004|off=0xB4|max=6|FIXED_SLOT] Enfrcr
+[000005|off=0xBB|max=65|FIXED_SLOT] Increase attack, defense and critical.
+[000006|off=0x103|max=6|FIXED_SLOT] War.
+[000007|off=0x10A|max=65|FIXED_SLOT] Increase attack, defense, critical and evade.
+[000008|off=0x152|max=6|FIXED_SLOT] Grdn
+[000009|off=0x159|max=65|FIXED_SLOT] Increase attack, defense, critical, evade and max HP.
+[000010|off=0x1A1|max=6|FIXED_SLOT] Svrgn
+[000011|off=0x1A8|max=65|FIXED_SLOT] Increase attack, defense, critical, evade, max HP and SP.
+[000012|off=0x1F0|max=6|FIXED_SLOT] Mjstc
+[000013|off=0x1F7|max=65|FIXED_SLOT] Incrs attack, dfns, crtcl, evade, max HP and SP. Dcrs SP usage.

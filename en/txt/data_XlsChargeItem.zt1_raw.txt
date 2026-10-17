@@ -1,0 +1,52 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsChargeItem.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x17|max=48|FIXED_SLOT] Revive, no penalty; fully restore HP/SP.
+[000001|off=0x4F|max=48|FIXED_SLOT] Revive, no penalty; fully restore HP/SP.
+[000002|off=0x87|max=48|FIXED_SLOT] Revive, no penalty; fully restore HP/SP.
+[000003|off=0xBF|max=48|FIXED_SLOT] Examine item
+[000004|off=0xF7|max=48|FIXED_SLOT] Examine item
+[000005|off=0x12F|max=48|FIXED_SLOT] Examine item
+[000006|off=0x167|max=48|FIXED_SLOT] Brightens dark dungeon area for 72 game hours
+[000007|off=0x19F|max=48|FIXED_SLOT] Remain full for 72 game hours
+[000008|off=0x1D7|max=48|FIXED_SLOT] +50 pct EXP for 48 game hours.
+[000009|off=0x20F|max=48|FIXED_SLOT] +50 pct max weight (up to +100 pct).
+[000010|off=0x247|max=48|FIXED_SLOT] +20 pct item durability (up to +100 pct).
+[000011|off=0x27F|max=48|FIXED_SLOT] Gloves: 50 pct chance to knock enemies down.
+[000012|off=0x2B7|max=48|FIXED_SLOT] Boots: increase movement speed.
+[000013|off=0x2EF|max=48|FIXED_SLOT] Helmet: increase item drop chance.
+[000014|off=0x327|max=48|FIXED_SLOT] Helmet: increase gold gain.
+[000015|off=0x35F|max=48|FIXED_SLOT] Reset all stat points
+[000016|off=0x397|max=48|FIXED_SLOT] Reset all skill points
+[000017|off=0x3CF|max=48|FIXED_SLOT] Fully restore the SP gauge
+[000018|off=0x407|max=48|FIXED_SLOT] Fully restore the SP gauge
+[000019|off=0x43F|max=48|FIXED_SLOT] Fully restore the SP gauge
+[000020|off=0x477|max=48|FIXED_SLOT] Infinite durability for 72 game hours
+[000021|off=0x4AF|max=48|FIXED_SLOT] Open a two-way teleport portal.
+[000022|off=0x4E7|max=48|FIXED_SLOT] Open a two-way teleport portal.
+[000023|off=0x51F|max=48|FIXED_SLOT] Open a two-way teleport portal.
+[000024|off=0x557|max=48|FIXED_SLOT] Restore destroyed item
+[000025|off=0x58F|max=48|FIXED_SLOT] Restore destroyed item
+[000026|off=0x5C7|max=48|FIXED_SLOT] Restore destroyed item
+[000027|off=0x5FF|max=48|FIXED_SLOT] Increase refining chance by 20 pct
+[000028|off=0x637|max=48|FIXED_SLOT] Increase refining chance by 20 pct
+[000029|off=0x66F|max=48|FIXED_SLOT] Increase refining chance by 20 pct
+[000030|off=0x6A7|max=48|FIXED_SLOT] Increase refining chance by 40 pct
+[000031|off=0x6DF|max=48|FIXED_SLOT] Increase refining chance by 40 pct
+[000032|off=0x717|max=48|FIXED_SLOT] Increase refining chance by 40 pct
+[000033|off=0x74F|max=48|FIXED_SLOT] Regenerate all monsters in the current map
+[000034|off=0x787|max=48|FIXED_SLOT] Regenerate all monsters in the current map
+[000035|off=0x7BF|max=48|FIXED_SLOT] Regenerate all monsters in the current map
+[000036|off=0x7F7|max=48|FIXED_SLOT] Unbreakable magical hoe
+[000037|off=0x82F|max=48|FIXED_SLOT] [Level 16] Challenger Set (Hlmt/rmr/Wpn/Sb )
+[000038|off=0x867|max=48|FIXED_SLOT] [Level 31] Adventure Set (Hlmt/rmr/Wpn/Sb)
+[000039|off=0x89F|max=48|FIXED_SLOT] [Level 47] Enforcer Set (Hlmt/rmr/Wpn/Sb)
+[000040|off=0x8D7|max=48|FIXED_SLOT] [Level 56] Warrior Set (Helmet/Armor/Weapon/Sub)
+[000041|off=0x90F|max=48|FIXED_SLOT] [Level 71] Guardian Set (Hlmt/rmr/Wpn/Sb)
+[000042|off=0x947|max=48|FIXED_SLOT] [Level 83] Sovereign Set (Hlmt/rmr/Wpn/Sb)
+[000043|off=0x97F|max=48|FIXED_SLOT] [Level 95] Majestic Set (Hlmt/rmr/Wpn/Sb)

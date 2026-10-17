@@ -1,0 +1,7 @@
+{
+  "name": "EN",
+  "base": "Existing English working package",
+  "encoding": "cp949",
+  "description": "Text copied from the previously working English build, not machine-translated. Some strings/assets may remain untranslated.",
+  "format": "UTF-8 TXT; CP949 game encoding; fixed byte limits retained"
+}

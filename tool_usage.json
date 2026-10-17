@@ -1,0 +1,24 @@
+{
+  "start": "python preparegame.py",
+  "card_output": "python preparegame.py --card-root \"E:/\"",
+  "layout": [
+    "preparegame.py",
+    "en/",
+    "Makefile",
+    "source/",
+    "tools/",
+    "tests/"
+  ],
+  "workflow": [
+    "Open WIPI File: native ARM WIPI JAR or ZIP containing JAR",
+    "Select Language; EN/custom translations use editable TXT. KR uses original resources.",
+    "Check Error: validate translations only, writing error.txt on failure. Disabled for KR.",
+    "Create Game Folder: explicitly produce zenonia2nds/ from the selection.",
+    "Build once with build.bat or make. Result: Zenonia 2 DS Runner.nds, game code #### unchanged.",
+    "Copy the NDS and entire zenonia2nds/ folder to the flashcard root."
+  ],
+  "tests": "python test_preparegame.py [your-game.zip]; bash tests/run_flashcard_tests.sh",
+  "no_runnable_game_bundled": true,
+  "save": "Existing ZKR1.sav stays outside zenonia2nds/.",
+  "english_edits": "Existing en/ edits are preserved. Missing en/ is restored from the bundled text seed."
+}

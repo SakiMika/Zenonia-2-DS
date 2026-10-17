@@ -1,0 +1,107 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsQUEST.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x1F|max=20|FIXED_SLOT] Unused
+[000001|off=0x4F|max=20|FIXED_SLOT] Find Karin
+[000002|off=0x7F|max=20|FIXED_SLOT] Karin's Request
+[000003|off=0xAF|max=20|FIXED_SLOT] Collect Irons
+[000004|off=0xDF|max=20|FIXED_SLOT] Find Amos
+[000005|off=0x10F|max=20|FIXED_SLOT] Amos' Test
+[000006|off=0x13F|max=20|FIXED_SLOT] To the Town of Iris
+[000007|off=0x16F|max=20|FIXED_SLOT] Rescue Lepe
+[000008|off=0x19F|max=20|FIXED_SLOT] Return to Monica
+[000009|off=0x1CF|max=20|FIXED_SLOT] Collect Snowflower
+[000010|off=0x1FF|max=20|FIXED_SLOT] Examine Highlands
+[000011|off=0x22F|max=20|FIXED_SLOT] Exmn Frosty Dungeon
+[000012|off=0x25F|max=20|FIXED_SLOT] First Gem
+[000013|off=0x28F|max=20|FIXED_SLOT] Report to Monica
+[000014|off=0x2BF|max=20|FIXED_SLOT] Visit Friends
+[000015|off=0x2EF|max=20|FIXED_SLOT] Collect Information
+[000016|off=0x31F|max=20|FIXED_SLOT] Collect Addtnl Info
+[000017|off=0x34F|max=20|FIXED_SLOT] Thief of Gem
+[000018|off=0x37F|max=20|FIXED_SLOT] Counterattack
+[000019|off=0x3AF|max=20|FIXED_SLOT] Find Migrant
+[000020|off=0x3DF|max=20|FIXED_SLOT] Golden Book
+[000021|off=0x40F|max=20|FIXED_SLOT] To the Golden Temple
+[000022|off=0x43F|max=20|FIXED_SLOT] Exmn Golden Temple
+[000023|off=0x46F|max=20|FIXED_SLOT] Second Gem
+[000024|off=0x49F|max=20|FIXED_SLOT] Return
+[000025|off=0x4CF|max=20|FIXED_SLOT] To Town Barpore
+[000026|off=0x4FF|max=20|FIXED_SLOT] Escort Monica
+[000027|off=0x52F|max=20|FIXED_SLOT] To Find the Others
+[000028|off=0x55F|max=20|FIXED_SLOT] Check Equipment
+[000029|off=0x58F|max=20|FIXED_SLOT] Follow the Others
+[000030|off=0x5BF|max=20|FIXED_SLOT] Captured Friends
+[000031|off=0x5EF|max=20|FIXED_SLOT] Locate Gem
+[000032|off=0x61F|max=20|FIXED_SLOT] Third Gem
+[000033|off=0x64F|max=20|FIXED_SLOT] Enchanted Orb Piece
+[000034|off=0x67F|max=20|FIXED_SLOT] Create Enchanted Orb
+[000035|off=0x6AF|max=20|FIXED_SLOT] Examine Teradore
+[000036|off=0x6DF|max=20|FIXED_SLOT] Find Lisa
+[000037|off=0x70F|max=20|FIXED_SLOT] Fourth Gem
+[000038|off=0x73F|max=20|FIXED_SLOT] To Deva Castle
+[000039|off=0x76F|max=20|FIXED_SLOT] Destroy Mummy Drknss
+[000040|off=0x79F|max=20|FIXED_SLOT] Pursue Zavkiel
+[000041|off=0x7CF|max=20|FIXED_SLOT] Protect Zealous
+[000042|off=0x7FF|max=20|FIXED_SLOT] Destroy Zavkiel
+[000043|off=0x82F|max=20|FIXED_SLOT] Riddle Man
+[000044|off=0x85F|max=20|FIXED_SLOT] CllctInfonSkyPrtl
+[000045|off=0x88F|max=20|FIXED_SLOT] Find the Sky Portal
+[000046|off=0x8BF|max=20|FIXED_SLOT] To Coelraum
+[000047|off=0x8EF|max=20|FIXED_SLOT] Find Merhen
+[000048|off=0x91F|max=20|FIXED_SLOT] Doors of Dimension
+[000049|off=0x94F|max=20|FIXED_SLOT] Collect Sky Crystal
+[000050|off=0x97F|max=20|FIXED_SLOT] Final Inspection
+[000051|off=0x9AF|max=20|FIXED_SLOT] Demon Tribe Castle
+[000052|off=0x9DF|max=20|FIXED_SLOT] Frontal Charge
+[000053|off=0xA0F|max=20|FIXED_SLOT] Destroy Ladon
+[000054|off=0xA3F|max=20|FIXED_SLOT] Return to Others
+[000055|off=0xA6F|max=20|FIXED_SLOT] Trs, Dvl Tribe King
+[000056|off=0xA9F|max=20|FIXED_SLOT] Cmbn Scr. Instrctn
+[000057|off=0xACF|max=20|FIXED_SLOT] Network Instruction
+[000058|off=0xAFF|max=20|FIXED_SLOT] Prsn with Lost Mmry
+[000059|off=0xB2F|max=20|FIXED_SLOT] Need Frwd (Repeat)
+[000060|off=0xB5F|max=20|FIXED_SLOT] Firm Body
+[000061|off=0xB8F|max=20|FIXED_SLOT] Bulked-Up Body
+[000062|off=0xBBF|max=20|FIXED_SLOT] Lost Dog
+[000063|off=0xBEF|max=20|FIXED_SLOT] Hotdog's Return
+[000064|off=0xC1F|max=20|FIXED_SLOT] Song of Hero
+[000065|off=0xC4F|max=20|FIXED_SLOT] Urgent Matter
+[000066|off=0xC7F|max=20|FIXED_SLOT] Story about Fairies
+[000067|off=0xCAF|max=20|FIXED_SLOT] Find Fertilizer
+[000068|off=0xCDF|max=20|FIXED_SLOT] Showdown
+[000069|off=0xD0F|max=20|FIXED_SLOT] Find Mithril
+[000070|off=0xD3F|max=20|FIXED_SLOT] Dcrtn Fairy (Repeat)
+[000071|off=0xD6F|max=20|FIXED_SLOT] Find Orcons (Repeat)
+[000072|off=0xD9F|max=20|FIXED_SLOT] Dark Mrchnt's Rqst
+[000073|off=0xDCF|max=20|FIXED_SLOT] Doctor Z's Request 1
+[000074|off=0xDFF|max=20|FIXED_SLOT] Doctor Z's Request 2
+[000075|off=0xE2F|max=20|FIXED_SLOT] Doctor Z's Request 3
+[000076|off=0xE5F|max=20|FIXED_SLOT] Langue's Treasure
+[000077|off=0xE8F|max=20|FIXED_SLOT] Find Family Tree
+[000078|off=0xEBF|max=20|FIXED_SLOT] Collect Relic
+[000079|off=0xEEF|max=20|FIXED_SLOT] Collect Relic (Rpt)
+[000080|off=0xF1F|max=20|FIXED_SLOT] Doctor Z's Request 4
+[000081|off=0xF4F|max=20|FIXED_SLOT] Doctor Z's Request 5
+[000082|off=0xF7F|max=20|FIXED_SLOT] Legendary Tiger Ball
+[000083|off=0xFAF|max=20|FIXED_SLOT] Lost Book
+[000084|off=0xFDF|max=20|FIXED_SLOT] Dlcs Food (Repeat)
+[000085|off=0x100F|max=20|FIXED_SLOT] Recover Health
+[000086|off=0x103F|max=20|FIXED_SLOT] Disappeared Brother
+[000087|off=0x106F|max=20|FIXED_SLOT] News of Brother
+[000088|off=0x109F|max=20|FIXED_SLOT] Rumor
+[000089|off=0x10CF|max=20|FIXED_SLOT] Lonely Franken
+[000090|off=0x10FF|max=20|FIXED_SLOT] Help Franken
+[000091|off=0x112F|max=20|FIXED_SLOT] Hot Lava
+[000092|off=0x115F|max=20|FIXED_SLOT] Hot Refining
+[000093|off=0x118F|max=20|FIXED_SLOT] Doctor Z's Request 6
+[000094|off=0x11BF|max=20|FIXED_SLOT] Doctor Z's Request 7
+[000095|off=0x11EF|max=20|FIXED_SLOT] Collapsed Scholar
+[000096|off=0x121F|max=20|FIXED_SLOT] Lost Soldier
+[000097|off=0x124F|max=20|FIXED_SLOT] Don't Mess Garden
+[000098|off=0x127F|max=20|FIXED_SLOT] Fallen Wing (Repeat)

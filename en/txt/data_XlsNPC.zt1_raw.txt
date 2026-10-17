@@ -1,0 +1,143 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsNPC.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x18|max=12|FIXED_SLOT] NULL
+[000001|off=0x31|max=12|FIXED_SLOT] Lu
+[000002|off=0x4A|max=12|FIXED_SLOT] Ecne
+[000003|off=0x63|max=12|FIXED_SLOT] Morpice
+[000004|off=0x7C|max=12|FIXED_SLOT] Zavkiel
+[000005|off=0x95|max=12|FIXED_SLOT] Grandpa
+[000006|off=0xAE|max=12|FIXED_SLOT] Town Kid
+[000007|off=0xC7|max=12|FIXED_SLOT] Jade
+[000008|off=0xE0|max=12|FIXED_SLOT] Samson
+[000009|off=0xF9|max=12|FIXED_SLOT] Trsr Hunter
+[000010|off=0x112|max=12|FIXED_SLOT] Baker
+[000011|off=0x12B|max=12|FIXED_SLOT] Zealous
+[000012|off=0x144|max=12|FIXED_SLOT] Townie
+[000013|off=0x15D|max=12|FIXED_SLOT] Townie
+[000014|off=0x176|max=12|FIXED_SLOT] Eddie
+[000015|off=0x18F|max=12|FIXED_SLOT] Zavkiel
+[000016|off=0x1A8|max=12|FIXED_SLOT] Amos
+[000017|off=0x1C1|max=12|FIXED_SLOT] Karin
+[000018|off=0x1DA|max=12|FIXED_SLOT] Royal Sldr
+[000019|off=0x1F3|max=12|FIXED_SLOT] Royal Sldr
+[000020|off=0x20C|max=12|FIXED_SLOT] Guard
+[000021|off=0x225|max=12|FIXED_SLOT] Guard Sldrs
+[000022|off=0x23E|max=12|FIXED_SLOT] Inn Owner
+[000023|off=0x257|max=12|FIXED_SLOT] Weapons
+[000024|off=0x270|max=12|FIXED_SLOT] Armor
+[000025|off=0x289|max=12|FIXED_SLOT] Items
+[000026|off=0x2A2|max=12|FIXED_SLOT] Blacksmith
+[000027|off=0x2BB|max=12|FIXED_SLOT] Inn Owner
+[000028|off=0x2D4|max=12|FIXED_SLOT] Weapons
+[000029|off=0x2ED|max=12|FIXED_SLOT] Armor
+[000030|off=0x306|max=12|FIXED_SLOT] Items
+[000031|off=0x31F|max=12|FIXED_SLOT] Blcksmth Ivl
+[000032|off=0x338|max=12|FIXED_SLOT] Lindaman
+[000033|off=0x351|max=12|FIXED_SLOT] Monica
+[000034|off=0x36A|max=12|FIXED_SLOT] Langue
+[000035|off=0x383|max=12|FIXED_SLOT] Parole
+[000036|off=0x39C|max=12|FIXED_SLOT] Lepe
+[000037|off=0x3B5|max=12|FIXED_SLOT] Townie1
+[000038|off=0x3CE|max=12|FIXED_SLOT] Lisa
+[000039|off=0x3E7|max=12|FIXED_SLOT] Cmbtnt Trn
+[000040|off=0x400|max=12|FIXED_SLOT] Onlooker
+[000041|off=0x419|max=12|FIXED_SLOT] Drgn Master
+[000042|off=0x432|max=12|FIXED_SLOT] Lex
+[000043|off=0x44B|max=12|FIXED_SLOT] Blue Gem
+[000044|off=0x464|max=12|FIXED_SLOT] Dark Ninja
+[000045|off=0x47D|max=12|FIXED_SLOT] Terry
+[000046|off=0x496|max=12|FIXED_SLOT] Strng Eqpmnt
+[000047|off=0x4AF|max=12|FIXED_SLOT] Treasure Box
+[000048|off=0x4C8|max=12|FIXED_SLOT] Deodore
+[000049|off=0x4E1|max=12|FIXED_SLOT] Gold Golem
+[000050|off=0x4FA|max=12|FIXED_SLOT] Yellow Gem
+[000051|off=0x513|max=12|FIXED_SLOT] Big Irn Door
+[000052|off=0x52C|max=12|FIXED_SLOT] Brpr Thf Cln
+[000053|off=0x545|max=12|FIXED_SLOT] Chief Brpr
+[000054|off=0x55E|max=12|FIXED_SLOT] Sky Portal
+[000055|off=0x577|max=12|FIXED_SLOT] Pelton
+[000056|off=0x590|max=12|FIXED_SLOT] Yellow Door
+[000057|off=0x5A9|max=12|FIXED_SLOT] Dark Mrchnt
+[000058|off=0x5C2|max=12|FIXED_SLOT] Dark Mrchnt
+[000059|off=0x5DB|max=12|FIXED_SLOT] Dark Mrchnt
+[000060|off=0x5F4|max=12|FIXED_SLOT] Sonian
+[000061|off=0x60D|max=12|FIXED_SLOT] Asra
+[000062|off=0x626|max=12|FIXED_SLOT] Valencia
+[000063|off=0x63F|max=12|FIXED_SLOT] Elisa
+[000064|off=0x658|max=12|FIXED_SLOT] Chief Mntrs
+[000065|off=0x671|max=12|FIXED_SLOT] 
+[000066|off=0x68A|max=12|FIXED_SLOT] Cptn Guards
+[000067|off=0x6A3|max=12|FIXED_SLOT] Green Gem
+[000068|off=0x6BC|max=12|FIXED_SLOT] Worn Sign
+[000069|off=0x6D5|max=12|FIXED_SLOT] Treasure Box
+[000070|off=0x6EE|max=12|FIXED_SLOT] Bereren
+[000071|off=0x707|max=12|FIXED_SLOT] Red Gem
+[000072|off=0x720|max=12|FIXED_SLOT] Riddle Man
+[000073|off=0x739|max=12|FIXED_SLOT] Merhen
+[000074|off=0x752|max=12|FIXED_SLOT] Paul
+[000075|off=0x76B|max=12|FIXED_SLOT] Ladon
+[000076|off=0x784|max=12|FIXED_SLOT] Sky Guardian
+[000077|off=0x79D|max=12|FIXED_SLOT] Sky Official
+[000078|off=0x7B6|max=12|FIXED_SLOT] Townie
+[000079|off=0x7CF|max=12|FIXED_SLOT] Tiaris
+[000080|off=0x7E8|max=12|FIXED_SLOT] Sky Portal
+[000081|off=0x801|max=12|FIXED_SLOT] Two Way Prtl
+[000082|off=0x81A|max=12|FIXED_SLOT] Network Gal
+[000083|off=0x833|max=12|FIXED_SLOT] Portal Guide
+[000084|off=0x84C|max=12|FIXED_SLOT] Arena Offcl
+[000085|off=0x865|max=12|FIXED_SLOT] Weapons
+[000086|off=0x87E|max=12|FIXED_SLOT] Armors
+[000087|off=0x897|max=12|FIXED_SLOT] Item Mrchnt
+[000088|off=0x8B0|max=12|FIXED_SLOT] Inn Assstnt
+[000089|off=0x8C9|max=12|FIXED_SLOT] Pigeon
+[000090|off=0x8E2|max=12|FIXED_SLOT] Hotdog
+[000091|off=0x8FB|max=12|FIXED_SLOT] Jessica
+[000092|off=0x914|max=12|FIXED_SLOT] Lora
+[000093|off=0x92D|max=12|FIXED_SLOT] Anthony
+[000094|off=0x946|max=12|FIXED_SLOT] Lepe Revival
+[000095|off=0x95F|max=12|FIXED_SLOT] MrtlArtsTrn
+[000096|off=0x978|max=12|FIXED_SLOT] Seneal
+[000097|off=0x991|max=12|FIXED_SLOT] Ordelia
+[000098|off=0x9AA|max=12|FIXED_SLOT] Anna
+[000099|off=0x9C3|max=12|FIXED_SLOT] Mr Muscle
+[000100|off=0x9DC|max=12|FIXED_SLOT] Mimi
+[000101|off=0x9F5|max=12|FIXED_SLOT] Troubadour
+[000102|off=0xA0E|max=12|FIXED_SLOT] Story Teller
+[000103|off=0xA27|max=12|FIXED_SLOT] Strng Device
+[000104|off=0xA40|max=12|FIXED_SLOT] Airis
+[000105|off=0xA59|max=12|FIXED_SLOT] Hawker
+[000106|off=0xA72|max=12|FIXED_SLOT] Yosep
+[000107|off=0xA8B|max=12|FIXED_SLOT] Sspcs Safe
+[000108|off=0xAA4|max=12|FIXED_SLOT] Cains
+[000109|off=0xABD|max=12|FIXED_SLOT] Doctor Z
+[000110|off=0xAD6|max=12|FIXED_SLOT] Terry
+[000111|off=0xAEF|max=12|FIXED_SLOT] Indy
+[000112|off=0xB08|max=12|FIXED_SLOT] Brooks
+[000113|off=0xB21|max=12|FIXED_SLOT] Mary
+[000114|off=0xB3A|max=12|FIXED_SLOT] Guillaume
+[000115|off=0xB53|max=12|FIXED_SLOT] Yuri
+[000116|off=0xB6C|max=12|FIXED_SLOT] Franken
+[000117|off=0xB85|max=12|FIXED_SLOT] Marly
+[000118|off=0xB9E|max=12|FIXED_SLOT] Earth
+[000119|off=0xBB7|max=12|FIXED_SLOT] Lucky
+[000120|off=0xBD0|max=12|FIXED_SLOT] Michael
+[000121|off=0xBE9|max=12|FIXED_SLOT] Kabshiel
+[000122|off=0xC02|max=12|FIXED_SLOT] Brian
+[000123|off=0xC1B|max=12|FIXED_SLOT] Lina
+[000124|off=0xC34|max=12|FIXED_SLOT] Maria
+[000125|off=0xC4D|max=12|FIXED_SLOT] Alfred
+[000126|off=0xC66|max=12|FIXED_SLOT] Blcksmth Ikn
+[000127|off=0xC7F|max=12|FIXED_SLOT] Honey
+[000128|off=0xC98|max=12|FIXED_SLOT] Iri
+[000129|off=0xCB1|max=12|FIXED_SLOT] Portal Guide
+[000130|off=0xCCA|max=12|FIXED_SLOT] Network Gal
+[000131|off=0xCE3|max=12|FIXED_SLOT] Dark Mrchnt
+[000132|off=0xCFC|max=12|FIXED_SLOT] Warning Sign
+[000133|off=0xD15|max=12|FIXED_SLOT] Warning Sign
+[000134|off=0xD2E|max=12|FIXED_SLOT] Warning Sign

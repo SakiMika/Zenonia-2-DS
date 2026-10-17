@@ -1,0 +1,164 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsMap.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x19|max=15|FIXED_SLOT] NULL
+[000001|off=0x37|max=15|FIXED_SLOT] BsmntPrsnDvCstl
+[000002|off=0x55|max=15|FIXED_SLOT] Sth Bsmnt Prsn
+[000003|off=0x73|max=15|FIXED_SLOT] CntrlBsmntPrsn
+[000004|off=0x91|max=15|FIXED_SLOT] Nrth Bsmnt Prsn
+[000005|off=0xAF|max=15|FIXED_SLOT] Town Deva Cstl
+[000006|off=0xCD|max=15|FIXED_SLOT] Grt Hll Dv Cstl
+[000007|off=0xEB|max=15|FIXED_SLOT] DvCstlRrEntrnc
+[000008|off=0x109|max=15|FIXED_SLOT] West Deva Woods
+[000009|off=0x127|max=15|FIXED_SLOT] Cntrl Deva Wds
+[000010|off=0x145|max=15|FIXED_SLOT] East Deva Woods
+[000011|off=0x163|max=15|FIXED_SLOT] Town of Iris
+[000012|off=0x181|max=15|FIXED_SLOT] Skylight Lake
+[000013|off=0x19F|max=15|FIXED_SLOT] South Iris
+[000014|off=0x1BD|max=15|FIXED_SLOT] North Iris
+[000015|off=0x1DB|max=15|FIXED_SLOT] Deva Wds Entrnc
+[000016|off=0x1F9|max=15|FIXED_SLOT] Deva Woods Pssg
+[000017|off=0x217|max=15|FIXED_SLOT] Hghlnds Entrnc
+[000018|off=0x235|max=15|FIXED_SLOT] Mid Highlands
+[000019|off=0x253|max=15|FIXED_SLOT] Hghlnds Summit
+[000020|off=0x271|max=15|FIXED_SLOT] Lk Ruin Entrnc
+[000021|off=0x28F|max=15|FIXED_SLOT] North Laka Ruin
+[000022|off=0x2AD|max=15|FIXED_SLOT] Cntrl Laka Ruin
+[000023|off=0x2CB|max=15|FIXED_SLOT] West Laka Ruin
+[000024|off=0x2E9|max=15|FIXED_SLOT] East Laka Ruin
+[000025|off=0x307|max=15|FIXED_SLOT] Golden Temple 1
+[000026|off=0x325|max=15|FIXED_SLOT] Golden Temple 2
+[000027|off=0x343|max=15|FIXED_SLOT] Golden Temple 3
+[000028|off=0x361|max=15|FIXED_SLOT] Golden Temple 4
+[000029|off=0x37F|max=15|FIXED_SLOT] Golden Temple 5
+[000030|off=0x39D|max=15|FIXED_SLOT] Golden Temple 6
+[000031|off=0x3BB|max=15|FIXED_SLOT] Golden Temple 7
+[000032|off=0x3D9|max=15|FIXED_SLOT] Golden Temple 8
+[000033|off=0x3F7|max=15|FIXED_SLOT] Golden Temple 9
+[000034|off=0x415|max=15|FIXED_SLOT] Frosty Dngn 1
+[000035|off=0x433|max=15|FIXED_SLOT] Frosty Dngn 2
+[000036|off=0x451|max=15|FIXED_SLOT] Frosty Dngn 3
+[000037|off=0x46F|max=15|FIXED_SLOT] Frosty Dngn 4
+[000038|off=0x48D|max=15|FIXED_SLOT] Frosty Dngn 5
+[000039|off=0x4AB|max=15|FIXED_SLOT] Frosty Dngn 6
+[000040|off=0x4C9|max=15|FIXED_SLOT] Frosty Dngn 7
+[000041|off=0x4E7|max=15|FIXED_SLOT] Frosty Dngn 8
+[000042|off=0x505|max=15|FIXED_SLOT] Frosty Dngn 9
+[000043|off=0x523|max=15|FIXED_SLOT] Frosty Dngn 10
+[000044|off=0x541|max=15|FIXED_SLOT] Lk Ruin Bsmnt 1
+[000045|off=0x55F|max=15|FIXED_SLOT] Lk Ruin Bsmnt 2
+[000046|off=0x57D|max=15|FIXED_SLOT] Lk Ruin Bsmnt 3
+[000047|off=0x59B|max=15|FIXED_SLOT] Lk Ruin Bsmnt 4
+[000048|off=0x5B9|max=15|FIXED_SLOT] Lk Ruin Bsmnt 5
+[000049|off=0x5D7|max=15|FIXED_SLOT] Town of Barpore
+[000050|off=0x5F5|max=15|FIXED_SLOT] Barpore Dungeon
+[000051|off=0x613|max=15|FIXED_SLOT] Brpr Dungeon 1F
+[000052|off=0x631|max=15|FIXED_SLOT] Brpr Dungeon 2F
+[000053|off=0x64F|max=15|FIXED_SLOT] 1st Laboratory
+[000054|off=0x66D|max=15|FIXED_SLOT] 2nd Laboratory
+[000055|off=0x68B|max=15|FIXED_SLOT] 3rd Laboratory
+[000056|off=0x6A9|max=15|FIXED_SLOT] 4th Laboratory
+[000057|off=0x6C7|max=15|FIXED_SLOT] 5th Laboratory
+[000058|off=0x6E5|max=15|FIXED_SLOT] 6th Laboratory
+[000059|off=0x703|max=15|FIXED_SLOT] 7th Laboratory
+[000060|off=0x721|max=15|FIXED_SLOT] Volcano Passage
+[000061|off=0x73F|max=15|FIXED_SLOT] Teradore Area 1
+[000062|off=0x75D|max=15|FIXED_SLOT] Teradore Area 2
+[000063|off=0x77B|max=15|FIXED_SLOT] Teradore Area 3
+[000064|off=0x799|max=15|FIXED_SLOT] Teradore Area 4
+[000065|off=0x7B7|max=15|FIXED_SLOT] Crusis Vlcn 1
+[000066|off=0x7D5|max=15|FIXED_SLOT] Crusis Vlcn 2
+[000067|off=0x7F3|max=15|FIXED_SLOT] Crusis Vlcn 3
+[000068|off=0x811|max=15|FIXED_SLOT] Crusis Vlcn 4
+[000069|off=0x82F|max=15|FIXED_SLOT] Crusis Vlcn 5
+[000070|off=0x84D|max=15|FIXED_SLOT] Volcano Bsmnt
+[000071|off=0x86B|max=15|FIXED_SLOT] Vlcn Bsmnt Nrth
+[000072|off=0x889|max=15|FIXED_SLOT] Rvvl Dungeon 1
+[000073|off=0x8A7|max=15|FIXED_SLOT] Rvvl Dungeon 2
+[000074|off=0x8C5|max=15|FIXED_SLOT] Rvvl Dungeon 3
+[000075|off=0x8E3|max=15|FIXED_SLOT] Rvvl Dungeon 4
+[000076|off=0x901|max=15|FIXED_SLOT] Rvvl Dungeon 5
+[000077|off=0x91F|max=15|FIXED_SLOT] Rvvl Dungeon 6
+[000078|off=0x93D|max=15|FIXED_SLOT] Rvvl Dungeon 7
+[000079|off=0x95B|max=15|FIXED_SLOT] Rvvl Dungeon 8
+[000080|off=0x979|max=15|FIXED_SLOT] Rvvl Dungeon 9
+[000081|off=0x997|max=15|FIXED_SLOT] Rvvl Dungeon 10
+[000082|off=0x9B5|max=15|FIXED_SLOT] Rvvl Dungeon 11
+[000083|off=0x9D3|max=15|FIXED_SLOT] East Iris 1
+[000084|off=0x9F1|max=15|FIXED_SLOT] East Iris 2
+[000085|off=0xA0F|max=15|FIXED_SLOT] Sky Portal
+[000086|off=0xA2D|max=15|FIXED_SLOT] Coelraum
+[000087|off=0xA4B|max=15|FIXED_SLOT] Skyfield 1
+[000088|off=0xA69|max=15|FIXED_SLOT] Skyfield 2
+[000089|off=0xA87|max=15|FIXED_SLOT] Skyfield 3
+[000090|off=0xAA5|max=15|FIXED_SLOT] Skyfield 4
+[000091|off=0xAC3|max=15|FIXED_SLOT] DmnKng'sCstl1F
+[000092|off=0xAE1|max=15|FIXED_SLOT] DmnKng'sCstl2F
+[000093|off=0xAFF|max=15|FIXED_SLOT] DmnKng'sCstl3F
+[000094|off=0xB1D|max=15|FIXED_SLOT] DmnKng'sCstl4F
+[000095|off=0xB3B|max=15|FIXED_SLOT] DmnKng'sCstl5F
+[000096|off=0xB59|max=15|FIXED_SLOT] Frontyard Pub
+[000097|off=0xB77|max=15|FIXED_SLOT] Town Prisoners
+[000098|off=0xB95|max=15|FIXED_SLOT] Deep Deva Woods
+[000099|off=0xBB3|max=15|FIXED_SLOT] Ecne Event
+[000100|off=0xBD1|max=15|FIXED_SLOT] Item Shop
+[000101|off=0xBEF|max=15|FIXED_SLOT] Equipment Store
+[000102|off=0xC0D|max=15|FIXED_SLOT] Blacksmith
+[000103|off=0xC2B|max=15|FIXED_SLOT] Inn
+[000104|off=0xC49|max=15|FIXED_SLOT] Ordelia's House
+[000105|off=0xC67|max=15|FIXED_SLOT] Anna's House
+[000106|off=0xC85|max=15|FIXED_SLOT] Equipment Store
+[000107|off=0xCA3|max=15|FIXED_SLOT] Blacksmith
+[000108|off=0xCC1|max=15|FIXED_SLOT] Inn 1F
+[000109|off=0xCDF|max=15|FIXED_SLOT] Lina's House
+[000110|off=0xCFD|max=15|FIXED_SLOT] Item Shop
+[000111|off=0xD1B|max=15|FIXED_SLOT] Equipment Store
+[000112|off=0xD39|max=15|FIXED_SLOT] Blacksmith
+[000113|off=0xD57|max=15|FIXED_SLOT] Inn
+[000114|off=0xD75|max=15|FIXED_SLOT] Equipment Store
+[000115|off=0xD93|max=15|FIXED_SLOT] Blacksmith
+[000116|off=0xDB1|max=15|FIXED_SLOT] Inn
+[000117|off=0xDCF|max=15|FIXED_SLOT] Blacksmith
+[000118|off=0xDED|max=15|FIXED_SLOT] Deva Cstl's Pub
+[000119|off=0xE0B|max=15|FIXED_SLOT] Ecne's House
+[000120|off=0xE29|max=15|FIXED_SLOT] Pb's Bsmnt Safe
+[000121|off=0xE47|max=15|FIXED_SLOT] Twr Tm Uppr Flr
+[000122|off=0xE65|max=15|FIXED_SLOT] Eddy's Pub
+[000123|off=0xE83|max=15|FIXED_SLOT] Monica's House
+[000124|off=0xEA1|max=15|FIXED_SLOT] FrstyDngnEntrnc
+[000125|off=0xEBF|max=15|FIXED_SLOT] Inn 2F
+[000126|off=0xEDD|max=15|FIXED_SLOT] Item Shop
+[000127|off=0xEFB|max=15|FIXED_SLOT] Terry's House
+[000128|off=0xF19|max=15|FIXED_SLOT] Sspcs House
+[000129|off=0xF37|max=15|FIXED_SLOT] Airis' House
+[000130|off=0xF55|max=15|FIXED_SLOT] Ordinary House
+[000131|off=0xF73|max=15|FIXED_SLOT] Chf Brpr's Hs
+[000132|off=0xF91|max=15|FIXED_SLOT] Goblem's Prison
+[000133|off=0xFAF|max=15|FIXED_SLOT] Sspcs House
+[000134|off=0xFCD|max=15|FIXED_SLOT] Archngl's Offc
+[000135|off=0xFEB|max=15|FIXED_SLOT] Item Shop
+[000136|off=0x1009|max=15|FIXED_SLOT] Ordinary House
+[000137|off=0x1027|max=15|FIXED_SLOT] Ordinary House
+[000138|off=0x1045|max=15|FIXED_SLOT] Vlcnc Dungeon
+[000139|off=0x1063|max=15|FIXED_SLOT] Insd Dmnsn Crcl
+[000140|off=0x1081|max=15|FIXED_SLOT] Indoor Map
+[000141|off=0x109F|max=15|FIXED_SLOT] Indoor Map
+[000142|off=0x10BD|max=15|FIXED_SLOT] Indoor Map
+[000143|off=0x10DB|max=15|FIXED_SLOT] Indoor Map
+[000144|off=0x10F9|max=15|FIXED_SLOT] Indoor Map
+[000145|off=0x1117|max=15|FIXED_SLOT] Deep Frsty Dngn
+[000146|off=0x1135|max=15|FIXED_SLOT] GldnTmplGrndFlr
+[000147|off=0x1153|max=15|FIXED_SLOT] Barpore Lbrtry
+[000148|off=0x1171|max=15|FIXED_SLOT] Vlcn's Grnd Zr
+[000149|off=0x118F|max=15|FIXED_SLOT] RvvlDngn'ScrtRm
+[000150|off=0x11AD|max=15|FIXED_SLOT] Ladon's Room
+[000151|off=0x11CB|max=15|FIXED_SLOT] 4th Dmnsnl Spc
+[000152|off=0x11E9|max=15|FIXED_SLOT] Deva Cstl Arena
+[000153|off=0x1207|max=15|FIXED_SLOT] Iris Arena
+[000154|off=0x1225|max=15|FIXED_SLOT] Barpore Arena
+[000155|off=0x1243|max=15|FIXED_SLOT] Coelraum Arena

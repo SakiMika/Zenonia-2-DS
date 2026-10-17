@@ -1,0 +1,143 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsChar.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x30|max=12|FIXED_SLOT] Unset
+[000001|off=0x6A|max=12|FIXED_SLOT] Scout Lime
+[000002|off=0xA4|max=12|FIXED_SLOT] Infntry Lime
+[000003|off=0xDE|max=12|FIXED_SLOT] Info Lime
+[000004|off=0x118|max=12|FIXED_SLOT] Royal Sldr
+[000005|off=0x152|max=12|FIXED_SLOT] Royal Guard
+[000006|off=0x18C|max=12|FIXED_SLOT] Dark Soldier
+[000007|off=0x1C6|max=12|FIXED_SLOT] Dark Slime
+[000008|off=0x200|max=12|FIXED_SLOT] Ash Slime
+[000009|off=0x23A|max=12|FIXED_SLOT] Hell Slime
+[000010|off=0x274|max=12|FIXED_SLOT] Lime
+[000011|off=0x2AE|max=12|FIXED_SLOT] Mad Lime
+[000012|off=0x2E8|max=12|FIXED_SLOT] Lala Lime
+[000013|off=0x322|max=12|FIXED_SLOT] Elder Wood
+[000014|off=0x35C|max=12|FIXED_SLOT] Elder Ant
+[000015|off=0x396|max=12|FIXED_SLOT] Elder Wood
+[000016|off=0x3D0|max=12|FIXED_SLOT] Mukaka
+[000017|off=0x40A|max=12|FIXED_SLOT] Mad Mukaka
+[000018|off=0x444|max=12|FIXED_SLOT] Mukaka
+[000019|off=0x47E|max=12|FIXED_SLOT] Poison Plant
+[000020|off=0x4B8|max=12|FIXED_SLOT] Cuss Plant
+[000021|off=0x4F2|max=12|FIXED_SLOT] Poison Plant
+[000022|off=0x52C|max=12|FIXED_SLOT] Lizardman
+[000023|off=0x566|max=12|FIXED_SLOT] Mad Lzrdmn
+[000024|off=0x5A0|max=12|FIXED_SLOT] Lizardman
+[000025|off=0x5DA|max=12|FIXED_SLOT] Pengki Boom
+[000026|off=0x614|max=12|FIXED_SLOT] Mad Pngk Bm
+[000027|off=0x64E|max=12|FIXED_SLOT] Pengki Boom
+[000028|off=0x688|max=12|FIXED_SLOT] Satyr
+[000029|off=0x6C2|max=12|FIXED_SLOT] Blue Satyr
+[000030|off=0x6FC|max=12|FIXED_SLOT] Red Satyr
+[000031|off=0x736|max=12|FIXED_SLOT] Snow Shati
+[000032|off=0x770|max=12|FIXED_SLOT] Blue Shati
+[000033|off=0x7AA|max=12|FIXED_SLOT] Violet Shati
+[000034|off=0x7E4|max=12|FIXED_SLOT] Highland Orc
+[000035|off=0x81E|max=12|FIXED_SLOT] War Orc
+[000036|off=0x858|max=12|FIXED_SLOT] Grey Orc
+[000037|off=0x892|max=12|FIXED_SLOT] Ice Ghost
+[000038|off=0x8CC|max=12|FIXED_SLOT] Cursed Ghost
+[000039|off=0x906|max=12|FIXED_SLOT] Poison Ghost
+[000040|off=0x940|max=12|FIXED_SLOT] Ice Zombie
+[000041|off=0x97A|max=12|FIXED_SLOT] Blood Zombie
+[000042|off=0x9B4|max=12|FIXED_SLOT] Drknss Zmb
+[000043|off=0x9EE|max=12|FIXED_SLOT] Ice Merman
+[000044|off=0xA28|max=12|FIXED_SLOT] Fshr Merman
+[000045|off=0xA62|max=12|FIXED_SLOT] Blood Merman
+[000046|off=0xA9C|max=12|FIXED_SLOT] Drgn Master
+[000047|off=0xAD6|max=12|FIXED_SLOT] DrgnBlckMstr
+[000048|off=0xB10|max=12|FIXED_SLOT] Drgn Master
+[000049|off=0xB4A|max=12|FIXED_SLOT] Thief Clan
+[000050|off=0xB84|max=12|FIXED_SLOT] Brpr Thf Cln
+[000051|off=0xBBE|max=12|FIXED_SLOT] Thief Clan
+[000052|off=0xBF8|max=12|FIXED_SLOT] Saleck
+[000053|off=0xC32|max=12|FIXED_SLOT] Mad Saleck
+[000054|off=0xC6C|max=12|FIXED_SLOT] Saleck
+[000055|off=0xCA6|max=12|FIXED_SLOT] Slobber
+[000056|off=0xCE0|max=12|FIXED_SLOT] Mad Slobber
+[000057|off=0xD1A|max=12|FIXED_SLOT] Slobber
+[000058|off=0xD54|max=12|FIXED_SLOT] Scorpion
+[000059|off=0xD8E|max=12|FIXED_SLOT] Scorfireon
+[000060|off=0xDC8|max=12|FIXED_SLOT] Scorpion
+[000061|off=0xE02|max=12|FIXED_SLOT] Trickster
+[000062|off=0xE3C|max=12|FIXED_SLOT] Drgn Trckstr
+[000063|off=0xE76|max=12|FIXED_SLOT] Trickster
+[000064|off=0xEB0|max=12|FIXED_SLOT] GrvRbbrSprt
+[000065|off=0xEEA|max=12|FIXED_SLOT] Guard Spirit
+[000066|off=0xF24|max=12|FIXED_SLOT] GrvRbbrSprt
+[000067|off=0xF5E|max=12|FIXED_SLOT] Desert Mummy
+[000068|off=0xF98|max=12|FIXED_SLOT] Poison Mummy
+[000069|off=0xFD2|max=12|FIXED_SLOT] Blood Mummy
+[000070|off=0x100C|max=12|FIXED_SLOT] Golden Guard
+[000071|off=0x1046|max=12|FIXED_SLOT] Black Guard
+[000072|off=0x1080|max=12|FIXED_SLOT] Golden Guard
+[000073|off=0x10BA|max=12|FIXED_SLOT] Stone Face
+[000074|off=0x10F4|max=12|FIXED_SLOT] Devil Face
+[000075|off=0x112E|max=12|FIXED_SLOT] Master Dmnsn
+[000076|off=0x1168|max=12|FIXED_SLOT] Brpr Goblin
+[000077|off=0x11A2|max=12|FIXED_SLOT] Blood Goblin
+[000078|off=0x11DC|max=12|FIXED_SLOT] Brpr Goblin
+[000079|off=0x1216|max=12|FIXED_SLOT] Robo Knight
+[000080|off=0x1250|max=12|FIXED_SLOT] Skell Knight
+[000081|off=0x128A|max=12|FIXED_SLOT] Devil Knight
+[000082|off=0x12C4|max=12|FIXED_SLOT] Trp Mchn Gun
+[000083|off=0x12FE|max=12|FIXED_SLOT] SnsrMchnGun
+[000084|off=0x1338|max=12|FIXED_SLOT] Trp Mchn Gun
+[000085|off=0x1372|max=12|FIXED_SLOT] Robot Ogre
+[000086|off=0x13AC|max=12|FIXED_SLOT] Devil Ogre
+[000087|off=0x13E6|max=12|FIXED_SLOT] Robot Ogre
+[000088|off=0x1420|max=12|FIXED_SLOT] Fisherman Mi
+[000089|off=0x145A|max=12|FIXED_SLOT] StrngFshrmMi
+[000090|off=0x1494|max=12|FIXED_SLOT] Fisherman Mi
+[000091|off=0x14CE|max=12|FIXED_SLOT] Kllng Mchn V
+[000092|off=0x1508|max=12|FIXED_SLOT] Kllng Mchn R
+[000093|off=0x1542|max=12|FIXED_SLOT] Kllng Mchn P
+[000094|off=0x157C|max=12|FIXED_SLOT] Buffalo
+[000095|off=0x15B6|max=12|FIXED_SLOT] Bffl Cmbtnt
+[000096|off=0x15F0|max=12|FIXED_SLOT] Buffalo War.
+[000097|off=0x162A|max=12|FIXED_SLOT] Fire Boom
+[000098|off=0x1664|max=12|FIXED_SLOT] Flame Boom
+[000099|off=0x169E|max=12|FIXED_SLOT] Fire Boom
+[000100|off=0x16D8|max=12|FIXED_SLOT] Flame Walk
+[000101|off=0x1712|max=12|FIXED_SLOT] Jabber Walk
+[000102|off=0x174C|max=12|FIXED_SLOT] Jabber Walk
+[000103|off=0x1786|max=12|FIXED_SLOT] Lava Golem
+[000104|off=0x17C0|max=12|FIXED_SLOT] Hell Golem
+[000105|off=0x17FA|max=12|FIXED_SLOT] Lava Golem
+[000106|off=0x1834|max=12|FIXED_SLOT] Red Eye
+[000107|off=0x186E|max=12|FIXED_SLOT] Evil Eye
+[000108|off=0x18A8|max=12|FIXED_SLOT] Evil Eye
+[000109|off=0x18E2|max=12|FIXED_SLOT] Devil Mon
+[000110|off=0x191C|max=12|FIXED_SLOT] Ground Devil
+[000111|off=0x1956|max=12|FIXED_SLOT] Ground Devil
+[000112|off=0x1990|max=12|FIXED_SLOT] Dark Angel
+[000113|off=0x19CA|max=12|FIXED_SLOT] Death Angel
+[000114|off=0x1A04|max=12|FIXED_SLOT] Death Angel
+[000115|off=0x1A3E|max=12|FIXED_SLOT] Blood Sword
+[000116|off=0x1A78|max=12|FIXED_SLOT] Devil Sword
+[000117|off=0x1AB2|max=12|FIXED_SLOT] Shadow Night
+[000118|off=0x1AEC|max=12|FIXED_SLOT] Unused
+[000119|off=0x1B26|max=12|FIXED_SLOT] Lex
+[000120|off=0x1B60|max=12|FIXED_SLOT] Lex
+[000121|off=0x1B9A|max=12|FIXED_SLOT] Deodore
+[000122|off=0x1BD4|max=12|FIXED_SLOT] Golden Golem
+[000123|off=0x1C0E|max=12|FIXED_SLOT] Sonian
+[000124|off=0x1C48|max=12|FIXED_SLOT] Bereren
+[000125|off=0x1C82|max=12|FIXED_SLOT] Zavkiel
+[000126|off=0x1CBC|max=12|FIXED_SLOT] Ladon
+[000127|off=0x1CF6|max=12|FIXED_SLOT] Ladon
+[000128|off=0x1D30|max=12|FIXED_SLOT] Tiaris
+[000129|off=0x1D6A|max=12|FIXED_SLOT] Golem Dmnsn
+[000130|off=0x1DA4|max=12|FIXED_SLOT] Golem Cnfsn
+[000131|off=0x1DDE|max=12|FIXED_SLOT] Golem Destr.
+[000132|off=0x1E18|max=12|FIXED_SLOT] Golem Heaven
+[000133|off=0x1E52|max=12|FIXED_SLOT] Devil Golem
+[000134|off=0x1E8C|max=12|FIXED_SLOT] Golem Heaven

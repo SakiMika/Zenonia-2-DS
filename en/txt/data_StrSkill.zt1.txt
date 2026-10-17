@@ -1,0 +1,87 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrSkill.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=42] Destroy enemy through shield dash attack.
+[000001|nul=1|len=38] Shield and attack enemy with a sword.
+[000002|nul=1|len=48] Recover life momentarily through a holy prayer.
+[000003|nul=1|len=33] Attack enemy with a sharp sword.
+[000004|nul=1|len=43] Damage by screaming and frightening enemy.
+[000005|nul=1|len=56] Reduce damage with the protection of the shield of god.
+[000006|nul=1|len=38] Increase defense and decrease attack.
+[000007|nul=1|len=22] Reflect enemy damage.
+[000008|nul=1|len=29] Restore HP for a fixed time.
+[000009|nul=1|len=27] Rapidly increase movement.
+[000010|nul=1|len=58] Summon light of sword and attack enemy with sword's rain.
+[000011|nul=1|len=29] Increase attacking elements.
+[000012|nul=1|len=19] Increase accuracy.
+[000013|nul=1|len=17] Increase attack.
+[000014|nul=1|len=26] Increase critical attack.
+[000015|nul=1|len=18] Increase defense.
+[000016|nul=1|len=28] Increase defensive element.
+[000017|nul=1|len=45] Increase defense through strengthened power.
+[000018|nul=1|len=36] Increase defense of defensive gear.
+[000019|nul=1|len=29] Evade and attack in mid-air.
+[000020|nul=1|len=44] Attack with flame thrower, bleeding damage.
+[000021|nul=1|len=39] Bombard enemy with penetration attack.
+[000022|nul=1|len=42] Confuse momentarily with a blinding shot.
+[000023|nul=1|len=32] Lure enemy to fight each other.
+[000024|nul=1|len=25] Perform critical attack.
+[000025|nul=1|len=49] Decrease defense to increase attack probability.
+[000026|nul=1|len=33] Increase evade for a fixed time.
+[000027|nul=1|len=36] Blind enemy and attack from hiding.
+[000028|nul=1|len=54] Increase attack and critical attack for a fixed time.
+[000029|nul=1|len=40] Jump skywards and fire to poison enemy.
+[000030|nul=1|len=30] Increase chance of knockdown.
+[000031|nul=1|len=17] Increase attack.
+[000032|nul=1|len=19] Increase accuracy.
+[000033|nul=1|len=26] Increase critical attack.
+[000034|nul=1|len=18] Increase defense.
+[000035|nul=1|len=39] Increase defense of attacking element.
+[000036|nul=1|len=16] Increase evade.
+[000037|nul=1|len=31] Increase evade due to agility.
+[000038|nul=1|len=43] Increase splash attack of vision fireball.
+[000039|nul=1|len=39] Attack enemy by a strong tornado wind.
+[000040|nul=1|len=60] Summon and drop neighboring glacier. Reduce enemy movement.
+[000041|nul=1|len=40] Mutate enemy to frogs for a fixed time.
+[000042|nul=1|len=51] Summon neighboring flames of hell to attack enemy.
+[000043|nul=1|len=26] Summon fighters to fight.
+[000044|nul=1|len=32] Energy damage for a fixed time.
+[000045|nul=1|len=26] Convert health to energy.
+[000046|nul=1|len=55] Increase fighters attack and defense for a fixed time.
+[000047|nul=1|len=47] Small amount of SP will be consumed for skill.
+[000048|nul=1|len=43] Summon thunderstorm to attack all enemies.
+[000049|nul=1|len=28] Increase attacking element.
+[000050|nul=1|len=17] Increase attack.
+[000051|nul=1|len=19] Increase accuracy.
+[000052|nul=1|len=36] Increase attack rate due to energy.
+[000053|nul=1|len=39] Increase defense of attacking element.
+[000054|nul=1|len=18] Increase defense.
+[000055|nul=1|len=34] Increase recovery rate of energy.
+[000056|nul=1|len=35] Increase evade rate due to energy.
+[000057|nul=1|len=35] Attack enemy with strong uppercut.
+[000058|nul=1|len=49] Explode energy to puzzle enemy for a fixed time.
+[000059|nul=1|len=60] Reduce gap and launch a claw attack. Enemy will be stunned.
+[000060|nul=1|len=30] Perform rotating kick attack.
+[000061|nul=1|len=38] Spinning attack causing flame damage.
+[000062|nul=1|len=52] Hand attack. Enemy will be stunned at a fixed rate.
+[000063|nul=1|len=55] Use skills by using HP instead of SP for a fixed time.
+[000064|nul=1|len=44] Immune from confusion, slow, stun and numb.
+[000065|nul=1|len=55] Increase attack and decrease defense for a fixed time.
+[000066|nul=1|len=43] Decrease skill cool time for a fixed time.
+[000067|nul=1|len=46] Make a clone to attack all enemies on screen.
+[000068|nul=1|len=17] Increase attack.
+[000069|nul=1|len=26] Increase critical attack.
+[000070|nul=1|len=45] Increase critical attack rate due to health.
+[000071|nul=1|len=37] Increase total damage due to health.
+[000072|nul=1|len=43] Increase defense due to attacking element.
+[000073|nul=1|len=18] Increase defense.
+[000074|nul=1|len=16] Increase evade.
+[000075|nul=1|len=34] Increase HP rate due to strength.
+[000076|nul=1|len=52] Explode light form energy through inner connection.
+[000077|nul=1|len=15] Increase gold.
+[000078|nul=1|len=14] Increase EXP.

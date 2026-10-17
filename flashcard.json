@@ -1,0 +1,39 @@
+{
+  "stage": 2,
+  "mode": "External FAT directory; no embedded game and no runtime ZIP reader",
+  "card_layout": [
+    "/Zenonia 2 DS Runner.nds",
+    "/zenonia2nds/binary.mod",
+    "/zenonia2nds/data/",
+    "/zenonia2nds/menu/",
+    "/zenonia2nds/sound/",
+    "/zenonia2nds/(other original assets)"
+  ],
+  "build": "devkitPro/devkitARM + libnds + libfat. Run build.bat or make. No game files needed at build time.",
+  "prepare": "Use preparegame.py v2.1. Open ZIP/JAR, select a language, optionally Check Error, then Create Game Folder. Copy zenonia2nds/ to the flashcard root.",
+  "resources": "All native game assets and optional runner_audio cache resolve under the one selected /zenonia2nds/ directory; no fallback to embedded ROM files.",
+  "save": "Existing ZKR1.sav remains outside the game directory on FAT; replacing prepared assets does not overwrite this save.",
+  "supported": "Known Zenonia 2 LGT WIPI ARM layout and language variants only; existing per-game compatibility hooks retained.",
+  "not_yet_verified": [
+    "Full ARM compilation in this environment (devkitARM absent)",
+    "DS Fat/R4 or DSi hardware execution of this new build"
+  ],
+  "tests": "bash tests/run_flashcard_tests.sh; other historical native tests need user-supplied game fixtures.",
+  "prepare_cli": [
+    "python preparegame.py",
+    "python preparegame.py --card-root \"E:/\""
+  ],
+  "language_switch": "Selecting a language replaces zenonia2nds/; compatible translations do not require recompiling the NDS.",
+  "old_rom": "Older NitroFS-based NDS builds do not read this folder. Build the new runner first.",
+  "optional_audio": "The tool exports original assets only. Optional runner_audio/title108.zpc can be regenerated with tools/render_title_pcm.py after preparing zenonia2nds/. Missing cache uses the existing synth fallback.",
+  "preparegame_version": "2.1.0",
+  "english": "en/ is included beside Makefile. Place preparegame.py beside Makefile to use it. Existing edits are never overwritten.",
+  "translation_check": "Check Error only validates translations and writes error.txt when errors exist. KR is the original language and skips translation validation.",
+  "rom_name": {
+    "filename": "Zenonia 2 DS Runner.nds",
+    "banner_title": "Zenonia 2 DS Runner",
+    "header_title_12_bytes": "ZENONIA2 DS ",
+    "game_code": "####",
+    "game_code_changed": false
+  }
+}

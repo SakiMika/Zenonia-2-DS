@@ -1,0 +1,106 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrQuestComplete.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=27] I've been waiting for you.
+[000001|nul=1|len=19] It's finally here!
+[000002|nul=1|len=11] Thank you!
+[000003|nul=1|len=17] Now you're here!
+[000004|nul=1|len=5] Hmm.
+[000005|nul=1|len=9] Welcome.
+[000006|nul=1|len=8] Thanks.
+[000007|nul=1|len=19] Lepe! You're safe.
+[000008|nul=1|len=10] Good job.
+[000009|nul=1|len=17] Ah, you're back.
+[000010|nul=1|len=23] You're safe and sound.
+[000011|nul=1|len=23] Finally the first gem.
+[000012|nul=1|len=23] Good job. Take a rest.
+[000013|nul=1|len=9] Welcome.
+[000014|nul=1|len=18] What do you want?
+[000015|nul=1|len=19] Suspicious person?
+[000016|nul=1|len=27] You've captured the thief!
+[000017|nul=1|len=13] You're here.
+[000018|nul=1|len=13] Who are you?
+[000019|nul=1|len=17] Oh! You're safe.
+[000020|nul=1|len=10] Good job.
+[000021|nul=1|len=9] The gem!
+[000022|nul=1|len=16] The second gem.
+[000023|nul=1|len=22] Let's return to town.
+[000024|nul=1|len=17] Ah, you're here.
+[000025|nul=1|len=22] Take good care of me.
+[000026|nul=1|len=17] Are you worried?
+[000027|nul=1|len=15] Are you ready?
+[000028|nul=1|len=14] Here already?
+[000029|nul=1|len=8] Sonian!
+[000030|nul=1|len=11] Watch out!
+[000031|nul=1|len=15] The third gem.
+[000032|nul=1|len=13] You're safe.
+[000033|nul=1|len=14] Ah! It's you.
+[000034|nul=1|len=16] Lisa's message.
+[000035|nul=1|len=21] You're finally here!
+[000036|nul=1|len=28] The collection is complete.
+[000037|nul=1|len=24] Arrival at Deva Castle!
+[000038|nul=1|len=11] Great job.
+[000039|nul=1|len=9] Zealous?
+[000040|nul=1|len=11] Well done.
+[000041|nul=1|len=21] The ceremony failed.
+[000042|nul=1|len=9] Succeed?
+[000043|nul=1|len=15] What happened?
+[000044|nul=1|len=12] Sky portal?
+[000045|nul=1|len=7] Human?
+[000046|nul=1|len=9] Welcome.
+[000047|nul=1|len=19] I've been waiting.
+[000048|nul=1|len=22] The whole collection.
+[000049|nul=1|len=15] Are you ready?
+[000050|nul=1|len=21] Ladon will be there.
+[000051|nul=1|len=25] Hold on a little longer.
+[000052|nul=1|len=28] I'm not just another human!
+[000053|nul=1|len=14] You're here!!
+[000054|nul=1|len=9] Tiaris!!
+[000055|nul=1|len=33] Collect various combine scrolls.
+[000056|nul=1|len=37] Make sure to try the network system.
+[000057|nul=1|len=11] Thank you.
+[000058|nul=1|len=8] Thanks.
+[000059|nul=1|len=18] One two! One two!
+[000060|nul=1|len=19] Come back anytime!
+[000061|nul=1|len=27] Thanks for finding Hotdog.
+[000062|nul=1|len=35] Thanks for finding my owner. Bark!
+[000063|nul=1|len=26] Thank you for finding it.
+[000064|nul=1|len=29] Phew, that was a close call.
+[000065|nul=1|len=31] It's important to know others.
+[000066|nul=1|len=8] Thanks.
+[000067|nul=1|len=11] Well done.
+[000068|nul=1|len=18] Oh! These are it!
+[000069|nul=1|len=8] Thanks.
+[000070|nul=1|len=18] Oh! These are it!
+[000071|nul=1|len=19] Thank you , human.
+[000072|nul=1|len=11] Well done.
+[000073|nul=1|len=11] Well done.
+[000074|nul=1|len=11] Well done.
+[000075|nul=1|len=23] Thanks for finding it.
+[000076|nul=1|len=15] Found at last.
+[000077|nul=1|len=22] Relics are priceless.
+[000078|nul=1|len=22] Relics are priceless.
+[000079|nul=1|len=11] Well done.
+[000080|nul=1|len=11] Well done.
+[000081|nul=1|len=23] Thanks for finding it.
+[000082|nul=1|len=20] You found the book!
+[000083|nul=1|len=7] Tasty.
+[000084|nul=1|len=8] Thanks.
+[000085|nul=1|len=6] Yuri.
+[000086|nul=1|len=9] Brother!
+[000087|nul=1|len=19] Franken... Hungry.
+[000088|nul=1|len=21] Franken... Thankful.
+[000089|nul=1|len=8] Thanks.
+[000090|nul=1|len=14] You found it!
+[000091|nul=1|len=11] Well done.
+[000092|nul=1|len=11] Well done.
+[000093|nul=1|len=11] Well done.
+[000094|nul=1|len=20] I feel much better.
+[000095|nul=1|len=23] Now I can return home!
+[000096|nul=1|len=11] Well done.
+[000097|nul=1|len=8] Thanks.

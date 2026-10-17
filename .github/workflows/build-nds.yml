@@ -1,0 +1,68 @@
+name: Build Flashcard WIPI Runner
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    container:
+      image: devkitpro/devkitarm:latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check toolchain
+        run: |
+          set -euo pipefail
+          export DEVKITPRO="${DEVKITPRO:-/opt/devkitpro}"
+          export DEVKITARM="${DEVKITARM:-$DEVKITPRO/devkitARM}"
+          export PATH="$DEVKITARM/bin:$DEVKITPRO/tools/bin:$PATH"
+          test -f "$DEVKITARM/ds_rules" || { echo 'Missing ds_rules: install nds-dev in devkitPro image'; exit 1; }
+          command -v arm-none-eabi-g++
+          command -v ndstool
+          arm-none-eabi-g++ --version | head -n 1
+
+      - name: Build ROM and capture log
+        run: |
+          export DEVKITPRO="${DEVKITPRO:-/opt/devkitpro}"
+          export DEVKITARM="${DEVKITARM:-$DEVKITPRO/devkitARM}"
+          export PATH="$DEVKITARM/bin:$DEVKITPRO/tools/bin:$PATH"
+          set -o pipefail
+          make clean 2>&1 | tee clean.log
+          make -j2 2>&1 | tee last_build.log
+
+      - name: Verify ROM
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          roms = list(Path('.').glob('*.nds'))
+          assert len(roms) == 1, f'Expected one NDS ROM, got: {roms}'
+          rom = roms[0]
+          data = rom.read_bytes()
+          assert len(data) >= 128*1024 and len(data) & (len(data)-1) == 0, 'Invalid ROM capacity'
+          assert int.from_bytes(data[0x4c:0x50], 'little') == 0, 'Embedded payload detected'
+          assert data[12:16] == b'####', f'Unexpected game code: {data[12:16]!r}'
+          assert int.from_bytes(data[0x20:0x24], 'little') == 0x8000, 'Unexpected ARM9 offset'
+          print(f'Verified: {rom} ({len(data):,} bytes)')
+          PYCODE
+
+      - name: Upload ROM and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: WIPI-Runner-Flashcard-${{ github.run_number }}
+          path: |
+            *.nds
+            last_build.log
+            clean.log
+          if-no-files-found: warn
+          retention-days: 30

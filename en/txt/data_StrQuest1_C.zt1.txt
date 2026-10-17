@@ -1,0 +1,143 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrQuest1_C.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=7] Unused
+[000001|nul=1|len=1] 
+[000002|nul=1|len=1] 
+[000003|nul=1|len=1] 
+[000004|nul=1|len=1] 
+[000005|nul=1|len=1] 
+[000006|nul=1|len=1] 
+[000007|nul=1|len=1] 
+[000008|nul=1|len=1] 
+[000009|nul=1|len=1] 
+[000010|nul=1|len=49] It's fun collecting different combining scrolls.
+[000011|nul=1|len=1] 
+[000012|nul=1|len=1] 
+[000013|nul=1|len=1] 
+[000014|nul=1|len=1] 
+[000015|nul=1|len=32] The gems must be found quickly.
+[000016|nul=1|len=1] 
+[000017|nul=1|len=45] It would be good if you could find the gems.
+[000018|nul=1|len=1] 
+[000019|nul=1|len=1] 
+[000020|nul=1|len=1] 
+[000021|nul=1|len=1] 
+[000022|nul=1|len=1] 
+[000023|nul=1|len=1] 
+[000024|nul=1|len=1] 
+[000025|nul=1|len=1] 
+[000026|nul=1|len=1] 
+[000027|nul=1|len=1] 
+[000028|nul=1|len=1] 
+[000029|nul=1|len=1] 
+[000030|nul=1|len=1] 
+[000031|nul=1|len=1] 
+[000032|nul=1|len=1] 
+[000033|nul=1|len=1] 
+[000034|nul=1|len=48] Thank you for finding this precious possession.
+[000035|nul=1|len=1] 
+[000036|nul=1|len=1] 
+[000037|nul=1|len=1] 
+[000038|nul=1|len=1] 
+[000039|nul=1|len=1] 
+[000040|nul=1|len=1] 
+[000041|nul=1|len=1] 
+[000042|nul=1|len=1] 
+[000043|nul=1|len=1] 
+[000044|nul=1|len=1] 
+[000045|nul=1|len=1] 
+[000046|nul=1|len=36] A greedy person will pay the price.
+[000047|nul=1|len=49] Oh! It's you again. The warrior from the ground!
+[000048|nul=1|len=1] 
+[000049|nul=1|len=1] 
+[000050|nul=1|len=1] 
+[000051|nul=1|len=1] 
+[000052|nul=1|len=1] 
+[000053|nul=1|len=20] Stop Doctor Sonian!
+[000054|nul=1|len=1] 
+[000055|nul=1|len=1] 
+[000056|nul=1|len=1] 
+[000057|nul=1|len=1] 
+[000058|nul=1|len=1] 
+[000059|nul=1|len=1] 
+[000060|nul=1|len=1] 
+[000061|nul=1|len=1] 
+[000062|nul=1|len=1] 
+[000063|nul=1|len=1] 
+[000064|nul=1|len=1] 
+[000065|nul=1|len=1] 
+[000066|nul=1|len=1] 
+[000067|nul=1|len=1] 
+[000068|nul=1|len=123] The lair of the Dragon Tribe is at central Crusis Volcano.!NHead towards Crusis Volcano!!NP.S Get a move on, NOW! - Lisa -
+[000069|nul=1|len=1] 
+[000070|nul=1|len=1] 
+[000071|nul=1|len=1] 
+[000072|nul=1|len=1] 
+[000073|nul=1|len=47] When will the war against the Devil Tribe end?
+[000074|nul=1|len=1] 
+[000075|nul=1|len=1] 
+[000076|nul=1|len=1] 
+[000077|nul=1|len=1] 
+[000078|nul=1|len=1] 
+[000079|nul=1|len=1] 
+[000080|nul=1|len=1] 
+[000081|nul=1|len=1] 
+[000082|nul=1|len=1] 
+[000083|nul=1|len=1] 
+[000084|nul=1|len=1] 
+[000085|nul=1|len=1] 
+[000086|nul=1|len=1] 
+[000087|nul=1|len=1] 
+[000088|nul=1|len=1] 
+[000089|nul=1|len=1] 
+[000090|nul=1|len=15] Thanks! *Bark*
+[000091|nul=1|len=1] 
+[000092|nul=1|len=1] 
+[000093|nul=1|len=1] 
+[000094|nul=1|len=1] 
+[000095|nul=1|len=1] 
+[000096|nul=1|len=26] Come here doggy! Hotdog!!
+[000097|nul=1|len=50] I hope that father can soon recover his memories.
+[000098|nul=1|len=20] Thanks for helping!
+[000099|nul=1|len=1] 
+[000100|nul=1|len=17] Hurry up Hotdog!
+[000101|nul=1|len=41] If you could also become someone's wind.
+[000102|nul=1|len=42] It's important to get to know each other.
+[000103|nul=1|len=1] 
+[000104|nul=1|len=59] It would be great if the flowers started to blossom again.
+[000105|nul=1|len=40] That should knock some sense into them!
+[000106|nul=1|len=1] 
+[000107|nul=1|len=15] Nobody's here!
+[000108|nul=1|len=1] 
+[000109|nul=1|len=1] 
+[000110|nul=1|len=1] 
+[000111|nul=1|len=1] 
+[000112|nul=1|len=38] Good books can be read over and over.
+[000113|nul=1|len=1] 
+[000114|nul=1|len=43] Ha ha. Feels like my youth is coming back!
+[000115|nul=1|len=9] Brother.
+[000116|nul=1|len=35] Me, Franken. Remember you, thanks.
+[000117|nul=1|len=65] It's good to know that the monster's identity has been revealed.
+[000118|nul=1|len=80] Phew, now we're safe. How did I get here?!NBut sometimes it's best not to know.
+[000119|nul=1|len=1] 
+[000120|nul=1|len=44] My garden is recognized as a fabulous spot.
+[000121|nul=1|len=62] The chains between the Devil Tribe will eventually be broken.
+[000122|nul=1|len=1] 
+[000123|nul=1|len=1] 
+[000124|nul=1|len=1] 
+[000125|nul=1|len=1] 
+[000126|nul=1|len=1] 
+[000127|nul=1|len=31] Be careful! It isn't over yet!
+[000128|nul=1|len=9] Brother.
+[000129|nul=1|len=55] The sky portal is not available. Wait till it's fixed.
+[000130|nul=1|len=1] 
+[000131|nul=1|len=1] 
+[000132|nul=1|len=1] 
+[000133|nul=1|len=1] 
+[000134|nul=1|len=1] 

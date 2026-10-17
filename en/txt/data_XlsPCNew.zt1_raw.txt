@@ -1,0 +1,16 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsPCNew.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x1E|max=8|FIXED_SLOT] Lu
+[000001|off=0x27|max=8|FIXED_SLOT] Paladin
+[000002|off=0x42|max=8|FIXED_SLOT] Ecne
+[000003|off=0x4B|max=8|FIXED_SLOT] Shooter
+[000004|off=0x66|max=8|FIXED_SLOT] Morpice
+[000005|off=0x6F|max=8|FIXED_SLOT] Magician
+[000006|off=0x8A|max=8|FIXED_SLOT] Daza
+[000007|off=0x93|max=8|FIXED_SLOT] Warrior

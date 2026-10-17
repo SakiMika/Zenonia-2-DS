@@ -1,0 +1,85 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrTip.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=62] Customize combos by combining a basic combo and skill attack.
+[000001|nul=1|len=63] Strength affects attack, defense, weight and Paladin's attack.
+[000002|nul=1|len=82] Agility affects critical attack rate, evade rate, precision and shooter's attack.
+[000003|nul=1|len=62] Stamina affects total HP, recovery rate and warrior's attack.
+[000004|nul=1|len=66] Energy affects total energy, recovery rate and magician's attack.
+[000005|nul=1|len=42] Attacking attributes affect enemy damage.
+[000006|nul=1|len=63] Accuracy attributes reduce enemy evasion to increase accuracy.
+[000007|nul=1|len=56] Critical attributes are probability of critical attack.
+[000008|nul=1|len=41] Higher defense level will reduce damage.
+[000009|nul=1|len=69] Higher evade level will increase the chance of evading enemy attack.
+[000010|nul=1|len=53] Skills are separated into active and passive skills.
+[000011|nul=1|len=62] Flame attributes inflict constant 'bleeding' damage to enemy.
+[000012|nul=1|len=52] Frosty attributes inflict a 'slow' effect on enemy.
+[000013|nul=1|len=52] Divine attributes inflict a 'stun' effect on enemy.
+[000014|nul=1|len=59] Darkness attributes inflict a 'confusion' effect on enemy.
+[000015|nul=1|len=52] Attribute attacks only affect main and sub weapons.
+[000016|nul=1|len=45] Items can increase resistance of attributes.
+[000017|nul=1|len=75] Items are classified into 5 classes; normal, magic, rare, epic and unique.
+[000018|nul=1|len=57] Set items compose of main, sub weapon, helmet and armor.
+[000019|nul=1|len=47] Special items are only available in hard mode.
+[000020|nul=1|len=59] Combining and refining can only be done at the blacksmith.
+[000021|nul=1|len=62] Refining and combining supplements increase the success rate.
+[000022|nul=1|len=78] Using another strengthening stone replaces the previous strengthening effect.
+[000023|nul=1|len=50] Strengthening stones improve an item's abilities.
+[000024|nul=1|len=47] Talk to a Network NPC to use network services.
+[000025|nul=1|len=56] Network services let you send mail or gifts to friends.
+[000026|nul=1|len=62] Time passes when travelling between maps and talking to NPCs.
+[000027|nul=1|len=54] Cool time exists between potion and food consumption.
+[000028|nul=1|len=59] Towns can be designated to move using the teleport scroll.
+[000029|nul=1|len=51] Resting at the inn will restore HP, SP and hunger.
+[000030|nul=1|len=71] Certain places require placement of moving rocks to activate switches.
+[000031|nul=1|len=50] Consume food to minimize penalty on the SP gauge.
+[000032|nul=1|len=73] Equipments can be repaired with the repair hammer and at the blacksmith.
+[000033|nul=1|len=33] Traps can be avoided by dashing.
+[000034|nul=1|len=50] Movement is slowed when weight has been exceeded.
+[000035|nul=1|len=57] Gold is automatically acquired through killing monsters.
+[000036|nul=1|len=67] Color of names represent different level of character and monster.
+[000037|nul=1|len=50] Use the origin of life to revive without penalty.
+[000038|nul=1|len=38] Minimap cannot be opened in dungeons.
+[000039|nul=1|len=68] Teleport scrolls and save function cannot be used in the boss room.
+[000040|nul=1|len=78] Location must be set, to move between destinations using the teleport scroll.
+[000041|nul=1|len=56] Do not be surprised if your friends envy your progress!
+[000042|nul=1|len=60] Item combine supplements can be purchased at the item shop.
+[000043|nul=1|len=50] Bosses are more resistant than ordinary monsters.
+[000044|nul=1|len=33] HP and SP recover automatically.
+[000045|nul=1|len=48] Winning an arena PvP battle may reward an item.
+[000046|nul=1|len=65] Puzzles within the dungeon can be solved with a little thinking.
+[000047|nul=1|len=36] Boxes reveal items at a fixed rate.
+[000048|nul=1|len=57] The fairy sync gauge accumulates after killing monsters.
+[000049|nul=1|len=58] A flashing hammer icon warns of low equipment durability.
+[000050|nul=1|len=47] The time is displayed in the upper-screen HUD.
+[000051|nul=1|len=43] Monsters may flee when their HP decreases.
+[000052|nul=1|len=45] Monsters may call for backup when in danger.
+[000053|nul=1|len=97] Reviving without the origin of life will incur penalties and restart at the entrance of the map.
+[000054|nul=1|len=54] Monsters may use a higher level of skill than stated.
+[000055|nul=1|len=36] Being hit removes the numbed state.
+[000056|nul=1|len=32] Cannot move in a stunned state.
+[000057|nul=1|len=31] Bleeding state will reduce HP.
+[000058|nul=1|len=29] Cannot dash in a slow state.
+[000059|nul=1|len=58] Dark merchant appears at specific times during the night.
+[000060|nul=1|len=72] Teleport scrolls can only be used when a destination has been selected.
+[000061|nul=1|len=46] Press the CALL key during play to quick-save.
+[000062|nul=1|len=32] Certain terrain can be crawled.
+[000063|nul=1|len=62] Some traps can't be solved through puzzles. Examine the area.
+[000064|nul=1|len=34] Certain areas will cause sliding.
+[000065|nul=1|len=57] Visit NPCs inside the town's houses to begin sub quests.
+[000066|nul=1|len=47] The hoe's durability diminishes with each use.
+[000067|nul=1|len=50] Even distribution of stat points can win battles.
+[000068|nul=1|len=80] Specials items can be purchased from the dark merchant, who appears at the inn.
+[000069|nul=1|len=55] Carry plenty of potions before entering the boss room.
+[000070|nul=1|len=51] Two way portal opens a door of dimensional travel.
+[000071|nul=1|len=50] Combining creates items of Magic grade or higher.
+[000072|nul=1|len=52] Skills are categorized into hunting and PVP skills.
+[000073|nul=1|len=67] Don't forget to set a return destination when entering a new town.
+[000074|nul=1|len=49] Combined items are stronger than ordinary items.
+[000075|nul=1|len=53] Get in the habit of organizing your inventory items!
+[000076|nul=1|len=40] Hoes can be purchased at the item shop.

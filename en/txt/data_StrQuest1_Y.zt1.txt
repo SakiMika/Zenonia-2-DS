@@ -1,0 +1,143 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/StrQuest1_Y.zt1
+# type=GST_REPOINT
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|nul=1|len=7] Unused
+[000001|nul=1|len=1] 
+[000002|nul=1|len=1] 
+[000003|nul=1|len=1] 
+[000004|nul=1|len=1] 
+[000005|nul=1|len=1] 
+[000006|nul=1|len=71] I shall master swordsmanship! I will protect the people from monsters!
+[000007|nul=1|len=1] 
+[000008|nul=1|len=1] 
+[000009|nul=1|len=64] You have one shot in life! One opportunity to seize the moment!
+[000010|nul=1|len=30] Try some freshly baked bread!
+[000011|nul=1|len=5] Hmm.
+[000012|nul=1|len=94] Zavkiel is a fine person. Without the four warriors around, he is the only dependable person.
+[000013|nul=1|len=53] Something's not right these days. It feels very odd.
+[000014|nul=1|len=1] 
+[000015|nul=1|len=1] 
+[000016|nul=1|len=1] 
+[000017|nul=1|len=1] 
+[000018|nul=1|len=27] This is a prohibited area!
+[000019|nul=1|len=38] Especially to a person like yourself!
+[000020|nul=1|len=1] 
+[000021|nul=1|len=1] 
+[000022|nul=1|len=1] 
+[000023|nul=1|len=1] 
+[000024|nul=1|len=1] 
+[000025|nul=1|len=1] 
+[000026|nul=1|len=1] 
+[000027|nul=1|len=1] 
+[000028|nul=1|len=1] 
+[000029|nul=1|len=1] 
+[000030|nul=1|len=1] 
+[000031|nul=1|len=1] 
+[000032|nul=1|len=31] The irons are urgently needed.
+[000033|nul=1|len=46] I'm Monica, the elder of the Town of Fairies.
+[000034|nul=1|len=49] Where are you?!NIf only you could come and help.
+[000035|nul=1|len=36] You seem different to other humans.
+[000036|nul=1|len=13] Please help!
+[000037|nul=1|len=64] Isn't the Town of Iris is beautiful? I'm sure everybody agrees.
+[000038|nul=1|len=1] 
+[000039|nul=1|len=1] 
+[000040|nul=1|len=1] 
+[000041|nul=1|len=1] 
+[000042|nul=1|len=1] 
+[000043|nul=1|len=1] 
+[000044|nul=1|len=1] 
+[000045|nul=1|len=55] A place overflowing with gold, that's where I must go.
+[000046|nul=1|len=1] 
+[000047|nul=1|len=48] This is Coelraum, the town of the Devine Tribe.
+[000048|nul=1|len=1] 
+[000049|nul=1|len=1] 
+[000050|nul=1|len=1] 
+[000051|nul=1|len=1] 
+[000052|nul=1|len=1] 
+[000053|nul=1|len=29] This is the Town of Barpore.
+[000054|nul=1|len=1] 
+[000055|nul=1|len=1] 
+[000056|nul=1|len=1] 
+[000057|nul=1|len=1] 
+[000058|nul=1|len=1] 
+[000059|nul=1|len=1] 
+[000060|nul=1|len=1] 
+[000061|nul=1|len=1] 
+[000062|nul=1|len=1] 
+[000063|nul=1|len=1] 
+[000064|nul=1|len=1] 
+[000065|nul=1|len=1] 
+[000066|nul=1|len=1] 
+[000067|nul=1|len=1] 
+[000068|nul=1|len=1] 
+[000069|nul=1|len=1] 
+[000070|nul=1|len=1] 
+[000071|nul=1|len=1] 
+[000072|nul=1|len=1] 
+[000073|nul=1|len=33] I have a bad feeling about this.
+[000074|nul=1|len=1] 
+[000075|nul=1|len=1] 
+[000076|nul=1|len=36] This is a holy place! Move quietly!
+[000077|nul=1|len=64] It's been a long time since I saw a human. What's the occasion?
+[000078|nul=1|len=96] Are you human? How did you get here? It's been over a hundred years since the last one visited.
+[000079|nul=1|len=1] 
+[000080|nul=1|len=1] 
+[000081|nul=1|len=1] 
+[000082|nul=1|len=1] 
+[000083|nul=1|len=1] 
+[000084|nul=1|len=1] 
+[000085|nul=1|len=1] 
+[000086|nul=1|len=1] 
+[000087|nul=1|len=1] 
+[000088|nul=1|len=1] 
+[000089|nul=1|len=1] 
+[000090|nul=1|len=13] *Bark, bark*
+[000091|nul=1|len=1] 
+[000092|nul=1|len=1] 
+[000093|nul=1|len=1] 
+[000094|nul=1|len=1] 
+[000095|nul=1|len=1] 
+[000096|nul=1|len=35] It's got be around here somewhere.
+[000097|nul=1|len=24] Where has father gone!?
+[000098|nul=1|len=37] I'm worried about my husband's back.
+[000099|nul=1|len=67] One two, one two. A toned up body! A man has got to have strength!
+[000100|nul=1|len=27] Where's that tasty Hotdog?
+[000101|nul=1|len=49] Musical instrument is like gold to a troubadour.
+[000102|nul=1|len=41] I collect stories from around the world.
+[000103|nul=1|len=5] Woo!
+[000104|nul=1|len=32] A beautiful flower like myself?
+[000105|nul=1|len=22] That lousy lizardman!
+[000106|nul=1|len=30] Flowers are beautiful plants.
+[000107|nul=1|len=15] Nobody's here!
+[000108|nul=1|len=1] 
+[000109|nul=1|len=26] I need to make that cure.
+[000110|nul=1|len=1] 
+[000111|nul=1|len=38] A person always wastes valuable time.
+[000112|nul=1|len=27] My hobby is reading books.
+[000113|nul=1|len=38] I want to taste something to die for.
+[000114|nul=1|len=18] My body's aching.
+[000115|nul=1|len=50] Where have you gone brother?!NI miss you so much.
+[000116|nul=1|len=32] Hungry. Franken is very hungry.
+[000117|nul=1|len=33] Foreigners are rarely seen here.
+[000118|nul=1|len=37] Water! Give me water.!NI need water.
+[000119|nul=1|len=1] 
+[000120|nul=1|len=86] This place is Coelraum the ground of the heavens.!NThe only town left in the heavens.
+[000121|nul=1|len=59] There's a constant invasion of the Devil Tribe these days.
+[000122|nul=1|len=1] 
+[000123|nul=1|len=1] 
+[000124|nul=1|len=1] 
+[000125|nul=1|len=1] 
+[000126|nul=1|len=1] 
+[000127|nul=1|len=18] Don't come close!
+[000128|nul=1|len=1] 
+[000129|nul=1|len=49] This is Coelraum, the place of the Devine Tribe.
+[000130|nul=1|len=1] 
+[000131|nul=1|len=32] They are at the Frosty Dungeon.
+[000132|nul=1|len=75] !cFF3300[Monster Area]!N!cFFFFFFClimb the hills when attacked by monsters!
+[000133|nul=1|len=103] !cFF3300[Invasion Trap]!N!cFFFFFFMonsters are not permitted! !Nif you're human, use the pipe to cross.
+[000134|nul=1|len=118] !cFF9900Only the one with the key may enter!!NLook for a treasure box within the maze.!NThe fifth map holds the clue!

@@ -1,0 +1,400 @@
+{
+  "tool": "preparegame",
+  "version": 1,
+  "encoding": "cp949",
+  "files": [
+    {
+      "path": "XlsBalance.zt1",
+      "txt": "txt/XlsBalance.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "0be02b2ae918a215adc4c0c7047427208d5f47bc69b081b8dbd7898b1b223ee0"
+    },
+    {
+      "path": "binary.mod",
+      "txt": "txt/binary.mod_raw.txt",
+      "type": "BINARY_FIXED_RAW",
+      "records": 1091,
+      "source_sha256": "9fce4aced794be94176ee33838f62929927a5dade2cd334dd357444a9cec6956"
+    },
+    {
+      "path": "com/light80x50.zt1",
+      "txt": "txt/com_light80x50.zt1_raw.txt",
+      "type": "RAW_SCAN",
+      "records": 0,
+      "source_sha256": "36ea64f059b922183192498609514095fac0ccf26e7899ce51fe074007a10b0d"
+    },
+    {
+      "path": "data/StrHelp.zt1",
+      "txt": "txt/data_StrHelp.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 19,
+      "source_sha256": "9d680f91d76d62627fd19467c197515ebf58a3a1b9c763367a06efc5a492cf1a"
+    },
+    {
+      "path": "data/StrPopup.zt1",
+      "txt": "txt/data_StrPopup.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 146,
+      "source_sha256": "4d45b5656c25f7130a00ad0296facb60ea73f30e8ca3d1d79f1d16152bd10617"
+    },
+    {
+      "path": "data/StrQuest1_C.zt1",
+      "txt": "txt/data_StrQuest1_C.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "d748c6c278a7bf338f24dd5ec43df319aa45eeab1a971702882403de07157615"
+    },
+    {
+      "path": "data/StrQuest1_M.zt1",
+      "txt": "txt/data_StrQuest1_M.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "080ef9c735ad36de98b1d3460d9ad48395b4ea6e1bdad143388e7577b90af7a5"
+    },
+    {
+      "path": "data/StrQuest1_N.zt1",
+      "txt": "txt/data_StrQuest1_N.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "51af6f7e0e2d8b712517d33af2a046dddf30a87d4ba10b95b4e1a23a0d6d38c5"
+    },
+    {
+      "path": "data/StrQuest1_Y.zt1",
+      "txt": "txt/data_StrQuest1_Y.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "526079225341ae93645df5c07b438361b095b3663a5ee0f48eff45df924004b4"
+    },
+    {
+      "path": "data/StrQuest2_C.zt1",
+      "txt": "txt/data_StrQuest2_C.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "7845bcaf8b638178318f001d6097740129d715e0965d8f1ccfa1576857f28f05"
+    },
+    {
+      "path": "data/StrQuest2_M.zt1",
+      "txt": "txt/data_StrQuest2_M.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "3273ffb983b5037abdc2cfe7789602d0f72a6e8b6bef285f68b9009614973ec5"
+    },
+    {
+      "path": "data/StrQuest2_N.zt1",
+      "txt": "txt/data_StrQuest2_N.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "7e1d192618619055fc4a6267e30962fd25a948cae4672fac85da04166aadbe92"
+    },
+    {
+      "path": "data/StrQuest2_Y.zt1",
+      "txt": "txt/data_StrQuest2_Y.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "eb769daea1113be45a5bb262d6744de893f05a921dda43282fac9503266fe98a"
+    },
+    {
+      "path": "data/StrQuest3_C.zt1",
+      "txt": "txt/data_StrQuest3_C.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "e1276e4fd3706d5197283ee0d3e0c54a323a2a5efe775e1b5d69f74b88f6441b"
+    },
+    {
+      "path": "data/StrQuest3_M.zt1",
+      "txt": "txt/data_StrQuest3_M.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "0766e6fc926ab02a59703529652ed856f461724637c9a634f7b794fbbe232d5e"
+    },
+    {
+      "path": "data/StrQuest3_N.zt1",
+      "txt": "txt/data_StrQuest3_N.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "6921bc32e39c23e1ea56585e6fb9a7b393ee68291d3e9c234fcb01079665d280"
+    },
+    {
+      "path": "data/StrQuest3_Y.zt1",
+      "txt": "txt/data_StrQuest3_Y.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "5f1ff067498e83cc159926662b055a0d15ffba04d5bc3f68dfdb4518118f3c5f"
+    },
+    {
+      "path": "data/StrQuest4_C.zt1",
+      "txt": "txt/data_StrQuest4_C.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "597ba3bd9eeb87bf9ec3ef061a3c04a2c1edfc879ef48c35cb3e2aaa87b3bccd"
+    },
+    {
+      "path": "data/StrQuest4_M.zt1",
+      "txt": "txt/data_StrQuest4_M.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "ec7a88b08d3e99e8ab5083f5819f8ac506c2d0e5cbae927c2135f987c3368f55"
+    },
+    {
+      "path": "data/StrQuest4_N.zt1",
+      "txt": "txt/data_StrQuest4_N.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "ca1ac19528db6b293f9dbafdc23fed027bf9b0b8eeaf251e9df951e14fe06ae7"
+    },
+    {
+      "path": "data/StrQuest4_Y.zt1",
+      "txt": "txt/data_StrQuest4_Y.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "fc90d70ba2844bdf4d37acc26c9af3c46023edb8a9503a51ab51dadd2db84bf1"
+    },
+    {
+      "path": "data/StrQuest5_C.zt1",
+      "txt": "txt/data_StrQuest5_C.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "1c204a64ef03e729b624737c1195dce6db69ecca1b4c11df8afac8c5826dbdc0"
+    },
+    {
+      "path": "data/StrQuest5_M.zt1",
+      "txt": "txt/data_StrQuest5_M.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "420503aaca499ca44525f617fba62b63271930efd7801b4a24b626c8cd1ead6e"
+    },
+    {
+      "path": "data/StrQuest5_N.zt1",
+      "txt": "txt/data_StrQuest5_N.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "50d0a56da0ce6f02da873d912ce40b18e87da901029331cfee9bc8a42ec58f5d"
+    },
+    {
+      "path": "data/StrQuest5_Y.zt1",
+      "txt": "txt/data_StrQuest5_Y.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "d155f19d63f5bc618170ade930e8f25fb1644ffc826e5be18bec165b8bec9b46"
+    },
+    {
+      "path": "data/StrQuest6_C.zt1",
+      "txt": "txt/data_StrQuest6_C.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "e924de0900c2f5523eb57b96cdf335a270f8ebcae7c2d8181456aede9267602c"
+    },
+    {
+      "path": "data/StrQuest6_M.zt1",
+      "txt": "txt/data_StrQuest6_M.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "46c325e1531ec2eef595216bf5ca399227d079976d83c5fba6d1fba0b399dd92"
+    },
+    {
+      "path": "data/StrQuest6_N.zt1",
+      "txt": "txt/data_StrQuest6_N.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "50d0a56da0ce6f02da873d912ce40b18e87da901029331cfee9bc8a42ec58f5d"
+    },
+    {
+      "path": "data/StrQuest6_PE.zt1",
+      "txt": "txt/data_StrQuest6_PE.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 91,
+      "source_sha256": "30ba261f287126cce5b9c074d958a55812aee1f902197fb33a561abb099c52d6"
+    },
+    {
+      "path": "data/StrQuest6_PS.zt1",
+      "txt": "txt/data_StrQuest6_PS.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 91,
+      "source_sha256": "30ba261f287126cce5b9c074d958a55812aee1f902197fb33a561abb099c52d6"
+    },
+    {
+      "path": "data/StrQuest6_S.zt1",
+      "txt": "txt/data_StrQuest6_S.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 91,
+      "source_sha256": "30ba261f287126cce5b9c074d958a55812aee1f902197fb33a561abb099c52d6"
+    },
+    {
+      "path": "data/StrQuest6_Y.zt1",
+      "txt": "txt/data_StrQuest6_Y.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 135,
+      "source_sha256": "2f91c03518de9973a941b481e7e6dbd0da8269ee4efeccca711a41573970809a"
+    },
+    {
+      "path": "data/StrQuestComplete.zt1",
+      "txt": "txt/data_StrQuestComplete.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 98,
+      "source_sha256": "d03bfbcbd1751d35c2662f3029fa72ad9ac53db9049708a459f032333118e7fa"
+    },
+    {
+      "path": "data/StrQuestDetail.zt1",
+      "txt": "txt/data_StrQuestDetail.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 98,
+      "source_sha256": "bbba986b7644afa9bd59ff6392d73d5873810291e46293306ff81b2d316139cb"
+    },
+    {
+      "path": "data/StrQuestSum.zt1",
+      "txt": "txt/data_StrQuestSum.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 98,
+      "source_sha256": "077acdc9006351bf56b4a208175f2b60177f962c7f933bee08b60ada98997b49"
+    },
+    {
+      "path": "data/StrSkill.zt1",
+      "txt": "txt/data_StrSkill.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 79,
+      "source_sha256": "d59927a3f9f8aed42aa02ed46e9f90652900e5593f06585a67c83966d5b506a8"
+    },
+    {
+      "path": "data/StrTip.zt1",
+      "txt": "txt/data_StrTip.zt1.txt",
+      "type": "GST_REPOINT",
+      "records": 77,
+      "source_sha256": "76de2cdeffeb6d3f4e17e1167a5fbc7787cb48d28ae6385c2bea450c90599987"
+    },
+    {
+      "path": "data/XlsBoss.zt1",
+      "txt": "txt/data_XlsBoss.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "d72dcb9d7180bfbcacf929315d3f4c9d19481ff601aa10e614c35e2297eed08b"
+    },
+    {
+      "path": "data/XlsChar.zt1",
+      "txt": "txt/data_XlsChar.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 135,
+      "source_sha256": "2dbeba6b616b983c08560ed8f8624f4773a07a4c7d118e797cb53fe628493966"
+    },
+    {
+      "path": "data/XlsChargeItem.zt1",
+      "txt": "txt/data_XlsChargeItem.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 44,
+      "source_sha256": "6ca20b82d7582aa88f032eec976406b0a189656a52f0a84b600f1e84ff921a3b"
+    },
+    {
+      "path": "data/XlsCollection.zt1",
+      "txt": "txt/data_XlsCollection.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "d95a58f82d7152338641f9049c8f90b9d5ac419c8918ec0cecd2a86f0c0688e0"
+    },
+    {
+      "path": "data/XlsItem.zt1",
+      "txt": "txt/data_XlsItem.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 1097,
+      "source_sha256": "df860110754b74596caf97d317eaa2e5fe0125172345b53cdebd503d4670ee8e"
+    },
+    {
+      "path": "data/XlsMap.zt1",
+      "txt": "txt/data_XlsMap.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 156,
+      "source_sha256": "d8eca677fed99dff07ec40c35b50f95c7874820f5534a60631ec4facf0574896"
+    },
+    {
+      "path": "data/XlsMix.zt1",
+      "txt": "txt/data_XlsMix.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "60d41afccda25da02b6d383fa4d1f7a52594ccb08cf949d88bc9e8d8628898c5"
+    },
+    {
+      "path": "data/XlsNPC.zt1",
+      "txt": "txt/data_XlsNPC.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 135,
+      "source_sha256": "2fccf3958755c400a34040f2d97f5221c69806882ccc287a7051e65fc11e10f8"
+    },
+    {
+      "path": "data/XlsPCAction.zt1",
+      "txt": "txt/data_XlsPCAction.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "a2a72e92c69c401430f84787d1538711bcb3d3f1aab46d4bb4ff1772486027ac"
+    },
+    {
+      "path": "data/XlsPCNew.zt1",
+      "txt": "txt/data_XlsPCNew.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 8,
+      "source_sha256": "8c0197cbe601e37ff971ed97b77242effd95c5f034ee1d403eb8334fe0abd527"
+    },
+    {
+      "path": "data/XlsPCStatUp.zt1",
+      "txt": "txt/data_XlsPCStatUp.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "7a1032eef08453985bab5d4a75b91d19433ddd094627b81dcbe6b791da66d571"
+    },
+    {
+      "path": "data/XlsPVP.zt1",
+      "txt": "txt/data_XlsPVP.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "f7be8cbe061846ef2b9274b4720a5d510aac1edbd2a056a829a152da92cabbb4"
+    },
+    {
+      "path": "data/XlsParticle.zt1",
+      "txt": "txt/data_XlsParticle.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "071c7684d52d01cf45ebc7ab5fd8bc7c5be2f4b2f645223deb1ec7e91f61826c"
+    },
+    {
+      "path": "data/XlsProjectile.zt1",
+      "txt": "txt/data_XlsProjectile.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 0,
+      "source_sha256": "42ad4f84a0563476b61fe44ae0b5f73824107d61a006e1068743b3680610eaef"
+    },
+    {
+      "path": "data/XlsQUEST.zt1",
+      "txt": "txt/data_XlsQUEST.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 99,
+      "source_sha256": "6a173d5c0162468f485c95f58a6c136805fc124fe65d607a80eb988921fe777b"
+    },
+    {
+      "path": "data/XlsSetItem.zt1",
+      "txt": "txt/data_XlsSetItem.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 14,
+      "source_sha256": "00efa574316aaf9f8111b538738fa01b0ef96a2740c418654f98f328239dcaca"
+    },
+    {
+      "path": "data/XlsSkill.zt1",
+      "txt": "txt/data_XlsSkill.zt1_raw.txt",
+      "type": "GXL_FIXED",
+      "records": 109,
+      "source_sha256": "4f122dd7631cedcf07e5681cfc4285ce71f3152afd1f1abd04a5906593a1cd7f"
+    },
+    {
+      "path": "menu/Title.gui",
+      "txt": "txt/menu_Title.gui_raw.txt",
+      "type": "GUI_FIXED_RAW",
+      "records": 13,
+      "source_sha256": "1c6dc0aafeb5cf8934ee2b42c2c52cf650e7292ec3ab848706b55aea2fa760c0"
+    },
+    {
+      "path": "script/output.dlg",
+      "txt": "txt/script_output.dlg.txt",
+      "type": "TABLE32_REPOINT",
+      "records": 3394,
+      "source_sha256": "296ce654a76f4ce11a1ff5e6e221d2a027c580c184c8423c56164cf30baf4f79"
+    }
+  ],
+  "binary_sha256": "9fce4aced794be94176ee33838f62929927a5dade2cd334dd357444a9cec6956"
+}

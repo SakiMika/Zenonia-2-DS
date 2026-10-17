@@ -1,0 +1,1099 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=binary.mod
+# type=BINARY_FIXED_RAW
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x80A38|max=69|RAW|FIXED_SLOT] Only 10 self-mails allowed. Delete mail first.
+[000001|off=0x80B3C|max=68|RAW|FIXED_SLOT] Not available to LGT staff.!NContact zou@gavaplus.co.kr
+[000002|off=0x80B84|max=34|RAW|FIXED_SLOT] Update firmware before use.
+[000003|off=0x80C34|max=18|RAW|FIXED_SLOT] !C!cFFFF00Notice
+[000004|off=0x80C98|max=12|RAW|FIXED_SLOT] !CItem Shop
+[000005|off=0x80CA8|max=10|RAW|FIXED_SLOT] !CReadMail
+[000006|off=0x80CB4|max=10|RAW|FIXED_SLOT] !CSendMail
+[000007|off=0x80E94|max=5|RAW|FIXED_SLOT] Menu:
+[000008|off=0x80E9C|max=6|RAW|FIXED_SLOT] Send
+[000009|off=0x80EB0|max=52|RAW|FIXED_SLOT] !C!c80FF00Choose a gift.!NPress OK.
+[000010|off=0x80EE8|max=43|RAW|FIXED_SLOT] !cFF2F2FQuest items cannot be gifted.
+[000011|off=0x80F14|max=41|RAW|FIXED_SLOT] !cFF2F2FPaid items cannot be gifted.
+[000012|off=0x80F50|max=5|RAW|FIXED_SLOT] Close
+[000013|off=0x80F58|max=35|RAW|FIXED_SLOT] !c80FF00Select an item to buy.
+[000014|off=0x80F84|max=10|RAW|FIXED_SLOT] !CNetwork
+[000015|off=0x80F90|max=8|RAW|FIXED_SLOT] Network
+[000016|off=0x80F9C|max=10|RAW|FIXED_SLOT] !CNotice
+[000017|off=0x80FA8|max=19|RAW|FIXED_SLOT] !cFFFF00[*Rival]
+[000018|off=0x80FBC|max=15|RAW|FIXED_SLOT] !c00ff00[#Find]
+[000019|off=0x80FCC|max=47|RAW|FIXED_SLOT]  extra charge applies (data fees separate).
+[000020|off=0x80FFC|max=69|RAW|FIXED_SLOT] (Please wait while buying. Do not force quit.)
+[000021|off=0x81054|max=18|RAW|FIXED_SLOT] !cFFFF00Cash 
+[000022|off=0x81068|max=21|RAW|FIXED_SLOT] !cFFFFFFFind rival
+[000023|off=0x81080|max=14|RAW|FIXED_SLOT] !C!cFFFFFFOK
+[000024|off=0x81090|max=14|RAW|FIXED_SLOT] !C!cFFFFFFBack
+[000025|off=0x810A8|max=12|RAW|FIXED_SLOT] !C%s(Lv%d)
+[000026|off=0x810B8|max=9|RAW|FIXED_SLOT] !LATK %d
+[000027|off=0x810C4|max=9|RAW|FIXED_SLOT] !LDEF %d
+[000028|off=0x810D0|max=20|RAW|FIXED_SLOT] !C%s!N%s(Lv%d)!N%s
+[000029|off=0x81970|max=68|RAW|FIXED_SLOT] [Fatal] File size(%d) differs from header(%d)\r\n
+[000030|off=0x82145|max=6|RAW|FIXED_SLOT] to
+[000031|off=0x821F4|max=12|RAW|FIXED_SLOT] !C!cFFFFFFY
+[000032|off=0x82204|max=16|RAW|FIXED_SLOT] !C!cFFFFFFNo
+[000033|off=0x82634|max=14|RAW|FIXED_SLOT] Set Return
+[000034|off=0x82644|max=4|RAW|FIXED_SLOT] Ref.
+[000035|off=0x8264C|max=4|RAW|FIXED_SLOT] Mix
+[000036|off=0x82654|max=4|RAW|FIXED_SLOT] Fix
+[000037|off=0x8280B|max=6|RAW|FIXED_SLOT] Items
+[000038|off=0x82814|max=6|RAW|FIXED_SLOT] Skills
+[000039|off=0x8281D|max=6|RAW|FIXED_SLOT] Fairy
+[000040|off=0x82826|max=6|RAW|FIXED_SLOT] Quests
+[000041|off=0x8282F|max=6|RAW|FIXED_SLOT] System
+[000042|off=0x82838|max=6|RAW|FIXED_SLOT] Shop
+[000043|off=0x82841|max=4|RAW|FIXED_SLOT] Mix
+[000044|off=0x8284A|max=5|RAW|FIXED_SLOT] Ref.
+[000045|off=0x82853|max=8|RAW|FIXED_SLOT] Network
+[000046|off=0x8285C|max=8|RAW|FIXED_SLOT] Rival
+[000047|off=0x8286E|max=8|RAW|FIXED_SLOT] Rival
+[000048|off=0x8298C|max=18|RAW|FIXED_SLOT] !C!cFFFFFFPvP Info
+[000049|off=0x829A0|max=28|RAW|FIXED_SLOT] !C!cFFFFFFLv!NATK!NDEF
+[000050|off=0x829C0|max=19|RAW|FIXED_SLOT] !C!cFFFFFFOK:Start
+[000051|off=0x829E4|max=16|RAW|FIXED_SLOT] !C!c000000No
+[000052|off=0x82A34|max=34|RAW|FIXED_SLOT] World map unavailable here.
+[000053|off=0x82A98|max=10|RAW|FIXED_SLOT] Gold Gain
+[000054|off=0x82AA4|max=10|RAW|FIXED_SLOT] Item Drop
+[000055|off=0x82AB0|max=8|RAW|FIXED_SLOT] Move Spd
+[000056|off=0x82ABC|max=6|RAW|FIXED_SLOT] Knock
+[000057|off=0x82AC4|max=4|RAW|FIXED_SLOT] Cntr
+[000058|off=0x82ACC|max=6|RAW|FIXED_SLOT] SPLch
+[000059|off=0x82AD4|max=6|RAW|FIXED_SLOT] HPLch
+[000060|off=0x82ADC|max=10|RAW|FIXED_SLOT] Cooldown
+[000061|off=0x82AE8|max=8|RAW|FIXED_SLOT] Crit Evd
+[000062|off=0x82AF4|max=8|RAW|FIXED_SLOT] Hunger
+[000063|off=0x82B00|max=6|RAW|FIXED_SLOT] SP Reg
+[000064|off=0x82B08|max=6|RAW|FIXED_SLOT] HP Reg
+[000065|off=0x82B10|max=6|RAW|FIXED_SLOT] Max SP
+[000066|off=0x82B18|max=6|RAW|FIXED_SLOT] Max HP
+[000067|off=0x82B20|max=6|RAW|FIXED_SLOT] SP Use
+[000068|off=0x82B28|max=8|RAW|FIXED_SLOT] Crit Dmg
+[000069|off=0x82B34|max=8|RAW|FIXED_SLOT] Damage
+[000070|off=0x82B40|max=8|RAW|FIXED_SLOT] Dark Res
+[000071|off=0x82B4C|max=8|RAW|FIXED_SLOT] Holy Res
+[000072|off=0x82B58|max=8|RAW|FIXED_SLOT] Ice Res
+[000073|off=0x82B64|max=8|RAW|FIXED_SLOT] Fire Res
+[000074|off=0x82B70|max=8|RAW|FIXED_SLOT] Dark Atk
+[000075|off=0x82B7C|max=8|RAW|FIXED_SLOT] Holy Atk
+[000076|off=0x82B88|max=8|RAW|FIXED_SLOT] Ice Atk
+[000077|off=0x82B94|max=8|RAW|FIXED_SLOT] Fire Atk
+[000078|off=0x82BA0|max=8|RAW|FIXED_SLOT] Crit %
+[000079|off=0x82BAC|max=6|RAW|FIXED_SLOT] Evade
+[000080|off=0x82BB4|max=6|RAW|FIXED_SLOT] HIT
+[000081|off=0x82BBC|max=6|RAW|FIXED_SLOT] DEF
+[000082|off=0x82BC4|max=6|RAW|FIXED_SLOT] ATK
+[000083|off=0x82BCC|max=4|RAW|FIXED_SLOT] INT
+[000084|off=0x82BD4|max=4|RAW|FIXED_SLOT] CON
+[000085|off=0x82BDC|max=4|RAW|FIXED_SLOT] DEX
+[000086|off=0x82BE4|max=4|RAW|FIXED_SLOT] STR
+[000087|off=0x82BEC|max=4|RAW|FIXED_SLOT] ATK
+[000088|off=0x82BF4|max=4|RAW|FIXED_SLOT] DEF
+[000089|off=0x82BFC|max=4|RAW|FIXED_SLOT] EVD
+[000090|off=0x82C04|max=4|RAW|FIXED_SLOT] CRI
+[000091|off=0x82C0C|max=8|RAW|FIXED_SLOT] Crit Evd
+[000092|off=0x82C18|max=4|RAW|FIXED_SLOT] HIT
+[000093|off=0x82C20|max=6|RAW|FIXED_SLOT] Max HP
+[000094|off=0x82C28|max=6|RAW|FIXED_SLOT] Max SP
+[000095|off=0x82C30|max=8|RAW|FIXED_SLOT] Damage
+[000096|off=0x82C3C|max=6|RAW|FIXED_SLOT] SP Reg
+[000097|off=0x82D70|max=4|RAW|FIXED_SLOT] Wgt
+[000098|off=0x82DAC|max=13|RAW|FIXED_SLOT] Still here?
+[000099|off=0x82DBC|max=16|RAW|FIXED_SLOT] You are lucky..
+[000100|off=0x82DD0|max=13|RAW|FIXED_SLOT] Give it here!
+[000101|off=0x82DE0|max=14|RAW|FIXED_SLOT] So precious...
+[000102|off=0x82DF0|max=17|RAW|FIXED_SLOT] Useful stuff..
+[000103|off=0x82E0C|max=10|RAW|FIXED_SLOT] Yours?
+[000104|off=0x82E18|max=17|RAW|FIXED_SLOT] Where from?
+[000105|off=0x82E2C|max=9|RAW|FIXED_SLOT] Examined!
+[000106|off=0x82E38|max=9|RAW|FIXED_SLOT] Exam...
+[000107|off=0x82E44|max=9|RAW|FIXED_SLOT] Exam.. 
+[000108|off=0x82E50|max=9|RAW|FIXED_SLOT] Exam.  
+[000109|off=0x82E5C|max=9|RAW|FIXED_SLOT] Exam   
+[000110|off=0x82E68|max=8|RAW|FIXED_SLOT] Mixed!
+[000111|off=0x82E74|max=9|RAW|FIXED_SLOT] Mixing...
+[000112|off=0x82E80|max=9|RAW|FIXED_SLOT] Mixing.. 
+[000113|off=0x82E8C|max=9|RAW|FIXED_SLOT] Mixing.  
+[000114|off=0x82E98|max=9|RAW|FIXED_SLOT] Mixing   
+[000115|off=0x82EA4|max=8|RAW|FIXED_SLOT] Refined!
+[000116|off=0x82EB0|max=9|RAW|FIXED_SLOT] Refine...
+[000117|off=0x82EBC|max=9|RAW|FIXED_SLOT] Refine.. 
+[000118|off=0x82EC8|max=9|RAW|FIXED_SLOT] Refine.  
+[000119|off=0x82ED4|max=9|RAW|FIXED_SLOT] Refine   
+[000120|off=0x82EDE|max=4|RAW|FIXED_SLOT] Weap
+[000121|off=0x82EE7|max=4|RAW|FIXED_SLOT] Helm
+[000122|off=0x82EF0|max=4|RAW|FIXED_SLOT] Body
+[000123|off=0x82EF9|max=4|RAW|FIXED_SLOT] Glov
+[000124|off=0x82F02|max=4|RAW|FIXED_SLOT] Boot
+[000125|off=0x82F0B|max=8|RAW|FIXED_SLOT] Sub Weap
+[000126|off=0x82F14|max=6|RAW|FIXED_SLOT] Amulet
+[000127|off=0x82F1D|max=4|RAW|FIXED_SLOT] Cape
+[000128|off=0x82F26|max=4|RAW|FIXED_SLOT] Ring
+[000129|off=0x82F2F|max=4|RAW|FIXED_SLOT] Tals
+[000130|off=0x82F38|max=4|RAW|FIXED_SLOT] Misc
+[000131|off=0x82F41|max=4|RAW|FIXED_SLOT] Mats
+[000132|off=0x82F4A|max=6|RAW|FIXED_SLOT] Stone
+[000133|off=0x82F53|max=4|RAW|FIXED_SLOT] Move
+[000134|off=0x82F5A|max=4|RAW|FIXED_SLOT] Wear
+[000135|off=0x82F61|max=4|RAW|FIXED_SLOT] Off
+[000136|off=0x82F68|max=4|RAW|FIXED_SLOT] Use
+[000137|off=0x82F6F|max=4|RAW|FIXED_SLOT] Drop
+[000138|off=0x82F76|max=6|RAW|FIXED_SLOT] Set Qk
+[000139|off=0x82F7D|max=6|RAW|FIXED_SLOT] Clr Qk
+[000140|off=0x82F84|max=4|RAW|FIXED_SLOT] Exam
+[000141|off=0x82F8B|max=4|RAW|FIXED_SLOT] Fix
+[000142|off=0x82F92|max=6|RAW|FIXED_SLOT] Equip
+[000143|off=0x82F99|max=6|RAW|FIXED_SLOT] Accs
+[000144|off=0x82FA0|max=6|RAW|FIXED_SLOT] Misc
+[000145|off=0x82FA7|max=6|RAW|FIXED_SLOT] Mats
+[000146|off=0x83050|max=37|RAW|FIXED_SLOT] !C!cFFFF00Select item to repair.
+[000147|off=0x83124|max=4|RAW|FIXED_SLOT] Reph
+[000148|off=0x83158|max=6|RAW|FIXED_SLOT] Map
+[000149|off=0x83166|max=6|RAW|FIXED_SLOT] Quit
+[000150|off=0x831AC|max=6|RAW|FIXED_SLOT] Sound
+[000151|off=0x831B3|max=6|RAW|FIXED_SLOT] Vibro
+[000152|off=0x831BA|max=6|RAW|FIXED_SLOT] Detail
+[000153|off=0x831C1|max=6|RAW|FIXED_SLOT] Speed
+[000154|off=0x831C8|max=8|RAW|FIXED_SLOT] Save
+[000155|off=0x831D1|max=8|RAW|FIXED_SLOT] Settings
+[000156|off=0x831DA|max=6|RAW|FIXED_SLOT] Help
+[000157|off=0x831E3|max=8|RAW|FIXED_SLOT] MainMenu
+[000158|off=0x831F2|max=8|RAW|FIXED_SLOT] Controls
+[000159|off=0x831FB|max=6|RAW|FIXED_SLOT] Char
+[000160|off=0x83204|max=6|RAW|FIXED_SLOT] Stats
+[000161|off=0x8320D|max=6|RAW|FIXED_SLOT] Status
+[000162|off=0x83216|max=4|RAW|FIXED_SLOT] Skl
+[000163|off=0x8321F|max=6|RAW|FIXED_SLOT] Items
+[000164|off=0x83228|max=6|RAW|FIXED_SLOT] System
+[000165|off=0x83231|max=8|RAW|FIXED_SLOT] Day/Nght
+[000166|off=0x8323A|max=4|RAW|FIXED_SLOT] Food
+[000167|off=0x83243|max=6|RAW|FIXED_SLOT] Quests
+[000168|off=0x8324C|max=8|RAW|FIXED_SLOT] Effects
+[000169|off=0x83255|max=8|RAW|FIXED_SLOT] Network
+[000170|off=0x8325E|max=8|RAW|FIXED_SLOT] Support
+[000171|off=0x83267|max=8|RAW|FIXED_SLOT] Warnings
+[000172|off=0x83270|max=8|RAW|FIXED_SLOT] About
+[000173|off=0x83279|max=8|RAW|FIXED_SLOT] License
+[000174|off=0x83298|max=63|RAW|FIXED_SLOT] !C!cFF2F2F[Low space]!N!LNeed about %dKB free.
+[000175|off=0x83320|max=20|RAW|FIXED_SLOT] !cFFFFFFZENONIA v%s
+[000176|off=0x8335C|max=65|RAW|FIXED_SLOT] !C!cFF2F2F[Invalid data]!N!L!cFFFF00Contact support.
+[000177|off=0x833D8|max=6|RAW|FIXED_SLOT] Cure
+[000178|off=0x833DF|max=5|RAW|FIXED_SLOT] Spec1
+[000179|off=0x833E6|max=5|RAW|FIXED_SLOT] Spec2
+[000180|off=0x833ED|max=6|RAW|FIXED_SLOT] Stone
+[000181|off=0x833F4|max=4|RAW|FIXED_SLOT] Set
+[000182|off=0x833FB|max=4|RAW|FIXED_SLOT] Pots
+[000183|off=0x83404|max=4|RAW|FIXED_SLOT] Food
+[000184|off=0x8340D|max=6|RAW|FIXED_SLOT] Assist
+[000185|off=0x83416|max=6|RAW|FIXED_SLOT] Return
+[000186|off=0x8341F|max=8|RAW|FIXED_SLOT] Other Eq
+[000187|off=0x83428|max=4|RAW|FIXED_SLOT] Mats
+[000188|off=0x83431|max=4|RAW|FIXED_SLOT] Weap
+[000189|off=0x8343A|max=4|RAW|FIXED_SLOT] Helm
+[000190|off=0x83443|max=4|RAW|FIXED_SLOT] Body
+[000191|off=0x8344C|max=4|RAW|FIXED_SLOT] Glov
+[000192|off=0x83455|max=4|RAW|FIXED_SLOT] Boot
+[000193|off=0x8345E|max=8|RAW|FIXED_SLOT] Sub Weap
+[000194|off=0x83467|max=6|RAW|FIXED_SLOT] Amulet
+[000195|off=0x83470|max=4|RAW|FIXED_SLOT] Cape
+[000196|off=0x83479|max=4|RAW|FIXED_SLOT] Ring
+[000197|off=0x83482|max=4|RAW|FIXED_SLOT] Tals
+[000198|off=0x8348B|max=4|RAW|FIXED_SLOT] Misc
+[000199|off=0x83494|max=4|RAW|FIXED_SLOT] Mats
+[000200|off=0x8349D|max=6|RAW|FIXED_SLOT] Stone
+[000201|off=0x834A6|max=4|RAW|FIXED_SLOT] Swrd
+[000202|off=0x834AF|max=4|RAW|FIXED_SLOT] Gun
+[000203|off=0x834B8|max=4|RAW|FIXED_SLOT] Band
+[000204|off=0x834C1|max=6|RAW|FIXED_SLOT] Glove
+[000205|off=0x834CA|max=8|RAW|FIXED_SLOT] Sub Weap
+[000206|off=0x83538|max=140|RAW|FIXED_SLOT] !C!cFFFF00Extra cash charge: %d won (data fees separate).!NPlease wait while buying. Do not force quit.
+[000207|off=0x835C8|max=21|RAW|FIXED_SLOT] !C!cFFFF00%d Gold
+[000208|off=0x83614|max=4|RAW|FIXED_SLOT] Move
+[000209|off=0x8361B|max=4|RAW|FIXED_SLOT] Wear
+[000210|off=0x83622|max=4|RAW|FIXED_SLOT] Off
+[000211|off=0x83629|max=4|RAW|FIXED_SLOT] Use
+[000212|off=0x83630|max=4|RAW|FIXED_SLOT] Drop
+[000213|off=0x83637|max=6|RAW|FIXED_SLOT] Set Qk
+[000214|off=0x8363E|max=6|RAW|FIXED_SLOT] Clr Qk
+[000215|off=0x83645|max=4|RAW|FIXED_SLOT] Exam
+[000216|off=0x8364C|max=4|RAW|FIXED_SLOT] Fix
+[000217|off=0x83654|max=11|RAW|FIXED_SLOT] Misc Recipe
+[000218|off=0x83660|max=11|RAW|FIXED_SLOT] Mat. Recipe
+[000219|off=0x8366C|max=13|RAW|FIXED_SLOT] Armor Recipe
+[000220|off=0x8367C|max=11|RAW|FIXED_SLOT] Wpn Recipe
+[000221|off=0x836E0|max=6|RAW|FIXED_SLOT] Fee
+[000222|off=0x836E8|max=16|RAW|FIXED_SLOT] !C!cFFFF00%d G
+[000223|off=0x836FC|max=5|RAW|FIXED_SLOT] #Mix
+[000224|off=0x83704|max=5|RAW|FIXED_SLOT] *Del
+[000225|off=0x8370C|max=5|RAW|FIXED_SLOT] *Add
+[000226|off=0x83748|max=8|RAW|FIXED_SLOT] !CNo
+[000227|off=0x83754|max=12|RAW|FIXED_SLOT] !CPrius Sea
+[000228|off=0x83794|max=32|RAW|FIXED_SLOT] !cFFFFFFReturn:!c00FF00%s
+[000229|off=0x837FC|max=13|RAW|FIXED_SLOT] Loading data
+[000230|off=0x83C18|max=8|RAW|FIXED_SLOT] Tiaris
+[000231|off=0x83C50|max=4|RAW|FIXED_SLOT] Weap
+[000232|off=0x83C59|max=4|RAW|FIXED_SLOT] Helm
+[000233|off=0x83C62|max=4|RAW|FIXED_SLOT] Body
+[000234|off=0x83C6B|max=4|RAW|FIXED_SLOT] Glov
+[000235|off=0x83C74|max=4|RAW|FIXED_SLOT] Boot
+[000236|off=0x83C7D|max=8|RAW|FIXED_SLOT] Sub Weap
+[000237|off=0x83C86|max=6|RAW|FIXED_SLOT] Amulet
+[000238|off=0x83C8F|max=4|RAW|FIXED_SLOT] Cape
+[000239|off=0x83C98|max=4|RAW|FIXED_SLOT] Ring
+[000240|off=0x83CA1|max=4|RAW|FIXED_SLOT] Tals
+[000241|off=0x83CAA|max=4|RAW|FIXED_SLOT] Misc
+[000242|off=0x83CB3|max=4|RAW|FIXED_SLOT] Mats
+[000243|off=0x83CBC|max=6|RAW|FIXED_SLOT] Stone
+[000244|off=0x83D18|max=4|RAW|FIXED_SLOT] Weap
+[000245|off=0x83D1F|max=6|RAW|FIXED_SLOT] Armor
+[000246|off=0x83D26|max=4|RAW|FIXED_SLOT] Mats
+[000247|off=0x83D2D|max=4|RAW|FIXED_SLOT] Misc
+[000248|off=0x83DD4|max=30|RAW|FIXED_SLOT] !cFF0000Restored.
+[000249|off=0x83DF4|max=19|RAW|FIXED_SLOT] !cFF0000Failed!
+[000250|off=0x83E14|max=26|RAW|FIXED_SLOT] [%s] recipe book is full.
+[000251|off=0x83E48|max=6|RAW|FIXED_SLOT] Pick
+[000252|off=0x83EE9|max=4|RAW|FIXED_SLOT] Helm
+[000253|off=0x83EF2|max=4|RAW|FIXED_SLOT] Body
+[000254|off=0x83EFB|max=4|RAW|FIXED_SLOT] Glov
+[000255|off=0x83F04|max=4|RAW|FIXED_SLOT] Boot
+[000256|off=0x83F0D|max=8|RAW|FIXED_SLOT] Sub Weap
+[000257|off=0x83F16|max=6|RAW|FIXED_SLOT] Amulet
+[000258|off=0x83F1F|max=4|RAW|FIXED_SLOT] Cape
+[000259|off=0x83F28|max=4|RAW|FIXED_SLOT] Ring
+[000260|off=0x83F31|max=4|RAW|FIXED_SLOT] Tals
+[000261|off=0x83F3A|max=4|RAW|FIXED_SLOT] Misc
+[000262|off=0x83F43|max=4|RAW|FIXED_SLOT] Mats
+[000263|off=0x83F4C|max=6|RAW|FIXED_SLOT] Stone
+[000264|off=0x83F58|max=10|RAW|FIXED_SLOT] Gold Gain
+[000265|off=0x83F64|max=10|RAW|FIXED_SLOT] Item Drop
+[000266|off=0x83F70|max=8|RAW|FIXED_SLOT] Move Spd
+[000267|off=0x83F7C|max=6|RAW|FIXED_SLOT] Knock
+[000268|off=0x83F84|max=4|RAW|FIXED_SLOT] Cntr
+[000269|off=0x83F8C|max=6|RAW|FIXED_SLOT] SPLch
+[000270|off=0x83F94|max=6|RAW|FIXED_SLOT] HPLch
+[000271|off=0x83F9C|max=10|RAW|FIXED_SLOT] Cooldown
+[000272|off=0x83FA8|max=8|RAW|FIXED_SLOT] Crit Evd
+[000273|off=0x83FB4|max=8|RAW|FIXED_SLOT] Hunger
+[000274|off=0x83FC0|max=6|RAW|FIXED_SLOT] SP Reg
+[000275|off=0x83FC8|max=6|RAW|FIXED_SLOT] HP Reg
+[000276|off=0x83FD0|max=6|RAW|FIXED_SLOT] Max SP
+[000277|off=0x83FD8|max=6|RAW|FIXED_SLOT] Max HP
+[000278|off=0x83FE0|max=6|RAW|FIXED_SLOT] SP Use
+[000279|off=0x83FE8|max=8|RAW|FIXED_SLOT] Crit Dmg
+[000280|off=0x83FF4|max=8|RAW|FIXED_SLOT] Damage
+[000281|off=0x84000|max=8|RAW|FIXED_SLOT] Dark Res
+[000282|off=0x8400C|max=8|RAW|FIXED_SLOT] Holy Res
+[000283|off=0x84018|max=8|RAW|FIXED_SLOT] Ice Res
+[000284|off=0x84024|max=8|RAW|FIXED_SLOT] Fire Res
+[000285|off=0x84030|max=8|RAW|FIXED_SLOT] Dark Atk
+[000286|off=0x8403C|max=8|RAW|FIXED_SLOT] Holy Atk
+[000287|off=0x84048|max=8|RAW|FIXED_SLOT] Ice Atk
+[000288|off=0x84054|max=8|RAW|FIXED_SLOT] Fire Atk
+[000289|off=0x84060|max=8|RAW|FIXED_SLOT] Crit %
+[000290|off=0x8406C|max=6|RAW|FIXED_SLOT] Evade
+[000291|off=0x84074|max=6|RAW|FIXED_SLOT] HIT
+[000292|off=0x8407C|max=6|RAW|FIXED_SLOT] DEF
+[000293|off=0x84084|max=6|RAW|FIXED_SLOT] ATK
+[000294|off=0x8408C|max=4|RAW|FIXED_SLOT] INT
+[000295|off=0x84094|max=4|RAW|FIXED_SLOT] CON
+[000296|off=0x8409C|max=4|RAW|FIXED_SLOT] DEX
+[000297|off=0x840A4|max=4|RAW|FIXED_SLOT] STR
+[000298|off=0x84108|max=4|RAW|FIXED_SLOT] Norm
+[000299|off=0x84110|max=4|RAW|FIXED_SLOT] Mag.
+[000300|off=0x84118|max=4|RAW|FIXED_SLOT] Rare
+[000301|off=0x84120|max=4|RAW|FIXED_SLOT] Epic
+[000302|off=0x84128|max=6|RAW|FIXED_SLOT] Unique
+[000303|off=0x84140|max=9|RAW|FIXED_SLOT] %s %dProc
+[000304|off=0x8414C|max=11|RAW|FIXED_SLOT] %s %d%%Proc
+[000305|off=0x84158|max=8|RAW|FIXED_SLOT] %s Rcp
+[000306|off=0x84170|max=26|RAW|FIXED_SLOT] !cFFFFFF%s!c0060FF(Unid)
+[000307|off=0x8418C|max=11|RAW|FIXED_SLOT] Req. Lv %d
+[000308|off=0x84198|max=16|RAW|FIXED_SLOT] %s!cFFFF00(Paid)
+[000309|off=0x841AC|max=7|RAW|FIXED_SLOT] %s Set
+[000310|off=0x841E8|max=17|RAW|FIXED_SLOT] %s!cFFFFFF/Wgt%d
+[000311|off=0x841FC|max=19|RAW|FIXED_SLOT] !c31E0C1Return:%s
+[000312|off=0x84210|max=39|RAW|FIXED_SLOT] !cFF6EEDReturn:None. Set in town.
+[000313|off=0x84238|max=12|RAW|FIXED_SLOT] Dura %d/%d
+[000314|off=0x84B00|max=20|RAW|FIXED_SLOT] !C!NGo to main menu
+[000315|off=0x85537|max=4|RAW|FIXED_SLOT] Gear
+[000316|off=0x8553E|max=6|RAW|FIXED_SLOT] Accs
+[000317|off=0x85545|max=4|RAW|FIXED_SLOT] Misc
+[000318|off=0x8554C|max=4|RAW|FIXED_SLOT] Mats
+[000319|off=0x85F0D|max=4|RAW|FIXED_SLOT] East
+[000320|off=0x85F12|max=4|RAW|FIXED_SLOT] Sth
+[000321|off=0x85F17|max=4|RAW|FIXED_SLOT] West
+[000322|off=0x85F64|max=22|RAW|FIXED_SLOT] !C!cFFFF00* Sign *!N
+[000323|off=0x864BC|max=6|RAW|FIXED_SLOT] Link..
+[000324|off=0x86520|max=29|RAW|FIXED_SLOT] !C!cFF0000Press any key
+[000325|off=0x86540|max=137|RAW|FIXED_SLOT] Ranking, mail, gifts and backup/restore may incur data charges. Paid items may incur additional charges.
+[000326|off=0x865CC|max=95|RAW|FIXED_SLOT] !C!cFF0000< Notice >!N!NThis is a standalone game. No extra fee is charged for normal play.
+[000327|off=0x8675C|max=8|RAW|FIXED_SLOT] PvP Rank
+[000328|off=0x86765|max=8|RAW|FIXED_SLOT] Grp Rank
+[000329|off=0x86770|max=6|RAW|FIXED_SLOT] Rest..
+[000330|off=0x86778|max=6|RAW|FIXED_SLOT] Backup
+[000331|off=0x86780|max=6|RAW|FIXED_SLOT] Link..
+[000332|off=0x86788|max=11|RAW|FIXED_SLOT] !CRefer
+[000333|off=0x86794|max=13|RAW|FIXED_SLOT] !CSet Group
+[000334|off=0x867A4|max=13|RAW|FIXED_SLOT] !CRestore
+[000335|off=0x867B4|max=13|RAW|FIXED_SLOT] !CBackup
+[000336|off=0x867C4|max=7|RAW|FIXED_SLOT] !CRank
+[000337|off=0x86910|max=11|RAW|FIXED_SLOT] PvP Points
+[000338|off=0x8691C|max=27|RAW|FIXED_SLOT] !cFFFF00%s%d%s%s!N%s : %d
+[000339|off=0x86948|max=8|RAW|FIXED_SLOT] Support
+[000340|off=0x86954|max=6|RAW|FIXED_SLOT] Help
+[000341|off=0x8695C|max=8|RAW|FIXED_SLOT] Settings
+[000342|off=0x86968|max=62|RAW|FIXED_SLOT] !C%d/%d/%d %02d:%02d!NPlay:%dh%dm!N%s(Lv%d)
+[000343|off=0x869A8|max=27|RAW|FIXED_SLOT] !C%d/%d/%d %02d:%02d
+[000344|off=0x869C4|max=4|RAW|FIXED_SLOT] Rank
+[000345|off=0x869FC|max=23|RAW|FIXED_SLOT] No arena records.
+[000346|off=0x86A14|max=8|RAW|FIXED_SLOT] Refer
+[000347|off=0x86B28|max=13|RAW|FIXED_SLOT] Loading data
+[000348|off=0x86B88|max=67|RAW|FIXED_SLOT] !cFF2F2FInvalid save. Create a new character.
+[000349|off=0x86C0C|max=24|RAW|FIXED_SLOT] [%s] quest started.
+[000350|off=0x86C28|max=36|RAW|FIXED_SLOT] !cFFFF00[%s] quest complete.
+[000351|off=0x86C50|max=36|RAW|FIXED_SLOT] !cFF0000[%s] quest abandoned.
+[000352|off=0x86C88|max=17|RAW|FIXED_SLOT]  !c%s%s%s Find !N
+[000353|off=0x86C9C|max=17|RAW|FIXED_SLOT]  !c%s%s%s Move !N
+[000354|off=0x86CB0|max=4|RAW|FIXED_SLOT] Kill
+[000355|off=0x86CB8|max=4|RAW|FIXED_SLOT] Kill
+[000356|off=0x86CD4|max=21|RAW|FIXED_SLOT]  !c%s%s Get %d/%d !N
+[000357|off=0x86CEC|max=4|RAW|FIXED_SLOT] Find
+[000358|off=0x86CF4|max=4|RAW|FIXED_SLOT] Talk
+[000359|off=0x86D0C|max=21|RAW|FIXED_SLOT]  !c%sConnect !N
+[000360|off=0x86D30|max=11|RAW|FIXED_SLOT] EXP %d!N
+[000361|off=0x86D3C|max=11|RAW|FIXED_SLOT] Gold %d!N
+[000362|off=0x86D48|max=13|RAW|FIXED_SLOT] Skill Pts %d
+[000363|off=0x86D58|max=11|RAW|FIXED_SLOT] %s!N%s get
+[000364|off=0x86DC0|max=6|RAW|FIXED_SLOT] HP Reg
+[000365|off=0x86DC8|max=6|RAW|FIXED_SLOT] SPConv
+[000366|off=0x86DD0|max=6|RAW|FIXED_SLOT] Shot
+[000367|off=0x86DD8|max=4|RAW|FIXED_SLOT] Call
+[000368|off=0x86DE0|max=4|RAW|FIXED_SLOT] Lure
+[000369|off=0x86DE8|max=8|RAW|FIXED_SLOT] Crit Atk
+[000370|off=0x86DF4|max=4|RAW|FIXED_SLOT] Lift
+[000371|off=0x86DFC|max=10|RAW|FIXED_SLOT] Knock Dist
+[000372|off=0x86E08|max=10|RAW|FIXED_SLOT] EXP Gain
+[000373|off=0x86E14|max=10|RAW|FIXED_SLOT] Gold Gain
+[000374|off=0x86E20|max=6|RAW|FIXED_SLOT] Knock
+[000375|off=0x86E28|max=8|RAW|FIXED_SLOT] Crit %
+[000376|off=0x86E34|max=6|RAW|FIXED_SLOT] Evade
+[000377|off=0x86E3C|max=6|RAW|FIXED_SLOT] HIT
+[000378|off=0x86E44|max=10|RAW|FIXED_SLOT] Elem Res
+[000379|off=0x86E50|max=10|RAW|FIXED_SLOT] Elem Atk
+[000380|off=0x86E5C|max=6|RAW|FIXED_SLOT] DEF
+[000381|off=0x86E64|max=6|RAW|FIXED_SLOT] ATK
+[000382|off=0x86E6C|max=12|RAW|FIXED_SLOT] Armor DEF
+[000383|off=0x86E7C|max=12|RAW|FIXED_SLOT] EVD per INT
+[000384|off=0x86E8C|max=14|RAW|FIXED_SLOT] SP Regen/INT
+[000385|off=0x86E9C|max=12|RAW|FIXED_SLOT] ATK per INT
+[000386|off=0x86EAC|max=14|RAW|FIXED_SLOT] Damage per CON
+[000387|off=0x86EBC|max=14|RAW|FIXED_SLOT] Crit per CON
+[000388|off=0x86ECC|max=12|RAW|FIXED_SLOT] EVD per DEX
+[000389|off=0x86EDC|max=14|RAW|FIXED_SLOT] Crit per DEX
+[000390|off=0x86EEC|max=9|RAW|FIXED_SLOT] HP/STR\t
+[000391|off=0x86EF8|max=12|RAW|FIXED_SLOT] DEF per STR
+[000392|off=0x86F08|max=14|RAW|FIXED_SLOT] Crit per STR
+[000393|off=0x86F18|max=4|RAW|FIXED_SLOT] Form
+[000394|off=0x86F20|max=4|RAW|FIXED_SLOT] Move
+[000395|off=0x86F28|max=6|RAW|FIXED_SLOT] HP Reg
+[000396|off=0x86F30|max=8|RAW|FIXED_SLOT] TrueHide
+[000397|off=0x86F3C|max=4|RAW|FIXED_SLOT] Hide
+[000398|off=0x86F44|max=4|RAW|FIXED_SLOT] Imm.
+[000399|off=0x86F4C|max=8|RAW|FIXED_SLOT] Area Atk
+[000400|off=0x86F58|max=4|RAW|FIXED_SLOT] Cntr
+[000401|off=0x86F60|max=4|RAW|FIXED_SLOT] EVD
+[000402|off=0x86F68|max=8|RAW|FIXED_SLOT] ATK+DEF+
+[000403|off=0x86F74|max=10|RAW|FIXED_SLOT] Cooldown
+[000404|off=0x86F80|max=6|RAW|FIXED_SLOT] SP Use
+[000405|off=0x86F88|max=8|RAW|FIXED_SLOT] ATK+CRI+
+[000406|off=0x86F94|max=8|RAW|FIXED_SLOT] DEF-CRI+
+[000407|off=0x86FA0|max=8|RAW|FIXED_SLOT] DEF-ATK+
+[000408|off=0x86FAC|max=8|RAW|FIXED_SLOT] ATK-DEF+
+[000409|off=0x86FB8|max=6|RAW|FIXED_SLOT] HPSkl
+[000410|off=0x86FC0|max=6|RAW|FIXED_SLOT] SPDef
+[000411|off=0x86FC8|max=4|RAW|FIXED_SLOT] Ward
+[000412|off=0x86FD0|max=4|RAW|FIXED_SLOT] Pois
+[000413|off=0x86FD8|max=4|RAW|FIXED_SLOT] Bled
+[000414|off=0x86FE0|max=4|RAW|FIXED_SLOT] Numb
+[000415|off=0x86FE8|max=4|RAW|FIXED_SLOT] Stun
+[000416|off=0x86FF0|max=6|RAW|FIXED_SLOT] Slow
+[000417|off=0x86FF8|max=4|RAW|FIXED_SLOT] Conf
+[000418|off=0x87000|max=8|RAW|FIXED_SLOT] Elem Res
+[000419|off=0x8700C|max=6|RAW|FIXED_SLOT] DEF
+[000420|off=0x87014|max=6|RAW|FIXED_SLOT] ATK
+[000421|off=0x87024|max=14|RAW|FIXED_SLOT] DoT(%d%s)
+[000422|off=0x87034|max=13|RAW|FIXED_SLOT] %s(Rate:%d%s)
+[000423|off=0x8705C|max=13|RAW|FIXED_SLOT] Time(%dF)
+[000424|off=0x8706C|max=8|RAW|FIXED_SLOT] Next Lv
+[000425|off=0x8708C|max=8|RAW|FIXED_SLOT] BonusDmg
+[000426|off=0x87B08|max=15|RAW|FIXED_SLOT] Item to refine
+[000427|off=0x87B18|max=11|RAW|FIXED_SLOT] Refine Aid
+[000428|off=0x87B24|max=5|RAW|FIXED_SLOT] #Ref
+[000429|off=0x897C0|max=25|RAW|FIXED_SLOT] [0x517216]Network error
+[000430|off=0x897DC|max=25|RAW|FIXED_SLOT] [0x517216]has occurred.
+[000431|off=0x897F8|max=21|RAW|FIXED_SLOT] [0x517216]Thank you.
+[000432|off=0x89810|max=28|RAW|FIXED_SLOT] [0x517216]Starting game.
+[000433|off=0x89830|max=29|RAW|FIXED_SLOT] [0x517216]<Data Consent>
+[000434|off=0x89850|max=23|RAW|FIXED_SLOT] [0x517216]1.Recipient
+[000435|off=0x89868|max=30|RAW|FIXED_SLOT] [0x517216]GAMEVIL 1588-4263
+[000436|off=0x89888|max=29|RAW|FIXED_SLOT] [0x517216]2.Data use
+[000437|off=0x898A8|max=32|RAW|FIXED_SLOT] [0x517216]Content, services and
+[000438|off=0x898CC|max=32|RAW|FIXED_SLOT] [0x517216]events, customer care,
+[000439|off=0x898F0|max=32|RAW|FIXED_SLOT] [0x517216]ads and support
+[000440|off=0x89914|max=36|RAW|FIXED_SLOT] [0x517216]3.Data shared
+[000441|off=0x8993C|max=30|RAW|FIXED_SLOT] [0x517216]Phone model, number
+[000442|off=0x8995C|max=35|RAW|FIXED_SLOT] [0x517216]4.Retention period
+[000443|off=0x89980|max=32|RAW|FIXED_SLOT] [0x517216]From game download:
+[000444|off=0x899A4|max=22|RAW|FIXED_SLOT] [0x517216]6 months
+[000445|off=0x899BC|max=33|RAW|FIXED_SLOT] [0x517216]I have been informed
+[000446|off=0x899E0|max=32|RAW|FIXED_SLOT] [0x517216]that LG Telecom shares
+[000447|off=0x89A04|max=30|RAW|FIXED_SLOT] [0x517216]the above data,
+[000448|off=0x89A24|max=35|RAW|FIXED_SLOT] [0x517216]and I fully understand
+[000449|off=0x89A48|max=30|RAW|FIXED_SLOT] [0x517216]and agree.
+[000450|off=0x89A68|max=32|RAW|FIXED_SLOT] [0x517216]Authentication OK.
+[000451|off=0x89A8C|max=32|RAW|FIXED_SLOT] [0x517216]Authentication failed.
+[000452|off=0x89AB0|max=21|RAW|FIXED_SLOT] [0xE1975F]Next launch
+[000453|off=0x89AC8|max=33|RAW|FIXED_SLOT] [0xE1975F]Authentication retries.
+[000454|off=0x89AEC|max=20|RAW|FIXED_SLOT] [0x517216][Support]
+[000455|off=0x89B1C|max=27|RAW|FIXED_SLOT] [0x517216]Contact GAMEVIL
+[000456|off=0x89B38|max=26|RAW|FIXED_SLOT] [0x517216]support, please.
+[000457|off=0x89B54|max=30|RAW|FIXED_SLOT] [0x517216]Without approval
+[000458|off=0x89B74|max=25|RAW|FIXED_SLOT] [0x517216]the game cannot
+[000459|off=0x89B90|max=19|RAW|FIXED_SLOT] [0x517216]continue.
+[000460|off=0x89BA4|max=21|RAW|FIXED_SLOT] [0xE1975F]Exit game
+[000461|off=0x89BBC|max=23|RAW|FIXED_SLOT] [0xE1975F]now?
+[000462|off=0x89BD4|max=26|RAW|FIXED_SLOT] [0x517216]Authenticating
+[000463|off=0x89BF0|max=29|RAW|FIXED_SLOT] [0x517216]to start the game.
+[000464|off=0x89C10|max=27|RAW|FIXED_SLOT] [0xE1975F](Data fee <5 won)
+[000465|off=0x89C2C|max=21|RAW|FIXED_SLOT] [0x517216]Connecting
+[000466|off=0x8B370|max=60|RAW|FIXED_SLOT] ConvertBitmap()->MC_grpCreateImage() FAIL[ErrorCode:%d]\r\n
+[000467|off=0xAAC38|max=6|RAW|FIXED_SLOT] Learn
+[000468|off=0xAAC3F|max=6|RAW|FIXED_SLOT] Set Qk
+[000469|off=0xAAC46|max=6|RAW|FIXED_SLOT] Clr Qk
+[000470|off=0xAAF6C|max=8|RAW|FIXED_SLOT] Continue
+[000471|off=0xAAF76|max=8|RAW|FIXED_SLOT] New Game
+[000472|off=0xAAF80|max=8|RAW|FIXED_SLOT] Settings
+[000473|off=0xAAF8A|max=6|RAW|FIXED_SLOT] Help
+[000474|off=0xAAF94|max=8|RAW|FIXED_SLOT] Network
+[000475|off=0xAAF9E|max=8|RAW|FIXED_SLOT] Support
+[000476|off=0x8328F|max=2|RAW|FIXED_SLOT] L
+[000477|off=0x83292|max=2|RAW|FIXED_SLOT] M
+[000478|off=0x83295|max=2|RAW|FIXED_SLOT] H
+[000479|off=0x8701B|max=2|RAW|FIXED_SLOT] B
+[000480|off=0x8701E|max=2|RAW|FIXED_SLOT] M
+[000481|off=0x87021|max=2|RAW|FIXED_SLOT] H
+[000482|off=0x24B|max=3|va=0x1217|section=.text|RAW] hpG
+[000483|off=0xD96|max=3|va=0x1D62|section=.text|RAW] IBR
+[000484|off=0x11B6|max=3|va=0x2182|section=.text|RAW] IBR
+[000485|off=0x537F|max=5|va=0x634B|section=.text|RAW] xkx*x
+[000486|off=0x6411|max=3|va=0x73DD|section=.text|RAW] hhK
+[000487|off=0x6582|max=4|va=0x754E|section=.text|RAW] RBcC
+[000488|off=0x70D7|max=3|va=0x80A3|section=.text|RAW] hmB
+[000489|off=0x757D|max=4|va=0x8549|section=.text|RAW] !ZhI
+[000490|off=0x78B9|max=3|va=0x8885|section=.text|RAW] hpL
+[000491|off=0x8560|max=6|va=0x952C|section=.text|RAW] 쌰욮zl
+[000492|off=0x9499|max=5|va=0xA465|section=.text|RAW]  @BpG
+[000493|off=0x9F48|max=6|va=0xAF14|section=.text|RAW] SCgCeC
+[000494|off=0xB332|max=3|va=0xC2FE|section=.text|RAW] KCb
+[000495|off=0xCE4F|max=3|va=0xDE1B|section=.text|RAW] ppG
+[000496|off=0xCE57|max=3|va=0xDE23|section=.text|RAW] xpG
+[000497|off=0xCE5F|max=3|va=0xDE2B|section=.text|RAW] ppG
+[000498|off=0xCE67|max=3|va=0xDE33|section=.text|RAW] xpG
+[000499|off=0xCE6F|max=3|va=0xDE3B|section=.text|RAW] xpG
+[000500|off=0xCF51|max=4|va=0xDF1D|section=.text|RAW] !iVZ
+[000501|off=0xD793|max=3|va=0xE75F|section=.text|RAW] pci
+[000502|off=0xDAC3|max=3|va=0xEA8F|section=.text|RAW] GpG
+[000503|off=0xE417|max=3|va=0xF3E3|section=.text|RAW] XpG
+[000504|off=0xEE7D|max=5|va=0xFE49|section=.text|RAW] #[Bcc
+[000505|off=0xF2C4|max=3|va=0x10290|section=.text|RAW] sCy
+[000506|off=0xF68D|max=3|va=0x10659|section=.text|RAW] hGN
+[000507|off=0x106B4|max=4|va=0x11680|section=.text|RAW] 쌰욮
+[000508|off=0x10907|max=3|va=0x118D3|section=.text|RAW] ppG
+[000509|off=0x109AE|max=6|va=0x1197A|section=.text|RAW] !63pCi
+[000510|off=0x10F07|max=3|va=0x11ED3|section=.text|RAW] bpG
+[000511|off=0x10FEC|max=6|va=0x11FB8|section=.text|RAW] 0킙i걁
+[000512|off=0x11F29|max=3|va=0x12EF5|section=.text|RAW] hNh
+[000513|off=0x13B4F|max=5|va=0x14B1B|section=.text|RAW] tBtpG
+[000514|off=0x13BF8|max=14|va=0x14BC4|section=.text|RAW] 쁙ah&J'Kk簇紇`
+[000515|off=0x13D11|max=3|va=0x14CDD|section=.text|RAW] Cct
+[000516|off=0x1402A|max=10|va=0x14FF6|section=.text|RAW] JHiF "IKmF
+[000517|off=0x144A3|max=3|va=0x1546F|section=.text|RAW] KmF
+[000518|off=0x14AAF|max=3|va=0x15A7B|section=.text|RAW] FbF
+[000519|off=0x14B4B|max=3|va=0x15B17|section=.text|RAW] iRB
+[000520|off=0x14B61|max=3|va=0x15B2D|section=.text|RAW] iRB
+[000521|off=0x153D7|max=5|va=0x163A3|section=.text|RAW] i)KSd
+[000522|off=0x15FB9|max=5|va=0x16F85|section=.text|RAW] 돠h밾
+[000523|off=0x16039|max=3|va=0x17005|section=.text|RAW] hCh
+[000524|off=0x1631B|max=5|va=0x172E7|section=.text|RAW] 期hch
+[000525|off=0x16385|max=5|va=0x17351|section=.text|RAW] 탟h섳
+[000526|off=0x1639B|max=3|va=0x17367|section=.text|RAW] XpG
+[000527|off=0x16DD5|max=3|va=0x17DA1|section=.text|RAW] KAq
+[000528|off=0x18429|max=3|va=0x193F5|section=.text|RAW] FdF
+[000529|off=0x18B8D|max=3|va=0x19B59|section=.text|RAW] hpG
+[000530|off=0x18CFC|max=3|va=0x19CC8|section=.text|RAW] khb
+[000531|off=0x18D38|max=3|va=0x19D04|section=.text|RAW] GXL
+[000532|off=0x18E3E|max=4|va=0x19E0A|section=.text|RAW] 쌰욮
+[000533|off=0x19DBD|max=9|va=0x1AD89|section=.text|RAW] #[BC`pGpG
+[000534|off=0x19DF5|max=5|va=0x1ADC1|section=.text|RAW] xJJJM
+[000535|off=0x1A3A9|max=3|va=0x1B375|section=.text|RAW] hXi
+[000536|off=0x1A500|max=4|va=0x1B4CC|section=.text|RAW] +akz
+[000537|off=0x1A9DA|max=4|va=0x1B9A6|section=.text|RAW] XiKK
+[000538|off=0x1B527|max=5|va=0x1C4F3|section=.text|RAW] hZL[h
+[000539|off=0x1B54C|max=4|va=0x1C518|section=.text|RAW] XiRB
+[000540|off=0x1BA69|max=5|va=0x1CA35|section=.text|RAW] pCppG
+[000541|off=0x1DAAD|max=5|va=0x1EA79|section=.text|RAW] xhF3p
+[000542|off=0x1F222|max=4|va=0x201EE|section=.text|RAW] IWML
+[000543|off=0x20351|max=4|va=0x2131D|section=.text|RAW] "SKR
+[000544|off=0x2059D|max=4|va=0x21569|section=.text|RAW] "SKR
+[000545|off=0x2105D|max=3|va=0x22029|section=.text|RAW] hTM
+[000546|off=0x21B20|max=3|va=0x22AEC|section=.text|RAW] AKd
+[000547|off=0x23884|max=4|va=0x24850|section=.text|RAW] 쌰욮
+[000548|off=0x24499|max=3|va=0x25465|section=.text|RAW] hHL
+[000549|off=0x2490F|max=3|va=0x258DB|section=.text|RAW] xsH
+[000550|off=0x24958|max=4|va=0x25924|section=.text|RAW] gMhK
+[000551|off=0x249F4|max=4|va=0x259C0|section=.text|RAW] @MAK
+[000552|off=0x25445|max=9|va=0x26411|section=.text|RAW] #홢C`긝pG
+[000553|off=0x25604|max=6|va=0x265D0|section=.text|RAW] IB.Kly
+[000554|off=0x25735|max=3|va=0x26701|section=.text|RAW] Kly
+[000555|off=0x25ABF|max=5|va=0x26A8B|section=.text|RAW] "UMVO
+[000556|off=0x25B71|max=7|va=0x26B3D|section=.text|RAW] 볿贍i췫
+[000557|off=0x25DB1|max=3|va=0x26D7D|section=.text|RAW] Kly
+[000558|off=0x267FC|max=6|va=0x277C8|section=.text|RAW] IB0Kly
+[000559|off=0x27FD5|max=3|va=0x28FA1|section=.text|RAW] hLK
+[000560|off=0x2818D|max=5|va=0x29159|section=.text|RAW]  @BpG
+[000561|off=0x28425|max=3|va=0x293F1|section=.text|RAW] VFH
+[000562|off=0x28698|max=5|va=0x29664|section=.text|RAW] ZWUIS
+[000563|off=0x286C2|max=4|va=0x2968E|section=.text|RAW] RWKK
+[000564|off=0x28F77|max=3|va=0x29F43|section=.text|RAW] GpG
+[000565|off=0x29EAB|max=3|va=0x2AE77|section=.text|RAW] GpG
+[000566|off=0x2A289|max=9|va=0x2B255|section=.text|RAW] !m^F#kD촄
+[000567|off=0x2A2DF|max=7|va=0x2B2AB|section=.text|RAW] !j^F%mD
+[000568|off=0x2B421|max=3|va=0x2C3ED|section=.text|RAW] pEp
+[000569|off=0x2B6EE|max=9|va=0x2C6BA|section=.text|RAW] 쁙C듏뎽!I
+[000570|off=0x2B900|max=3|va=0x2C8CC|section=.text|RAW] IBR
+[000571|off=0x2BCBD|max=3|va=0x2CC89|section=.text|RAW] hZi
+[000572|off=0x2CD97|max=5|va=0x2DD63|section=.text|RAW] 솛B붜
+[000573|off=0x2F033|max=3|va=0x2FFFF|section=.text|RAW] hCh
+[000574|off=0x2FD93|max=3|va=0x30D5F|section=.text|RAW] hSh
+[000575|off=0x30307|max=3|va=0x312D3|section=.text|RAW] CGM
+[000576|off=0x30E62|max=4|va=0x31E2E|section=.text|RAW]  hah
+[000577|off=0x3381E|max=4|va=0x347EA|section=.text|RAW] 쌰욮
+[000578|off=0x358AA|max=4|va=0x36876|section=.text|RAW] 쌰욮
+[000579|off=0x3767D|max=5|va=0x38649|section=.text|RAW] !3hIB
+[000580|off=0x395F7|max=3|va=0x3A5C3|section=.text|RAW] KhF
+[000581|off=0x39D11|max=3|va=0x3ACDD|section=.text|RAW] xcJ
+[000582|off=0x39E46|max=4|va=0x3AE12|section=.text|RAW] RX%I
+[000583|off=0x3A5A1|max=5|va=0x3B56D|section=.text|RAW] #즤즬
+[000584|off=0x3C473|max=3|va=0x3D43F|section=.text|RAW] FcF
+[000585|off=0x3C751|max=7|va=0x3D71D|section=.text|RAW] #깂pG픃
+[000586|off=0x3C89D|max=7|va=0x3D869|section=.text|RAW]  pGpG픃
+[000587|off=0x3D47F|max=3|va=0x3E44B|section=.text|RAW] FbF
+[000588|off=0x3D55B|max=3|va=0x3E527|section=.text|RAW] FcF
+[000589|off=0x3D58A|max=4|va=0x3E556|section=.text|RAW] [xhF
+[000590|off=0x3D9E2|max=4|va=0x3E9AE|section=.text|RAW] 9xzx
+[000591|off=0x3DA5F|max=5|va=0x3EA2B|section=.text|RAW] #9xzx
+[000592|off=0x3DAED|max=3|va=0x3EAB9|section=.text|RAW] lIB
+[000593|off=0x3DCE1|max=3|va=0x3ECAD|section=.text|RAW] FbF
+[000594|off=0x3DD6F|max=5|va=0x3ED3B|section=.text|RAW] "+hRB
+[000595|off=0x3DE3B|max=3|va=0x3EE07|section=.text|RAW] FbF
+[000596|off=0x3DFDD|max=3|va=0x3EFA9|section=.text|RAW] lIB
+[000597|off=0x3E35D|max=3|va=0x3F329|section=.text|RAW] iIB
+[000598|off=0x3EB5F|max=3|va=0x3FB2B|section=.text|RAW] iIB
+[000599|off=0x3ED75|max=3|va=0x3FD41|section=.text|RAW] FbF
+[000600|off=0x3EE25|max=3|va=0x3FDF1|section=.text|RAW] FbF
+[000601|off=0x3EEE9|max=3|va=0x3FEB5|section=.text|RAW] FbF
+[000602|off=0x3EFA9|max=3|va=0x3FF75|section=.text|RAW] FbF
+[000603|off=0x3F59D|max=3|va=0x40569|section=.text|RAW] iIB
+[000604|off=0x3F6AF|max=3|va=0x4067B|section=.text|RAW] iIB
+[000605|off=0x41195|max=3|va=0x42161|section=.text|RAW] xCx
+[000606|off=0x4134F|max=3|va=0x4231B|section=.text|RAW] xCx
+[000607|off=0x419AD|max=5|va=0x42979|section=.text|RAW] FgFwC
+[000608|off=0x41AAD|max=5|va=0x42A79|section=.text|RAW] %짦쳿
+[000609|off=0x42C67|max=3|va=0x43C33|section=.text|RAW] LRB
+[000610|off=0x431B3|max=3|va=0x4417F|section=.text|RAW] FbF
+[000611|off=0x4342D|max=12|va=0x443F9|section=.text|RAW] !qV\nL<祖諷"R
+[000612|off=0x44143|max=3|va=0x4510F|section=.text|RAW] hRB
+[000613|off=0x4439D|max=7|va=0x45369|section=.text|RAW]  pGd pG
+[000614|off=0x443A9|max=7|va=0x45375|section=.text|RAW]  pGpG픃
+[000615|off=0x443CD|max=15|va=0x45399|section=.text|RAW]  pGpG픃pG픃pG픃
+[000616|off=0x44443|max=5|va=0x4540F|section=.text|RAW] hpG픃
+[000617|off=0x44EB4|max=10|va=0x45E80|section=.text|RAW] @Bax2xsxKL
+[000618|off=0x4524B|max=3|va=0x46217|section=.text|RAW] FcF
+[000619|off=0x452A3|max=5|va=0x4626F|section=.text|RAW] "+hRB
+[000620|off=0x45525|max=3|va=0x464F1|section=.text|RAW] hRB
+[000621|off=0x45B5D|max=3|va=0x46B29|section=.text|RAW] hRB
+[000622|off=0x468C1|max=3|va=0x4788D|section=.text|RAW] FcF
+[000623|off=0x470FA|max=4|va=0x480C6|section=.text|RAW] IBFK
+[000624|off=0x47513|max=5|va=0x484DF|section=.text|RAW] $3hdB
+[000625|off=0x47CB7|max=3|va=0x48C83|section=.text|RAW] FcF
+[000626|off=0x49971|max=5|va=0x4A93D|section=.text|RAW] #1xrx
+[000627|off=0x49FD4|max=4|va=0x4AFA0|section=.text|RAW] 쌰욮
+[000628|off=0x4A499|max=3|va=0x4B465|section=.text|RAW] Kly
+[000629|off=0x4B5E5|max=3|va=0x4C5B1|section=.text|RAW] FbF
+[000630|off=0x4BACF|max=3|va=0x4CA9B|section=.text|RAW] FbF
+[000631|off=0x4BB89|max=3|va=0x4CB55|section=.text|RAW] FbF
+[000632|off=0x4BD51|max=3|va=0x4CD1D|section=.text|RAW] FbF
+[000633|off=0x4BDC5|max=5|va=0x4CD91|section=.text|RAW] "+hRB
+[000634|off=0x4BDE9|max=5|va=0x4CDB5|section=.text|RAW] "+hRB
+[000635|off=0x4D769|max=5|va=0x4E735|section=.text|RAW] !+hIB
+[000636|off=0x4EDE5|max=3|va=0x4FDB1|section=.text|RAW] hLL
+[000637|off=0x4EE4B|max=3|va=0x4FE17|section=.text|RAW] hbi
+[000638|off=0x4FE29|max=3|va=0x50DF5|section=.text|RAW] hIB
+[000639|off=0x50A15|max=3|va=0x519E1|section=.text|RAW] iIB
+[000640|off=0x50C69|max=3|va=0x51C35|section=.text|RAW] iIB
+[000641|off=0x50D4B|max=3|va=0x51D17|section=.text|RAW] iIB
+[000642|off=0x50E2D|max=3|va=0x51DF9|section=.text|RAW] iIB
+[000643|off=0x50EF7|max=3|va=0x51EC3|section=.text|RAW] lIB
+[000644|off=0x525EC|max=6|va=0x535B8|section=.text|RAW] 2xsx'L
+[000645|off=0x526F1|max=3|va=0x536BD|section=.text|RAW] lIB
+[000646|off=0x52C1B|max=3|va=0x53BE7|section=.text|RAW] lIB
+[000647|off=0x53CD1|max=5|va=0x54C9D|section=.text|RAW] !yVdB
+[000648|off=0x54E8B|max=3|va=0x55E57|section=.text|RAW] FcF
+[000649|off=0x55B0B|max=7|va=0x56AD7|section=.text|RAW] xpG픃b0
+[000650|off=0x563B1|max=3|va=0x5737D|section=.text|RAW] hZh
+[000651|off=0x563D5|max=3|va=0x573A1|section=.text|RAW] hZh
+[000652|off=0x565D7|max=3|va=0x575A3|section=.text|RAW] dpG
+[000653|off=0x56B5B|max=3|va=0x57B27|section=.text|RAW] ppG
+[000654|off=0x573AD|max=5|va=0x58379|section=.text|RAW] FdF@K
+[000655|off=0x5776B|max=3|va=0x58737|section=.text|RAW] Kly
+[000656|off=0x578EB|max=3|va=0x588B7|section=.text|RAW] spG
+[000657|off=0x58B02|max=4|va=0x59ACE|section=.text|RAW] 쓃쳂
+[000658|off=0x58E01|max=3|va=0x59DCD|section=.text|RAW] iRB
+[000659|off=0x58F4F|max=5|va=0x59F1B|section=.text|RAW] i*iPh
+[000660|off=0x59469|max=5|va=0x5A435|section=.text|RAW] L#hYh
+[000661|off=0x596A1|max=5|va=0x5A66D|section=.text|RAW] hKj:i
+[000662|off=0x59F93|max=3|va=0x5AF5F|section=.text|RAW] cpG
+[000663|off=0x59FBB|max=3|va=0x5AF87|section=.text|RAW] cpG
+[000664|off=0x5A169|max=3|va=0x5B135|section=.text|RAW] apG
+[000665|off=0x5A44B|max=7|va=0x5B417|section=.text|RAW] pCNDK0h
+[000666|off=0x5AA3F|max=3|va=0x5BA0B|section=.text|RAW] hmB
+[000667|off=0x5AD4D|max=3|va=0x5BD19|section=.text|RAW] iZi
+[000668|off=0x5CD57|max=3|va=0x5DD23|section=.text|RAW] heL
+[000669|off=0x5D14D|max=3|va=0x5E119|section=.text|RAW] hVK
+[000670|off=0x5DCB9|max=8|va=0x5EC85|section=.text|RAW] G픃0탣"R
+[000671|off=0x5DEAC|max=4|va=0x5EE78|section=.text|RAW] aLbJ
+[000672|off=0x5E8C8|max=4|va=0x5F894|section=.text|RAW] pKph
+[000673|off=0x5F2AB|max=3|va=0x60277|section=.text|RAW] xkx
+[000674|off=0x5F52F|max=3|va=0x604FB|section=.text|RAW] xEK
+[000675|off=0x5F535|max=3|va=0x60501|section=.text|RAW] hsx
+[000676|off=0x5F6B5|max=4|va=0x60681|section=.text|RAW] hNLR
+[000677|off=0x5FAF7|max=3|va=0x60AC3|section=.text|RAW] yBK
+[000678|off=0x5FD40|max=6|va=0x60D0C|section=.text|RAW] xMyJ,h
+[000679|off=0x5FE5B|max=3|va=0x60E27|section=.text|RAW] hBh
+[000680|off=0x62D98|max=4|va=0x63D64|section=.text|RAW] IBty
+[000681|off=0x62E3C|max=4|va=0x63E08|section=.text|RAW] IBty
+[000682|off=0x64021|max=3|va=0x64FED|section=.text|RAW] spG
+[000683|off=0x64097|max=3|va=0x65063|section=.text|RAW] spG
+[000684|off=0x64D83|max=5|va=0x65D4F|section=.text|RAW] !YVF#
+[000685|off=0x64F37|max=3|va=0x65F03|section=.text|RAW] FcF
+[000686|off=0x6510F|max=5|va=0x660DB|section=.text|RAW] !YVF#
+[000687|off=0x65425|max=3|va=0x663F1|section=.text|RAW] iIB
+[000688|off=0x658BB|max=3|va=0x66887|section=.text|RAW] iIB
+[000689|off=0x659CB|max=3|va=0x66997|section=.text|RAW] iIB
+[000690|off=0x65EED|max=5|va=0x66EB9|section=.text|RAW] !+hIB
+[000691|off=0x6609D|max=3|va=0x67069|section=.text|RAW] iIB
+[000692|off=0x66535|max=5|va=0x67501|section=.text|RAW] !+hIB
+[000693|off=0x6673F|max=3|va=0x6770B|section=.text|RAW] ppG
+[000694|off=0x66831|max=3|va=0x677FD|section=.text|RAW] hpG
+[000695|off=0x66D75|max=3|va=0x67D41|section=.text|RAW] FcF
+[000696|off=0x68D87|max=3|va=0x69D53|section=.text|RAW] ipG
+[000697|off=0x68D93|max=3|va=0x69D5F|section=.text|RAW] ipG
+[000698|off=0x68E07|max=3|va=0x69DD3|section=.text|RAW] ppk
+[000699|off=0x68E41|max=3|va=0x69E0D|section=.text|RAW] Thk
+[000700|off=0x68EDB|max=5|va=0x69EA7|section=.text|RAW] 쎿acb
+[000701|off=0x6944D|max=3|va=0x6A419|section=.text|RAW] hRB
+[000702|off=0x69653|max=5|va=0x6A61F|section=.text|RAW] !+hIB
+[000703|off=0x6975E|max=6|va=0x6A72A|section=.text|RAW] 'J쌰욮
+[000704|off=0x698A8|max=6|va=0x6A874|section=.text|RAW] 醍궛땒
+[000705|off=0x6995D|max=3|va=0x6A929|section=.text|RAW] dpk
+[000706|off=0x69A75|max=3|va=0x6AA41|section=.text|RAW] qpk
+[000707|off=0x69AB1|max=5|va=0x6AA7D|section=.text|RAW] hXa`k
+[000708|off=0x69EEF|max=5|va=0x6AEBB|section=.text|RAW] KZpxk
+[000709|off=0x6A141|max=4|va=0x6B10D|section=.text|RAW] $Rhd
+[000710|off=0x6A1CB|max=5|va=0x6B197|section=.text|RAW] !+hIB
+[000711|off=0x6A38D|max=5|va=0x6B359|section=.text|RAW] 禽qhk
+[000712|off=0x6A419|max=5|va=0x6B3E5|section=.text|RAW] #ca`k
+[000713|off=0x6A6DD|max=3|va=0x6B6A9|section=.text|RAW] hdB
+[000714|off=0x6B230|max=6|va=0x6C1FC|section=.text|RAW] 醍꿫겙
+[000715|off=0x6B437|max=3|va=0x6C403|section=.text|RAW] FpG
+[000716|off=0x6CBBB|max=3|va=0x6DB87|section=.text|RAW] rjF
+[000717|off=0x6CD2B|max=7|va=0x6DCF7|section=.text|RAW] 셣FH`S|
+[000718|off=0x6CE3F|max=5|va=0x6DE0B|section=.text|RAW] `+hXh
+[000719|off=0x6D119|max=3|va=0x6E0E5|section=.text|RAW] hpG
+[000720|off=0x6D131|max=3|va=0x6E0FD|section=.text|RAW] hpG
+[000721|off=0x6D5A1|max=3|va=0x6E56D|section=.text|RAW] xZx
+[000722|off=0x6D5A7|max=3|va=0x6E573|section=.text|RAW] CpG
+[000723|off=0x6DA58|max=3|va=0x6EA24|section=.text|RAW] bis
+[000724|off=0x6DB28|max=3|va=0x6EAF4|section=.text|RAW] bis
+[000725|off=0x6DC31|max=3|va=0x6EBFD|section=.text|RAW] iWj
+[000726|off=0x6EAD0|max=3|va=0x6FA9C|section=.text|RAW] bik
+[000727|off=0x6F6DD|max=3|va=0x706A9|section=.text|RAW] wCi
+[000728|off=0x6F855|max=3|va=0x70821|section=.text|RAW] wBi
+[000729|off=0x6F959|max=7|va=0x70925|section=.text|RAW] #cq홾즥
+[000730|off=0x70245|max=3|va=0x71211|section=.text|RAW] hbD
+[000731|off=0x702AB|max=5|va=0x71277|section=.text|RAW] Gp탛h
+[000732|off=0x7032F|max=3|va=0x712FB|section=.text|RAW] spG
+[000733|off=0x70343|max=3|va=0x7130F|section=.text|RAW] spG
+[000734|off=0x70A01|max=5|va=0x719CD|section=.text|RAW] #cb`i
+[000735|off=0x70B69|max=5|va=0x71B35|section=.text|RAW] tCtpG
+[000736|off=0x70B81|max=5|va=0x71B4D|section=.text|RAW] tCtpG
+[000737|off=0x70DC8|max=4|va=0x71D94|section=.text|RAW] 0huj
+[000738|off=0x7150F|max=7|va=0x724DB|section=.text|RAW] #cuG##u
+[000739|off=0x71537|max=7|va=0x72503|section=.text|RAW] #cuG##u
+[000740|off=0x717EF|max=7|va=0x727BB|section=.text|RAW] #cuG##u
+[000741|off=0x71817|max=7|va=0x727E3|section=.text|RAW] #cuG##u
+[000742|off=0x71D4A|max=3|va=0x72D16|section=.text|RAW] bik
+[000743|off=0x72532|max=3|va=0x734FE|section=.text|RAW] bFS
+[000744|off=0x72812|max=3|va=0x737DE|section=.text|RAW] ZCS
+[000745|off=0x7288C|max=3|va=0x73858|section=.text|RAW] aFK
+[000746|off=0x72C64|max=6|va=0x73C30|section=.text|RAW] aFS\\ @
+[000747|off=0x72E1E|max=5|va=0x73DEA|section=.text|RAW] +xbF[
+[000748|off=0x72F76|max=3|va=0x73F42|section=.text|RAW] bFS
+[000749|off=0x7313E|max=5|va=0x7410A|section=.text|RAW] +xbF[
+[000750|off=0x7397C|max=3|va=0x74948|section=.text|RAW] bFS
+[000751|off=0x73B18|max=3|va=0x74AE4|section=.text|RAW] bFS
+[000752|off=0x74B24|max=3|va=0x75AF0|section=.text|RAW] bFS
+[000753|off=0x74BF2|max=3|va=0x75BBE|section=.text|RAW] bFS
+[000754|off=0x74C1C|max=3|va=0x75BE8|section=.text|RAW] bFS
+[000755|off=0x74C46|max=3|va=0x75C12|section=.text|RAW] bFS
+[000756|off=0x74C78|max=3|va=0x75C44|section=.text|RAW] bFS
+[000757|off=0x74CA2|max=3|va=0x75C6E|section=.text|RAW] bFS
+[000758|off=0x74CD4|max=3|va=0x75CA0|section=.text|RAW] bFS
+[000759|off=0x74D06|max=3|va=0x75CD2|section=.text|RAW] bFS
+[000760|off=0x74D40|max=3|va=0x75D0C|section=.text|RAW] bFS
+[000761|off=0x74D6A|max=3|va=0x75D36|section=.text|RAW] bFS
+[000762|off=0x74D9C|max=3|va=0x75D68|section=.text|RAW] bFS
+[000763|off=0x74DCE|max=3|va=0x75D9A|section=.text|RAW] bFS
+[000764|off=0x74E08|max=3|va=0x75DD4|section=.text|RAW] bFS
+[000765|off=0x74E38|max=3|va=0x75E04|section=.text|RAW] bFS
+[000766|off=0x74E70|max=3|va=0x75E3C|section=.text|RAW] bFS
+[000767|off=0x74EA8|max=3|va=0x75E74|section=.text|RAW] bFS
+[000768|off=0x74EFC|max=3|va=0x75EC8|section=.text|RAW] bFS
+[000769|off=0x74F36|max=3|va=0x75F02|section=.text|RAW] aFK
+[000770|off=0x74FC8|max=3|va=0x75F94|section=.text|RAW] fFs
+[000771|off=0x77C26|max=4|va=0x78BF2|section=.text|RAW] 쌰욮
+[000772|off=0x78010|max=6|va=0x78FDC|section=.text|RAW] 땒쌻쏤
+[000773|off=0x7852D|max=3|va=0x794F9|section=.text|RAW] hHL
+[000774|off=0x78F7F|max=3|va=0x79F4B|section=.text|RAW] GpG
+[000775|off=0x79461|max=3|va=0x7A42D|section=.text|RAW] hpG
+[000776|off=0x79530|max=3|va=0x7A4FC|section=.text|RAW] GST
+[000777|off=0x795E9|max=5|va=0x7A5B5|section=.text|RAW] #ca i
+[000778|off=0x79981|max=6|va=0x7A94D|section=.text|RAW] DfF3hR
+[000779|off=0x7A0C6|max=4|va=0x7B092|section=.text|RAW] JhEk
+[000780|off=0x7A42F|max=3|va=0x7B3FB|section=.text|RAW] FbF
+[000781|off=0x7A475|max=3|va=0x7B441|section=.text|RAW] FcF
+[000782|off=0x7A4D1|max=3|va=0x7B49D|section=.text|RAW] FaF
+[000783|off=0x7A523|max=3|va=0x7B4EF|section=.text|RAW] FbF
+[000784|off=0x7AA52|max=6|va=0x7BA1E|section=.text|RAW] 쌰욮즚
+[000785|off=0x7B6A3|max=3|va=0x7C66F|section=.text|RAW] ipG
+[000786|off=0x7B6B1|max=3|va=0x7C67D|section=.text|RAW] xZx
+[000787|off=0x7B6B7|max=3|va=0x7C683|section=.text|RAW] CpG
+[000788|off=0x7B84F|max=7|va=0x7C81B|section=.text|RAW] G醍갿겙
+[000789|off=0x7C38D|max=3|va=0x7D359|section=.text|RAW] xZx
+[000790|off=0x7C393|max=3|va=0x7D35F|section=.text|RAW] CpG
+[000791|off=0x7C747|max=5|va=0x7D713|section=.text|RAW] $컍퀂
+[000792|off=0x7C99B|max=3|va=0x7D967|section=.text|RAW] GBM
+[000793|off=0x7CB6F|max=7|va=0x7DB3B|section=.text|RAW] ##dcd쟫
+[000794|off=0x7D954|max=3|va=0x7E920|section=.text|RAW] bik
+[000795|off=0x7DF74|max=5|va=0x7EF40|section=.text|RAW]  xQK@
+[000796|off=0x7E2DD|max=3|va=0x7F2A9|section=.text|RAW] qpG
+[000797|off=0x7E4F7|max=3|va=0x7F4C3|section=.text|RAW] GBM
+[000798|off=0x7EEA3|max=5|va=0x7FE6F|section=.text|RAW] 볞hbD
+[000799|off=0x7FC40|max=14|va=0x80C0C|section=.text|RAW] 醍_FVFMFDF蹄돭
+[000800|off=0x80627|max=3|va=0x815F3|section=.text|RAW] HiF
+[000801|off=0x80664|max=4|va=0x81630|section=.text|RAW] init
+[000802|off=0x806B4|max=11|va=0x81680|section=.text|RAW] CALL_REJECT
+[000803|off=0x80778|max=10|va=0x81744|section=.text|RAW] menu/Title
+[000804|off=0x80784|max=10|va=0x81750|section=.text|RAW] com/GameUI
+[000805|off=0x80790|max=10|va=0x8175C|section=.text|RAW] com/MainUI
+[000806|off=0x8079C|max=10|va=0x81768|section=.text|RAW] EvAppStart
+[000807|off=0x807A8|max=19|va=0x81774|section=.text|RAW] font/synGak9_11.ft2
+[000808|off=0x807BC|max=24|va=0x81788|section=.text|RAW] font/synGulimAsc5_11.ft2
+[000809|off=0x807D8|max=16|va=0x817A4|section=.text|RAW] font/exB9_11.ft2
+[000810|off=0x807EC|max=14|va=0x817B8|section=.text|RAW] ptc/ptcimg.pzx
+[000811|off=0x807FC|max=5|va=0x817C8|section=.text|RAW] sound
+[000812|off=0x808B4|max=13|va=0x81880|section=.text|RAW] XlsChargeItem
+[000813|off=0x808C4|max=10|va=0x81890|section=.text|RAW] XlsBalance
+[000814|off=0x808D0|max=10|va=0x8189C|section=.text|RAW] XlsSetItem
+[000815|off=0x808DC|max=11|va=0x818A8|section=.text|RAW] XlsParticle
+[000816|off=0x808E8|max=13|va=0x818B4|section=.text|RAW] XlsProjectile
+[000817|off=0x808F8|max=7|va=0x818C4|section=.text|RAW] XlsBoss
+[000818|off=0x80900|max=6|va=0x818CC|section=.text|RAW] XlsPVP
+[000819|off=0x80908|max=8|va=0x818D4|section=.text|RAW] XlsQUEST
+[000820|off=0x80914|max=6|va=0x818E0|section=.text|RAW] XlsNPC
+[000821|off=0x8091C|max=6|va=0x818E8|section=.text|RAW] XlsMap
+[000822|off=0x80924|max=6|va=0x818F0|section=.text|RAW] XlsMix
+[000823|off=0x8092C|max=13|va=0x818F8|section=.text|RAW] XlsCollection
+[000824|off=0x8093C|max=7|va=0x81908|section=.text|RAW] XlsItem
+[000825|off=0x80944|max=8|va=0x81910|section=.text|RAW] XlsSkill
+[000826|off=0x80950|max=11|va=0x8191C|section=.text|RAW] XlsPCAction
+[000827|off=0x8095C|max=11|va=0x81928|section=.text|RAW] XlsPCStatUp
+[000828|off=0x80968|max=8|va=0x81934|section=.text|RAW] XlsPCNew
+[000829|off=0x80974|max=7|va=0x81940|section=.text|RAW] XlsChar
+[000830|off=0x80BA8|max=12|va=0x81B74|section=.text|RAW] !C!cFF2F2F%s
+[000831|off=0x80BB8|max=12|va=0x81B84|section=.text|RAW] !C!cFF0000%s
+[000832|off=0x80BC8|max=11|va=0x81B94|section=.text|RAW] PHONENUMBER
+[000833|off=0x80BD4|max=10|va=0x81BA0|section=.text|RAW] PHONEMODEL
+[000834|off=0x80BEC|max=10|va=0x81BB8|section=.text|RAW] Save%d.dat
+[000835|off=0x80BF8|max=12|va=0x81BC4|section=.text|RAW] !N!cFFFF00%s
+[000836|off=0x80C08|max=17|va=0x81BD4|section=.text|RAW] !N!cFFFF00%d Gold
+[000837|off=0x80C1C|max=6|va=0x81BE8|section=.text|RAW] %s.zt1
+[000838|off=0x80C24|max=13|va=0x81BF0|section=.text|RAW] item_down.dat
+[000839|off=0x80E84|max=12|va=0x81E50|section=.text|RAW] !C!cFFFFFF%s
+[000840|off=0x80EA4|max=8|va=0x81E70|section=.text|RAW] %s(Lv%d)
+[000841|off=0x80F40|max=14|va=0x81F0C|section=.text|RAW] %c%c/%c%c/%c%c
+[000842|off=0x81044|max=14|va=0x82010|section=.text|RAW] %s%s%d!N%s!N%s
+[000843|off=0x810A0|max=7|va=0x8206C|section=.text|RAW] !CEMPTY
+[000844|off=0x81130|max=46|va=0x820FC|section=.text|RAW] ::: CGxEventTargetT1::EvOEMIME(%d,%p,%d) :::\r\n
+[000845|off=0x81160|max=43|va=0x8212C|section=.text|RAW] ::: LGTC_imeGetOEMInput() : "%s" (%d) :::\r\n
+[000846|off=0x8118C|max=30|va=0x82158|section=.text|RAW] ::: result : M_E_SUCCESS :::\r\n
+[000847|off=0x811AC|max=28|va=0x82178|section=.text|RAW] ::: result : M_E_ERROR :::\r\n
+[000848|off=0x811CC|max=31|va=0x82198|section=.text|RAW] ::: result : M_E_SHORTBUF :::\r\n
+[000849|off=0x811EC|max=30|va=0x821B8|section=.text|RAW] ::: result : M_E_INVALID :::\r\n
+[000850|off=0x8120C|max=29|va=0x821D8|section=.text|RAW] ::: result : M_E_NOTSUP :::\r\n
+[000851|off=0x8122C|max=21|va=0x821F8|section=.text|RAW] ::: result : %d :::\r\n
+[000852|off=0x81244|max=4|va=0x82210|section=.text|RAW] true
+[000853|off=0x8124C|max=5|va=0x82218|section=.text|RAW] false
+[000854|off=0x81254|max=44|va=0x82220|section=.text|RAW] ::: Gcx_LGT_CallOEMIME(%s,%s,%d,%s,%s) :::\r\n
+[000855|off=0x81284|max=6|va=0x82250|section=.text|RAW] OEMIME
+[000856|off=0x8128C|max=29|va=0x82258|section=.text|RAW] ::: result : M_E_ACCESS :::\r\n
+[000857|off=0x812AC|max=31|va=0x82278|section=.text|RAW] ::: result : M_E_NOMEMORY :::\r\n
+[000858|off=0x812D0|max=41|va=0x8229C|section=.text|RAW] ::::INVALID BLOCK LENGTH (%d):::: 0x%08x\n
+[000859|off=0x812FC|max=55|va=0x822C8|section=.text|RAW] :::: Allocation faild!(%d)[T:%d U:%d M:%d] :::: 0x%08x\n
+[000860|off=0x81334|max=25|va=0x82300|section=.text|RAW] ::::BAD POINTER:::: %08x\n
+[000861|off=0x81350|max=44|va=0x8231C|section=.text|RAW] :::: (Fragment:%3d) 0x%08X:0x%08X (%d) ::::\n
+[000862|off=0x81380|max=39|va=0x8234C|section=.text|RAW] :::: (Total Fragment:%3d) %ubytes ::::\n
+[000863|off=0x819E0|max=6|va=0x829AC|section=.text|RAW] FPS:%d
+[000864|off=0x81E7F|max=72|va=0x82E4B|section=.text|RAW] !"$%')*,-/0245689;<>?@BCDEGHIJKMNOPQRSTUVWWXYZ[[\\]]^__``aaabbbccccdddddd
+[000865|off=0x81F40|max=8|va=0x82F0C|section=.text|RAW] %s%s.mpl
+[000866|off=0x81F4C|max=10|va=0x82F18|section=.text|RAW] %s%03d.mpl
+[000867|off=0x81F58|max=8|va=0x82F24|section=.text|RAW] %s%s.pzx
+[000868|off=0x81F64|max=10|va=0x82F30|section=.text|RAW] %s%03d.pzx
+[000869|off=0x81F90|max=7|va=0x82F5C|section=.text|RAW] GENERAL
+[000870|off=0x81F98|max=8|va=0x82F64|section=.text|RAW] SCH-B590
+[000871|off=0x81FA4|max=9|va=0x82F70|section=.text|RAW] KTF-T1000
+[000872|off=0x81FB0|max=9|va=0x82F7C|section=.text|RAW] KTF-T1500
+[000873|off=0x81FBC|max=9|va=0x82F88|section=.text|RAW] SPH-V6900
+[000874|off=0x81FC8|max=4|va=0x82F94|section=.text|RAW] PT-S
+[000875|off=0x81FD0|max=4|va=0x82F9C|section=.text|RAW] PH-S
+[000876|off=0x81FD8|max=4|va=0x82FA4|section=.text|RAW] IM-R
+[000877|off=0x81FE0|max=8|va=0x82FAC|section=.text|RAW] SCH-B510
+[000878|off=0x81FEC|max=8|va=0x82FB8|section=.text|RAW] SCH-C210
+[000879|off=0x81FF8|max=9|va=0x82FC4|section=.text|RAW] KTF-X6500
+[000880|off=0x82004|max=8|va=0x82FD0|section=.text|RAW] SCH-W420
+[000881|off=0x82010|max=8|va=0x82FDC|section=.text|RAW] SCH-W550
+[000882|off=0x8201C|max=8|va=0x82FE8|section=.text|RAW] SCH-W555
+[000883|off=0x82028|max=6|va=0x82FF4|section=.text|RAW] SCH-W5
+[000884|off=0x82030|max=6|va=0x82FFC|section=.text|RAW] SCH-W7
+[000885|off=0x82038|max=11|va=0x83004|section=.text|RAW] %s/%03d.mmf
+[000886|off=0x82044|max=8|va=0x83010|section=.text|RAW] %03d.mmf
+[000887|off=0x820AC|max=44|va=0x83078|section=.text|RAW] < TotalHeap:%d, Free:%d, Used:%d[max:%d] >\r\n
+[000888|off=0x820DC|max=42|va=0x830A8|section=.text|RAW] < StaticMem:%d, CurUsed:%d, MaxUsed:%d >\r\n
+[000889|off=0x821DC|max=6|va=0x831A8|section=.text|RAW] %s.gui
+[000890|off=0x821E4|max=12|va=0x831B0|section=.text|RAW] !C!c000000OK
+[000891|off=0x82314|max=20|va=0x832E0|section=.text|RAW] !C!c8FFF00 %%0%dd  ;
+[000892|off=0x82374|max=11|va=0x83340|section=.text|RAW] StrQuest6_C
+[000893|off=0x82380|max=11|va=0x8334C|section=.text|RAW] StrQuest6_N
+[000894|off=0x8238C|max=11|va=0x83358|section=.text|RAW] StrQuest6_M
+[000895|off=0x82398|max=11|va=0x83364|section=.text|RAW] StrQuest6_Y
+[000896|off=0x823A4|max=11|va=0x83370|section=.text|RAW] StrQuest5_C
+[000897|off=0x823B0|max=11|va=0x8337C|section=.text|RAW] StrQuest5_N
+[000898|off=0x823BC|max=11|va=0x83388|section=.text|RAW] StrQuest5_M
+[000899|off=0x823C8|max=11|va=0x83394|section=.text|RAW] StrQuest5_Y
+[000900|off=0x823D4|max=11|va=0x833A0|section=.text|RAW] StrQuest4_C
+[000901|off=0x823E0|max=11|va=0x833AC|section=.text|RAW] StrQuest4_N
+[000902|off=0x823EC|max=11|va=0x833B8|section=.text|RAW] StrQuest4_M
+[000903|off=0x823F8|max=11|va=0x833C4|section=.text|RAW] StrQuest4_Y
+[000904|off=0x82404|max=11|va=0x833D0|section=.text|RAW] StrQuest3_C
+[000905|off=0x82410|max=11|va=0x833DC|section=.text|RAW] StrQuest3_N
+[000906|off=0x8241C|max=11|va=0x833E8|section=.text|RAW] StrQuest3_M
+[000907|off=0x82428|max=11|va=0x833F4|section=.text|RAW] StrQuest3_Y
+[000908|off=0x82434|max=11|va=0x83400|section=.text|RAW] StrQuest2_C
+[000909|off=0x82440|max=11|va=0x8340C|section=.text|RAW] StrQuest2_N
+[000910|off=0x8244C|max=11|va=0x83418|section=.text|RAW] StrQuest2_M
+[000911|off=0x82458|max=11|va=0x83424|section=.text|RAW] StrQuest2_Y
+[000912|off=0x82464|max=11|va=0x83430|section=.text|RAW] StrQuest1_C
+[000913|off=0x82470|max=11|va=0x8343C|section=.text|RAW] StrQuest1_N
+[000914|off=0x8247C|max=11|va=0x83448|section=.text|RAW] StrQuest1_M
+[000915|off=0x82488|max=11|va=0x83454|section=.text|RAW] StrQuest1_Y
+[000916|off=0x82494|max=16|va=0x83460|section=.text|RAW] StrQuestComplete
+[000917|off=0x824A8|max=14|va=0x83474|section=.text|RAW] StrQuestDetail
+[000918|off=0x824B8|max=11|va=0x83484|section=.text|RAW] StrQuestSum
+[000919|off=0x824C4|max=8|va=0x83490|section=.text|RAW] StrSkill
+[000920|off=0x824D0|max=6|va=0x8349C|section=.text|RAW] StrTip
+[000921|off=0x824D8|max=7|va=0x834A4|section=.text|RAW] StrHelp
+[000922|off=0x824E0|max=8|va=0x834AC|section=.text|RAW] StrPopup
+[000923|off=0x824EC|max=4|va=0x834B8|section=.text|RAW] data
+[000924|off=0x82504|max=9|va=0x834D0|section=.text|RAW] %s/%s.zt1
+[000925|off=0x82520|max=4|va=0x834EC|section=.text|RAW] data
+[000926|off=0x82528|max=13|va=0x834F4|section=.text|RAW] XlsChargeItem
+[000927|off=0x82538|max=10|va=0x83504|section=.text|RAW] XlsBalance
+[000928|off=0x82544|max=10|va=0x83510|section=.text|RAW] XlsSetItem
+[000929|off=0x82550|max=11|va=0x8351C|section=.text|RAW] XlsParticle
+[000930|off=0x8255C|max=13|va=0x83528|section=.text|RAW] XlsProjectile
+[000931|off=0x8256C|max=7|va=0x83538|section=.text|RAW] XlsBoss
+[000932|off=0x82574|max=6|va=0x83540|section=.text|RAW] XlsPVP
+[000933|off=0x8257C|max=8|va=0x83548|section=.text|RAW] XlsQUEST
+[000934|off=0x82588|max=6|va=0x83554|section=.text|RAW] XlsNPC
+[000935|off=0x82590|max=6|va=0x8355C|section=.text|RAW] XlsMap
+[000936|off=0x82598|max=6|va=0x83564|section=.text|RAW] XlsMix
+[000937|off=0x825A0|max=13|va=0x8356C|section=.text|RAW] XlsCollection
+[000938|off=0x825B0|max=7|va=0x8357C|section=.text|RAW] XlsItem
+[000939|off=0x825B8|max=8|va=0x83584|section=.text|RAW] XlsSkill
+[000940|off=0x825C4|max=11|va=0x83590|section=.text|RAW] XlsPCAction
+[000941|off=0x825D0|max=11|va=0x8359C|section=.text|RAW] XlsPCStatUp
+[000942|off=0x825DC|max=8|va=0x835A8|section=.text|RAW] XlsPCNew
+[000943|off=0x825E8|max=7|va=0x835B4|section=.text|RAW] XlsChar
+[000944|off=0x82728|max=36|va=0x836F4|section=.text|RAW] !C!cFFFFFF%d!N!cFF0000%d!N!c0066FF%d
+[000945|off=0x827B6|max=31|va=0x83782|section=.text|RAW] PQ>R9090;0909/019:;CDERQRQPQRQR
+[000946|off=0x8297C|max=13|va=0x83948|section=.text|RAW] !R!cFFFFFF+%d
+[000947|off=0x829F8|max=12|va=0x839C4|section=.text|RAW] !C!c000000%s
+[000948|off=0x82A08|max=10|va=0x839D4|section=.text|RAW] !cFFFFFF%s
+[000949|off=0x82A58|max=10|va=0x83A24|section=.text|RAW] %s(Lv%02d)
+[000950|off=0x82A64|max=6|va=0x83A30|section=.text|RAW] Lv%02d
+[000951|off=0x82D54|max=27|va=0x83D20|section=.text|RAW] !L!c00FF00%s+%d!N!cFFFF00->
+[000952|off=0x8315F|max=2|va=0x8412B|section=.text|RAW] OK
+[000953|off=0x83284|max=10|va=0x84250|section=.text|RAW] option.sav
+[000954|off=0x832D8|max=24|va=0x842A4|section=.text|RAW] %04d%02d%02d%02d%02d%02d
+[000955|off=0x832FC|max=5|va=0x842C8|section=.text|RAW] !COFF
+[000956|off=0x83304|max=4|va=0x842D0|section=.text|RAW] !CON
+[000957|off=0x83338|max=19|va=0x84304|section=.text|RAW] !C!cFFFFFF%2d / %2d
+[000958|off=0x836D0|max=12|va=0x8469C|section=.text|RAW] !C!c0882EF%s
+[000959|off=0x83724|max=4|va=0x846F0|section=.text|RAW] map/
+[000960|off=0x8372C|max=16|va=0x846F8|section=.text|RAW] map/worldmap.pzx
+[000961|off=0x83764|max=12|va=0x84730|section=.text|RAW] map/%03d.mpl
+[000962|off=0x83774|max=12|va=0x84740|section=.text|RAW] obj/%03d.mpl
+[000963|off=0x83784|max=12|va=0x84750|section=.text|RAW] map/%03d.map
+[000964|off=0x837B8|max=10|va=0x84784|section=.text|RAW] %s%03d.pzx
+[000965|off=0x83874|max=11|va=0x84840|section=.text|RAW] projectile/
+[000966|off=0x83880|max=12|va=0x8484C|section=.text|RAW] ptc/%03d.ptc
+[000967|off=0x83890|max=5|va=0x8485C|section=.text|RAW] menu/
+[000968|off=0x83898|max=5|va=0x84864|section=.text|RAW] face/
+[000969|off=0x838A0|max=4|va=0x8486C|section=.text|RAW] obj/
+[000970|off=0x838A8|max=5|va=0x84874|section=.text|RAW] char/
+[000971|off=0x838B0|max=8|va=0x8487C|section=.text|RAW] dynamic/
+[000972|off=0x838BC|max=4|va=0x84888|section=.text|RAW] com/
+[000973|off=0x838C4|max=10|va=0x84890|section=.text|RAW] %s%03d.pzx
+[000974|off=0x838D0|max=9|va=0x8489C|section=.text|RAW] ZeroGrade
+[000975|off=0x838DC|max=7|va=0x848A8|section=.text|RAW] Title_1
+[000976|off=0x838E4|max=5|va=0x848B0|section=.text|RAW] Title
+[000977|off=0x838EC|max=7|va=0x848B8|section=.text|RAW] opening
+[000978|off=0x838F4|max=8|va=0x848C0|section=.text|RAW] TeamLogo
+[000979|off=0x83900|max=13|va=0x848CC|section=.text|RAW] ItemMixEffect
+[000980|off=0x83910|max=16|va=0x848DC|section=.text|RAW] ItemRefineEffect
+[000981|off=0x83924|max=12|va=0x848F0|section=.text|RAW] ItemIconComm
+[000982|off=0x83934|max=9|va=0x84900|section=.text|RAW] ItemIcon3
+[000983|off=0x83940|max=9|va=0x8490C|section=.text|RAW] ItemIcon2
+[000984|off=0x8394C|max=9|va=0x84918|section=.text|RAW] ItemIcon1
+[000985|off=0x83958|max=9|va=0x84924|section=.text|RAW] ItemIcon0
+[000986|off=0x83964|max=14|va=0x84930|section=.text|RAW] SkillIconFairy
+[000987|off=0x83974|max=10|va=0x84940|section=.text|RAW] SkillIcon3
+[000988|off=0x83980|max=10|va=0x8494C|section=.text|RAW] SkillIcon2
+[000989|off=0x8398C|max=10|va=0x84958|section=.text|RAW] SkillIcon1
+[000990|off=0x83998|max=10|va=0x84964|section=.text|RAW] SkillIcon0
+[000991|off=0x839A4|max=5|va=0x84970|section=.text|RAW] PvpUI
+[000992|off=0x839AC|max=9|va=0x84978|section=.text|RAW] GradeIcon
+[000993|off=0x839B8|max=8|va=0x84984|section=.text|RAW] FriendUI
+[000994|off=0x839C4|max=5|va=0x84990|section=.text|RAW] BGIce
+[000995|off=0x839CC|max=5|va=0x84998|section=.text|RAW] Cloud
+[000996|off=0x839D4|max=8|va=0x849A0|section=.text|RAW] BGEffect
+[000997|off=0x839E0|max=14|va=0x849AC|section=.text|RAW] IdentifyEffect
+[000998|off=0x839F0|max=9|va=0x849BC|section=.text|RAW] ComEffect
+[000999|off=0x839FC|max=16|va=0x849C8|section=.text|RAW] SkillEffectFairy
+[001000|off=0x83A10|max=14|va=0x849DC|section=.text|RAW] SkillEffectEtc
+[001001|off=0x83A20|max=15|va=0x849EC|section=.text|RAW] SkillEffectBuff
+[001002|off=0x83A30|max=12|va=0x849FC|section=.text|RAW] SkillEffect3
+[001003|off=0x83A40|max=12|va=0x84A0C|section=.text|RAW] SkillEffect2
+[001004|off=0x83A50|max=12|va=0x84A1C|section=.text|RAW] SkillEffect1
+[001005|off=0x83A60|max=12|va=0x84A2C|section=.text|RAW] SkillEffect0
+[001006|off=0x83A70|max=10|va=0x84A3C|section=.text|RAW] MetaEffect
+[001007|off=0x83A7C|max=4|va=0x84A48|section=.text|RAW] Frog
+[001008|off=0x83A84|max=6|va=0x84A50|section=.text|RAW] UITime
+[001009|off=0x83A8C|max=5|va=0x84A58|section=.text|RAW] Fairy
+[001010|off=0x83A94|max=6|va=0x84A60|section=.text|RAW] Shadow
+[001011|off=0x83A9C|max=8|va=0x84A68|section=.text|RAW] Emoticon
+[001012|off=0x83AA8|max=6|va=0x84A74|section=.text|RAW] Number
+[001013|off=0x83AB0|max=6|va=0x84A7C|section=.text|RAW] MainUI
+[001014|off=0x83AB8|max=6|va=0x84A84|section=.text|RAW] GameUI
+[001015|off=0x83AC0|max=12|va=0x84A8C|section=.text|RAW] BezierEffect
+[001016|off=0x83AD0|max=12|va=0x84A9C|section=.text|RAW] StatusEffect
+[001017|off=0x83AE0|max=12|va=0x84AAC|section=.text|RAW] BattleEffect
+[001018|off=0x83B29|max=5|va=0x84AF5|section=.text|RAW] fkkkf
+[001019|off=0x83E08|max=10|va=0x84DD4|section=.text|RAW] !C!cFF2F2F
+[001020|off=0x83E30|max=8|va=0x84DFC|section=.text|RAW] !cFFFFFF
+[001021|off=0x83E3C|max=8|va=0x84E08|section=.text|RAW] !cFF0000
+[001022|off=0x83E50|max=7|va=0x84E1C|section=.text|RAW] %s%s %s
+[001023|off=0x841B4|max=8|va=0x85180|section=.text|RAW] %s%s(%s)
+[001024|off=0x841C8|max=10|va=0x85194|section=.text|RAW] %s(%d)(%s)
+[001025|off=0x841DC|max=10|va=0x851A8|section=.text|RAW] !cFF0000%s
+[001026|off=0x844F0|max=13|va=0x854BC|section=.text|RAW] %s%s/%03d.pzf
+[001027|off=0x84500|max=16|va=0x854CC|section=.text|RAW] %s%s/%d/%03d.mpl
+[001028|off=0x84514|max=6|va=0x854E0|section=.text|RAW] effect
+[001029|off=0x8451C|max=9|va=0x854E8|section=.text|RAW] side_hand
+[001030|off=0x84528|max=6|va=0x854F4|section=.text|RAW] weapon
+[001031|off=0x84530|max=5|va=0x854FC|section=.text|RAW] armor
+[001032|off=0x84538|max=4|va=0x85504|section=.text|RAW] head
+[001033|off=0x84540|max=16|va=0x8550C|section=.text|RAW] %s%s/%d/%03d.pzd
+[001034|off=0x84554|max=10|va=0x85520|section=.text|RAW] %s%03d.pza
+[001035|off=0x845B4|max=10|va=0x85580|section=.text|RAW] %s%03d.pzx
+[001036|off=0x845C0|max=10|va=0x8558C|section=.text|RAW] %s%03d.mpl
+[001037|off=0x8552C|max=10|va=0x864F8|section=.text|RAW] %s%03d.pzx
+[001038|off=0x85F24|max=10|va=0x86EF0|section=.text|RAW] %s%03d.pzx
+[001039|off=0x86064|max=12|va=0x87030|section=.text|RAW] !cFFFFFF%s!N
+[001040|off=0x86074|max=15|va=0x87040|section=.text|RAW] !cFFFFFF%s:%s!N
+[001041|off=0x866CC|max=13|va=0x87698|section=.text|RAW] menu/logo.pzx
+[001042|off=0x866DC|max=14|va=0x876A8|section=.text|RAW] menu/certi.pzx
+[001043|off=0x866EC|max=10|va=0x876B8|section=.text|RAW] !cFFFF00%s
+[001044|off=0x867CC|max=10|va=0x87798|section=.text|RAW] %s%03d.pzx
+[001045|off=0x86900|max=8|va=0x878CC|section=.text|RAW] !c80FF00
+[001046|off=0x86938|max=12|va=0x87904|section=.text|RAW] !C!cAC753A%s
+[001047|off=0x869CC|max=26|va=0x87998|section=.text|RAW] !C!cFFFF00<              >
+[001048|off=0x869E8|max=18|va=0x879B4|section=.text|RAW] !C!cFFFF00   %s   
+[001049|off=0x86A40|max=18|va=0x87A0C|section=.text|RAW] com/light80x50.zt1
+[001050|off=0x86A5C|max=16|va=0x87A28|section=.text|RAW] !C!cFFFFFFTip %d
+[001051|off=0x86B1C|max=10|va=0x87AE8|section=.text|RAW] Save%d.dat
+[001052|off=0x86C80|max=6|va=0x87C4C|section=.text|RAW] FFFF00
+[001053|off=0x86CC0|max=19|va=0x87C8C|section=.text|RAW]  !c%s%s %s %d/%d !N
+[001054|off=0x86CFC|max=15|va=0x87CC8|section=.text|RAW]  !c%s%s%s %s !N
+[001055|off=0x86D24|max=8|va=0x87CF0|section=.text|RAW] !c00FF00
+[001056|off=0x86D64|max=14|va=0x87D30|section=.text|RAW] !cFFFFFF%s!N!N
+[001057|off=0x86D74|max=20|va=0x87D40|section=.text|RAW] !cFFFFFF%s!N!c7FFF00
+[001058|off=0x86D8C|max=12|va=0x87D58|section=.text|RAW] !N!cFFFFFF%s
+[001059|off=0x87050|max=8|va=0x8801C|section=.text|RAW] %s(%d%s)
+[001060|off=0x87078|max=7|va=0x88044|section=.text|RAW] [SP %d]
+[001061|off=0x877B0|max=10|va=0x8877C|section=.text|RAW] output.dlg
+[001062|off=0x87A10|max=5|va=0x889DC|section=.text|RAW] YSMEN
+[001063|off=0x87A60|max=9|va=0x88A2C|section=.text|RAW] script/%s
+[001064|off=0x87A6C|max=20|va=0x88A38|section=.text|RAW] script/call/%03d.mls
+[001065|off=0x87A84|max=24|va=0x88A50|section=.text|RAW] script/map/%03d_%03d.mls
+[001066|off=0x87AA0|max=19|va=0x88A6C|section=.text|RAW] script/com/%03d.mls
+[001067|off=0x87AB4|max=24|va=0x88A80|section=.text|RAW] script/quest/%03d_%c.mls
+[001068|off=0x87C14|max=73|va=0x88BE0|section=.text|RAW] ::: CGxPZA::GetFrameIndex( %d(%d) ) - Buffer index number overflow! :::\r\n
+[001069|off=0x87C7C|max=3|va=0x88C48|section=.text|RAW] PZA
+[001070|off=0x87CE0|max=73|va=0x88CAC|section=.text|RAW] ::: CGxPZF::GetImageIndex( %d(%d) ) - Buffer index number overflow! :::\r\n
+[001071|off=0x87DAC|max=3|va=0x88D78|section=.text|RAW] PZF
+[001072|off=0x897B0|max=9|va=0x8A77C|section=.text|RAW] audio.adt
+[001073|off=0x89B04|max=23|va=0x8AAD0|section=.text|RAW] [0xE1975F]Tel.1588-4263
+[001074|off=0x89C44|max=3|va=0x8AC10|section=.text|RAW] ESN
+[001075|off=0x8B0F8|max=3|va=0x8C0C4|section=.text|RAW] PZD
+[001076|off=0x8B1E0|max=43|va=0x8C1AC|section=.text|RAW] ::: ZE - fLR_Buffer Overflow! (%d:%d) :::\r\n
+[001077|off=0x8B20C|max=34|va=0x8C1D8|section=.text|RAW] ::: ZE - fUD_Buffer is null! :::\r\n
+[001078|off=0x8B230|max=43|va=0x8C1FC|section=.text|RAW] ::: ZE - fUD_Buffer Overflow! (%d:%d) :::\r\n
+[001079|off=0xAA964|max=13|va=0x1400160|section=.data|RAW] audio/TERMRES
+[001080|off=0xAA974|max=10|va=0x1400170|section=.data|RAW] audio/FILE
+[001081|off=0xAA980|max=9|va=0x140017C|section=.data|RAW] audio/MP3
+[001082|off=0xAA98C|max=10|va=0x1400188|section=.data|RAW] audio/MIDI
+[001083|off=0xAA998|max=18|va=0x1400194|section=.data|RAW] Yamaha_SMAF-Phrase
+[001084|off=0xAA9AC|max=17|va=0x14001A8|section=.data|RAW] Yamaha_SMAF-Audio
+[001085|off=0xAA9C0|max=11|va=0x14001BC|section=.data|RAW] Yamaha_SMAF
+[001086|off=0xAA9CC|max=10|va=0x14001C8|section=.data|RAW] Yamaha_MA7
+[001087|off=0xAA9D8|max=10|va=0x14001D4|section=.data|RAW] Yamaha_MA5
+[001088|off=0xAA9E4|max=10|va=0x14001E0|section=.data|RAW] Yamaha_MA3
+[001089|off=0xAA9F0|max=10|va=0x14001EC|section=.data|RAW] Yamaha_MA2
+[001090|off=0xAA9FC|max=10|va=0x14001F8|section=.data|RAW] Yamaha_MA1

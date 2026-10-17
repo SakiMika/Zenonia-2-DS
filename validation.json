@@ -1,0 +1,32 @@
+{
+  "release": "Zenonia 2 DS Runner - PrepareGame 2.1",
+  "preparegame_version": "2.1.0",
+  "runtime_game_directory": "/zenonia2nds/",
+  "embedded_runnable_game": false,
+  "included_english_txt_files": 56,
+  "rom_identity": {
+    "output_filename": "Zenonia 2 DS Runner.nds",
+    "banner_title": "Zenonia 2 DS Runner",
+    "game_code": "####",
+    "game_code_unchanged": true,
+    "header_title_12_bytes": "ZENONIA2 DS "
+  },
+  "actions": {
+    "open_or_select": "No game directory creation or replacement",
+    "Check Error": "Validate translation only; on error write error.txt in --home (default: beside the tool). No game output changes.",
+    "Create Game Folder": "Apply the selected translation or copy original KR resources to zenonia2nds/. Translated resources are validated before commit.",
+    "KR": "Original resource files; no translation validation. Optional offline compatibility profile remains separate.",
+    "error_log": "Reports resource names and validation errors. A successful translation check removes the previous tool-generated error.txt."
+  },
+  "tested": {
+    "tool_tests": 30,
+    "fixture": "User-provided native ARM WIPI ZIP/JAR; not bundled",
+    "host_runner_tests": "Source/header checks, external filesystem reads and path guards, repaint/minimap/cache/graphics regression suite passed. Hardware access not emulated.",
+    "browser": "Real local UI tested: separate actions, no automatic export, invalid TXT errors written to file, no output changes on check, corrected TXT succeeds, KR validation disabled, original KR exported. No JS errors.",
+    "visual": "Desktop success/error and narrow KR layouts rendered and individually inspected."
+  },
+  "not_tested": [
+    "Full ARM build: devkitARM unavailable",
+    "New ROM on DS/DSi hardware or melonDS"
+  ]
+}

@@ -1,0 +1,21 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=menu/Title.gui
+# type=GUI_FIXED_RAW
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0xB4|max=9|RAW|FIXED_SLOT] OK: Pick
+[000001|off=0x1E3|max=17|RAW|FIXED_SLOT] To (phone no.)
+[000002|off=0x1FD|max=17|RAW|FIXED_SLOT] From (name)
+[000003|off=0x260|max=11|RAW|FIXED_SLOT] Create ID
+[000004|off=0x274|max=20|RAW|FIXED_SLOT] Created IDs cannot
+[000005|off=0x291|max=15|RAW|FIXED_SLOT] be changed.
+[000006|off=0x2B4|max=19|RAW|FIXED_SLOT] (12 letters/digits)
+[000007|off=0x38B|max=19|RAW|FIXED_SLOT] (12 letters/digits)
+[000008|off=0x2D0|max=8|RAW|FIXED_SLOT] CLR:Back
+[000009|off=0x3A7|max=8|RAW|FIXED_SLOT] CLR:Back
+[000010|off=0x335|max=11|RAW|FIXED_SLOT] Group name
+[000011|off=0x349|max=20|RAW|FIXED_SLOT] Enter a group name
+[000012|off=0x366|max=17|RAW|FIXED_SLOT] (group ranking).

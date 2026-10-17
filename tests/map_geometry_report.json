@@ -1,0 +1,923 @@
+{
+  "count": 150,
+  "widest": {
+    "file": "028.map",
+    "width": 88,
+    "height": 36,
+    "area": 3168
+  },
+  "tallest": {
+    "file": "095.map",
+    "width": 39,
+    "height": 71,
+    "area": 2769
+  },
+  "largest_area": {
+    "file": "028.map",
+    "width": 88,
+    "height": 36,
+    "area": 3168
+  },
+  "maps": [
+    {
+      "file": "001.map",
+      "width": 36,
+      "height": 27,
+      "area": 972
+    },
+    {
+      "file": "002.map",
+      "width": 30,
+      "height": 30,
+      "area": 900
+    },
+    {
+      "file": "003.map",
+      "width": 45,
+      "height": 24,
+      "area": 1080
+    },
+    {
+      "file": "004.map",
+      "width": 34,
+      "height": 49,
+      "area": 1666
+    },
+    {
+      "file": "005.map",
+      "width": 45,
+      "height": 60,
+      "area": 2700
+    },
+    {
+      "file": "006.map",
+      "width": 33,
+      "height": 41,
+      "area": 1353
+    },
+    {
+      "file": "007.map",
+      "width": 30,
+      "height": 40,
+      "area": 1200
+    },
+    {
+      "file": "008.map",
+      "width": 38,
+      "height": 35,
+      "area": 1330
+    },
+    {
+      "file": "009.map",
+      "width": 30,
+      "height": 57,
+      "area": 1710
+    },
+    {
+      "file": "010.map",
+      "width": 48,
+      "height": 33,
+      "area": 1584
+    },
+    {
+      "file": "011.map",
+      "width": 36,
+      "height": 39,
+      "area": 1404
+    },
+    {
+      "file": "012.map",
+      "width": 51,
+      "height": 33,
+      "area": 1683
+    },
+    {
+      "file": "013.map",
+      "width": 30,
+      "height": 58,
+      "area": 1740
+    },
+    {
+      "file": "014.map",
+      "width": 35,
+      "height": 54,
+      "area": 1890
+    },
+    {
+      "file": "015.map",
+      "width": 50,
+      "height": 20,
+      "area": 1000
+    },
+    {
+      "file": "016.map",
+      "width": 58,
+      "height": 20,
+      "area": 1160
+    },
+    {
+      "file": "017.map",
+      "width": 58,
+      "height": 23,
+      "area": 1334
+    },
+    {
+      "file": "018.map",
+      "width": 47,
+      "height": 49,
+      "area": 2303
+    },
+    {
+      "file": "019.map",
+      "width": 30,
+      "height": 47,
+      "area": 1410
+    },
+    {
+      "file": "020.map",
+      "width": 30,
+      "height": 37,
+      "area": 1110
+    },
+    {
+      "file": "021.map",
+      "width": 47,
+      "height": 44,
+      "area": 2068
+    },
+    {
+      "file": "022.map",
+      "width": 55,
+      "height": 44,
+      "area": 2420
+    },
+    {
+      "file": "023.map",
+      "width": 35,
+      "height": 48,
+      "area": 1680
+    },
+    {
+      "file": "024.map",
+      "width": 58,
+      "height": 28,
+      "area": 1624
+    },
+    {
+      "file": "025.map",
+      "width": 30,
+      "height": 45,
+      "area": 1350
+    },
+    {
+      "file": "026.map",
+      "width": 46,
+      "height": 44,
+      "area": 2024
+    },
+    {
+      "file": "027.map",
+      "width": 62,
+      "height": 43,
+      "area": 2666
+    },
+    {
+      "file": "028.map",
+      "width": 88,
+      "height": 36,
+      "area": 3168
+    },
+    {
+      "file": "029.map",
+      "width": 41,
+      "height": 41,
+      "area": 1681
+    },
+    {
+      "file": "030.map",
+      "width": 42,
+      "height": 41,
+      "area": 1722
+    },
+    {
+      "file": "031.map",
+      "width": 41,
+      "height": 41,
+      "area": 1681
+    },
+    {
+      "file": "032.map",
+      "width": 41,
+      "height": 41,
+      "area": 1681
+    },
+    {
+      "file": "033.map",
+      "width": 30,
+      "height": 69,
+      "area": 2070
+    },
+    {
+      "file": "034.map",
+      "width": 30,
+      "height": 46,
+      "area": 1380
+    },
+    {
+      "file": "035.map",
+      "width": 50,
+      "height": 44,
+      "area": 2200
+    },
+    {
+      "file": "036.map",
+      "width": 40,
+      "height": 43,
+      "area": 1720
+    },
+    {
+      "file": "037.map",
+      "width": 45,
+      "height": 54,
+      "area": 2430
+    },
+    {
+      "file": "038.map",
+      "width": 70,
+      "height": 30,
+      "area": 2100
+    },
+    {
+      "file": "039.map",
+      "width": 47,
+      "height": 28,
+      "area": 1316
+    },
+    {
+      "file": "040.map",
+      "width": 55,
+      "height": 42,
+      "area": 2310
+    },
+    {
+      "file": "041.map",
+      "width": 50,
+      "height": 44,
+      "area": 2200
+    },
+    {
+      "file": "042.map",
+      "width": 49,
+      "height": 47,
+      "area": 2303
+    },
+    {
+      "file": "043.map",
+      "width": 43,
+      "height": 48,
+      "area": 2064
+    },
+    {
+      "file": "044.map",
+      "width": 42,
+      "height": 32,
+      "area": 1344
+    },
+    {
+      "file": "045.map",
+      "width": 40,
+      "height": 40,
+      "area": 1600
+    },
+    {
+      "file": "046.map",
+      "width": 50,
+      "height": 38,
+      "area": 1900
+    },
+    {
+      "file": "047.map",
+      "width": 54,
+      "height": 36,
+      "area": 1944
+    },
+    {
+      "file": "048.map",
+      "width": 41,
+      "height": 31,
+      "area": 1271
+    },
+    {
+      "file": "049.map",
+      "width": 56,
+      "height": 52,
+      "area": 2912
+    },
+    {
+      "file": "050.map",
+      "width": 38,
+      "height": 35,
+      "area": 1330
+    },
+    {
+      "file": "051.map",
+      "width": 58,
+      "height": 32,
+      "area": 1856
+    },
+    {
+      "file": "052.map",
+      "width": 33,
+      "height": 54,
+      "area": 1782
+    },
+    {
+      "file": "053.map",
+      "width": 41,
+      "height": 51,
+      "area": 2091
+    },
+    {
+      "file": "054.map",
+      "width": 53,
+      "height": 26,
+      "area": 1378
+    },
+    {
+      "file": "055.map",
+      "width": 48,
+      "height": 39,
+      "area": 1872
+    },
+    {
+      "file": "056.map",
+      "width": 51,
+      "height": 40,
+      "area": 2040
+    },
+    {
+      "file": "057.map",
+      "width": 33,
+      "height": 30,
+      "area": 990
+    },
+    {
+      "file": "058.map",
+      "width": 53,
+      "height": 26,
+      "area": 1378
+    },
+    {
+      "file": "059.map",
+      "width": 51,
+      "height": 38,
+      "area": 1938
+    },
+    {
+      "file": "060.map",
+      "width": 31,
+      "height": 22,
+      "area": 682
+    },
+    {
+      "file": "061.map",
+      "width": 30,
+      "height": 47,
+      "area": 1410
+    },
+    {
+      "file": "062.map",
+      "width": 52,
+      "height": 41,
+      "area": 2132
+    },
+    {
+      "file": "063.map",
+      "width": 54,
+      "height": 39,
+      "area": 2106
+    },
+    {
+      "file": "064.map",
+      "width": 49,
+      "height": 40,
+      "area": 1960
+    },
+    {
+      "file": "065.map",
+      "width": 51,
+      "height": 42,
+      "area": 2142
+    },
+    {
+      "file": "066.map",
+      "width": 53,
+      "height": 42,
+      "area": 2226
+    },
+    {
+      "file": "067.map",
+      "width": 52,
+      "height": 42,
+      "area": 2184
+    },
+    {
+      "file": "068.map",
+      "width": 45,
+      "height": 31,
+      "area": 1395
+    },
+    {
+      "file": "069.map",
+      "width": 48,
+      "height": 38,
+      "area": 1824
+    },
+    {
+      "file": "070.map",
+      "width": 30,
+      "height": 40,
+      "area": 1200
+    },
+    {
+      "file": "071.map",
+      "width": 30,
+      "height": 40,
+      "area": 1200
+    },
+    {
+      "file": "072.map",
+      "width": 36,
+      "height": 42,
+      "area": 1512
+    },
+    {
+      "file": "073.map",
+      "width": 45,
+      "height": 42,
+      "area": 1890
+    },
+    {
+      "file": "074.map",
+      "width": 36,
+      "height": 39,
+      "area": 1404
+    },
+    {
+      "file": "075.map",
+      "width": 54,
+      "height": 33,
+      "area": 1782
+    },
+    {
+      "file": "076.map",
+      "width": 44,
+      "height": 39,
+      "area": 1716
+    },
+    {
+      "file": "077.map",
+      "width": 43,
+      "height": 28,
+      "area": 1204
+    },
+    {
+      "file": "078.map",
+      "width": 46,
+      "height": 28,
+      "area": 1288
+    },
+    {
+      "file": "079.map",
+      "width": 35,
+      "height": 35,
+      "area": 1225
+    },
+    {
+      "file": "080.map",
+      "width": 31,
+      "height": 42,
+      "area": 1302
+    },
+    {
+      "file": "081.map",
+      "width": 30,
+      "height": 30,
+      "area": 900
+    },
+    {
+      "file": "082.map",
+      "width": 37,
+      "height": 52,
+      "area": 1924
+    },
+    {
+      "file": "083.map",
+      "width": 36,
+      "height": 27,
+      "area": 972
+    },
+    {
+      "file": "084.map",
+      "width": 31,
+      "height": 21,
+      "area": 651
+    },
+    {
+      "file": "085.map",
+      "width": 55,
+      "height": 25,
+      "area": 1375
+    },
+    {
+      "file": "086.map",
+      "width": 64,
+      "height": 45,
+      "area": 2880
+    },
+    {
+      "file": "087.map",
+      "width": 45,
+      "height": 48,
+      "area": 2160
+    },
+    {
+      "file": "088.map",
+      "width": 42,
+      "height": 40,
+      "area": 1680
+    },
+    {
+      "file": "089.map",
+      "width": 43,
+      "height": 40,
+      "area": 1720
+    },
+    {
+      "file": "090.map",
+      "width": 42,
+      "height": 61,
+      "area": 2562
+    },
+    {
+      "file": "091.map",
+      "width": 57,
+      "height": 46,
+      "area": 2622
+    },
+    {
+      "file": "092.map",
+      "width": 45,
+      "height": 45,
+      "area": 2025
+    },
+    {
+      "file": "093.map",
+      "width": 48,
+      "height": 38,
+      "area": 1824
+    },
+    {
+      "file": "094.map",
+      "width": 33,
+      "height": 35,
+      "area": 1155
+    },
+    {
+      "file": "095.map",
+      "width": 39,
+      "height": 71,
+      "area": 2769
+    },
+    {
+      "file": "096.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "097.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "098.map",
+      "width": 30,
+      "height": 26,
+      "area": 780
+    },
+    {
+      "file": "099.map",
+      "width": 37,
+      "height": 46,
+      "area": 1702
+    },
+    {
+      "file": "100.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "101.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "102.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "103.map",
+      "width": 37,
+      "height": 25,
+      "area": 925
+    },
+    {
+      "file": "104.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "105.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "106.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "107.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "108.map",
+      "width": 30,
+      "height": 21,
+      "area": 630
+    },
+    {
+      "file": "109.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "110.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "111.map",
+      "width": 30,
+      "height": 24,
+      "area": 720
+    },
+    {
+      "file": "112.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "113.map",
+      "width": 30,
+      "height": 21,
+      "area": 630
+    },
+    {
+      "file": "114.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "115.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "116.map",
+      "width": 30,
+      "height": 23,
+      "area": 690
+    },
+    {
+      "file": "117.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "118.map",
+      "width": 30,
+      "height": 33,
+      "area": 990
+    },
+    {
+      "file": "119.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "120.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "121.map",
+      "width": 31,
+      "height": 23,
+      "area": 713
+    },
+    {
+      "file": "122.map",
+      "width": 30,
+      "height": 21,
+      "area": 630
+    },
+    {
+      "file": "123.map",
+      "width": 30,
+      "height": 21,
+      "area": 630
+    },
+    {
+      "file": "124.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "125.map",
+      "width": 30,
+      "height": 21,
+      "area": 630
+    },
+    {
+      "file": "126.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "127.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "128.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "129.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "130.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "131.map",
+      "width": 30,
+      "height": 21,
+      "area": 630
+    },
+    {
+      "file": "132.map",
+      "width": 33,
+      "height": 30,
+      "area": 990
+    },
+    {
+      "file": "133.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "134.map",
+      "width": 31,
+      "height": 41,
+      "area": 1271
+    },
+    {
+      "file": "135.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "136.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "137.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "138.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "139.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "145.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "146.map",
+      "width": 31,
+      "height": 31,
+      "area": 961
+    },
+    {
+      "file": "147.map",
+      "width": 43,
+      "height": 36,
+      "area": 1548
+    },
+    {
+      "file": "148.map",
+      "width": 43,
+      "height": 34,
+      "area": 1462
+    },
+    {
+      "file": "149.map",
+      "width": 36,
+      "height": 33,
+      "area": 1188
+    },
+    {
+      "file": "150.map",
+      "width": 30,
+      "height": 20,
+      "area": 600
+    },
+    {
+      "file": "151.map",
+      "width": 37,
+      "height": 30,
+      "area": 1110
+    },
+    {
+      "file": "152.map",
+      "width": 30,
+      "height": 25,
+      "area": 750
+    },
+    {
+      "file": "153.map",
+      "width": 31,
+      "height": 30,
+      "area": 930
+    },
+    {
+      "file": "154.map",
+      "width": 40,
+      "height": 27,
+      "area": 1080
+    },
+    {
+      "file": "155.map",
+      "width": 31,
+      "height": 23,
+      "area": 713
+    }
+  ]
+}

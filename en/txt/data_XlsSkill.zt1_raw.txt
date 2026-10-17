@@ -1,0 +1,117 @@
+# PrepareGame - UTF-8; edit the text after ]
+# path=data/XlsSkill.zt1
+# type=GXL_FIXED
+# encoding=cp949
+# Preserve indices, metadata and escapes. FIXED_SLOT/GXL limits are in BYTES. Unverified RAW entries are read-only references.
+# FORMAT: [index|field=value|flag] edit the text directly after ]
+# Preserve \n, \r, \t and \xHH escapes. Do not remove [index|...] records.
+# Encoding follows the manifest; unencodable characters are reported as errors.
+[000000|off=0x34|max=14|FIXED_SLOT] Shield Charge
+[000001|off=0x75|max=14|FIXED_SLOT] Double Attack
+[000002|off=0xB6|max=14|FIXED_SLOT] Cure Light
+[000003|off=0xF7|max=14|FIXED_SLOT] Sword Blast
+[000004|off=0x138|max=14|FIXED_SLOT] Cry Crusader
+[000005|off=0x179|max=14|FIXED_SLOT] Shield of God
+[000006|off=0x1BA|max=14|FIXED_SLOT] Pwr Sacrifice
+[000007|off=0x1FB|max=14|FIXED_SLOT] Light Guardian
+[000008|off=0x23C|max=14|FIXED_SLOT] Holy Blessing
+[000009|off=0x27D|max=14|FIXED_SLOT] Aura Pal.
+[000010|off=0x2BE|max=14|FIXED_SLOT] Sword Heaven
+[000011|off=0x2FF|max=14|FIXED_SLOT] Sacred Mind
+[000012|off=0x340|max=14|FIXED_SLOT] Concentration
+[000013|off=0x381|max=14|FIXED_SLOT] Sacred Power
+[000014|off=0x3C2|max=14|FIXED_SLOT] Awakening
+[000015|off=0x403|max=14|FIXED_SLOT] Patience
+[000016|off=0x444|max=14|FIXED_SLOT] Grace of God
+[000017|off=0x485|max=14|FIXED_SLOT] Sacred Armor
+[000018|off=0x4C6|max=14|FIXED_SLOT] AlmghtyStrngth
+[000019|off=0x507|max=14|FIXED_SLOT] Gun Hawk
+[000020|off=0x548|max=14|FIXED_SLOT] Flame Thrower
+[000021|off=0x589|max=14|FIXED_SLOT] Rising Shot
+[000022|off=0x5CA|max=14|FIXED_SLOT] Blinding Fire
+[000023|off=0x60B|max=14|FIXED_SLOT] Temptation
+[000024|off=0x64C|max=14|FIXED_SLOT] Aimed Fire
+[000025|off=0x68D|max=14|FIXED_SLOT] Seize Opprtnty
+[000026|off=0x6CE|max=14|FIXED_SLOT] Evasion
+[000027|off=0x70F|max=14|FIXED_SLOT] Destruction
+[000028|off=0x750|max=14|FIXED_SLOT] Act Mrksmnshp
+[000029|off=0x791|max=14|FIXED_SLOT] Poison Rain
+[000030|off=0x7D2|max=14|FIXED_SLOT] Shock Fire
+[000031|off=0x813|max=14|FIXED_SLOT] Combat Ability
+[000032|off=0x854|max=14|FIXED_SLOT] Precision Fire
+[000033|off=0x895|max=14|FIXED_SLOT] Fatal Plshng
+[000034|off=0x8D6|max=14|FIXED_SLOT] Thick Leather
+[000035|off=0x917|max=14|FIXED_SLOT] Echanted Def
+[000036|off=0x958|max=14|FIXED_SLOT] Swift Gunner
+[000037|off=0x999|max=14|FIXED_SLOT] Wind Movement
+[000038|off=0x9DA|max=14|FIXED_SLOT] Vision Shock
+[000039|off=0xA1B|max=14|FIXED_SLOT] Summon Tornado
+[000040|off=0xA5C|max=14|FIXED_SLOT] Ice Tornado
+[000041|off=0xA9D|max=14|FIXED_SLOT] Frog Mutation
+[000042|off=0xADE|max=14|FIXED_SLOT] Flame Storm
+[000043|off=0xB1F|max=14|FIXED_SLOT] Summon Golem
+[000044|off=0xB60|max=14|FIXED_SLOT] Steam Prtctn
+[000045|off=0xBA1|max=14|FIXED_SLOT] Pwr Negativity
+[000046|off=0xBE2|max=14|FIXED_SLOT] Spirit Link
+[000047|off=0xC23|max=14|FIXED_SLOT] Steam Spprssn
+[000048|off=0xC64|max=14|FIXED_SLOT] Thunderstorm
+[000049|off=0xCA5|max=14|FIXED_SLOT] Mental Train
+[000050|off=0xCE6|max=14|FIXED_SLOT] Steam Injctn
+[000051|off=0xD27|max=14|FIXED_SLOT] Mntl Cncntrtn
+[000052|off=0xD68|max=14|FIXED_SLOT] MystrsEnchntmn
+[000053|off=0xDA9|max=14|FIXED_SLOT] Cloak Rfrctn
+[000054|off=0xDEA|max=14|FIXED_SLOT] Mental Prtctn
+[000055|off=0xE2B|max=14|FIXED_SLOT] Holy Mentality
+[000056|off=0xE6C|max=14|FIXED_SLOT] Calmness
+[000057|off=0xEAD|max=14|FIXED_SLOT] Dragon Cut
+[000058|off=0xEEE|max=14|FIXED_SLOT] Cry of Beast
+[000059|off=0xF2F|max=14|FIXED_SLOT] Phoenix Smash
+[000060|off=0xF70|max=14|FIXED_SLOT] Hypr Flyng Kck
+[000061|off=0xFB1|max=14|FIXED_SLOT] Knuckle Boom
+[000062|off=0xFF2|max=14|FIXED_SLOT] Energy Damage
+[000063|off=0x1033|max=14|FIXED_SLOT] Spirit Sldrty
+[000064|off=0x1074|max=14|FIXED_SLOT] Ntr's Prtctn
+[000065|off=0x10B5|max=14|FIXED_SLOT] Beserka
+[000066|off=0x10F6|max=14|FIXED_SLOT] Ntr's Swftnss
+[000067|off=0x1137|max=14|FIXED_SLOT] Incrntn Tree
+[000068|off=0x1178|max=14|FIXED_SLOT] Outrage Beast
+[000069|off=0x11B9|max=14|FIXED_SLOT] Brtlty Beast
+[000070|off=0x11FA|max=14|FIXED_SLOT] Nature Beast
+[000071|off=0x123B|max=14|FIXED_SLOT] Power of Blood
+[000072|off=0x127C|max=14|FIXED_SLOT] Res. Prisoner
+[000073|off=0x12BD|max=14|FIXED_SLOT] Lthr Wild Anml
+[000074|off=0x12FE|max=14|FIXED_SLOT] Soldier Reflex
+[000075|off=0x133F|max=14|FIXED_SLOT] Srvvl Instinct
+[000076|off=0x1380|max=14|FIXED_SLOT] Brilliance
+[000077|off=0x13C1|max=14|FIXED_SLOT] Blssng Fairy 1
+[000078|off=0x1402|max=14|FIXED_SLOT] Blssng Fairy 2
+[000079|off=0x1443|max=14|FIXED_SLOT] Downstrike
+[000080|off=0x1484|max=14|FIXED_SLOT] Ice Bless
+[000081|off=0x14C5|max=14|FIXED_SLOT] Teleport
+[000082|off=0x1506|max=14|FIXED_SLOT] SmmnVndctvSprt
+[000083|off=0x1547|max=14|FIXED_SLOT] Crush
+[000084|off=0x1588|max=14|FIXED_SLOT] Laser
+[000085|off=0x15C9|max=14|FIXED_SLOT] Laser B1
+[000086|off=0x160A|max=14|FIXED_SLOT] Laser B2
+[000087|off=0x164B|max=14|FIXED_SLOT] Guided Laser
+[000088|off=0x168C|max=14|FIXED_SLOT] Flame Gas
+[000089|off=0x16CD|max=14|FIXED_SLOT] Disruption
+[000090|off=0x170E|max=14|FIXED_SLOT] Lava Eruption
+[000091|off=0x174F|max=14|FIXED_SLOT] Abslt Invsblty
+[000092|off=0x1790|max=14|FIXED_SLOT] Summon Welcome
+[000093|off=0x17D1|max=14|FIXED_SLOT] Frog Mutation
+[000094|off=0x1812|max=14|FIXED_SLOT] Flm Mgc Array
+[000095|off=0x1853|max=14|FIXED_SLOT] Dark Mgc Array
+[000096|off=0x1894|max=14|FIXED_SLOT] Smmn Evil Eye
+[000097|off=0x18D5|max=14|FIXED_SLOT] Frost Tessera
+[000098|off=0x1916|max=14|FIXED_SLOT] Blssng Drknss
+[000099|off=0x1957|max=14|FIXED_SLOT] Reduce Attack
+[000100|off=0x1998|max=14|FIXED_SLOT] Reduce Defense
+[000101|off=0x19D9|max=14|FIXED_SLOT] Slow
+[000102|off=0x1A1A|max=14|FIXED_SLOT] Poison
+[000103|off=0x1A5B|max=14|FIXED_SLOT] Bleeding
+[000104|off=0x1A9C|max=14|FIXED_SLOT] Confusion
+[000105|off=0x1ADD|max=14|FIXED_SLOT] Numb
+[000106|off=0x1B1E|max=14|FIXED_SLOT] Stun
+[000107|off=0x1B5F|max=14|FIXED_SLOT] Hlng Enchntmnt
+[000108|off=0x1BA0|max=14|FIXED_SLOT] Regen Evil
