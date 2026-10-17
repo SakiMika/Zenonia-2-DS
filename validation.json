@@ -1,5 +1,5 @@
 {
-  "release": "Zenonia 2 DS Runner - PrepareGame 2.1",
+  "release": "Zenonia 2 DS Runner - DS Fat minimap fix 1",
   "preparegame_version": "2.1.0",
   "runtime_game_directory": "/zenonia2nds/",
   "embedded_runnable_game": false,
@@ -27,6 +27,22 @@
   },
   "not_tested": [
     "Full ARM build: devkitARM unavailable",
-    "New ROM on DS/DSi hardware or melonDS"
-  ]
+    "This minimap-fix build on DS Fat/R4 or DSi hardware",
+    "This minimap-fix build in melonDS"
+  ],
+  "minimap_fix": {
+    "cache_expiry": "Measured from the completion of native capture; not its start",
+    "DS_mode_wait_ms": 250,
+    "DSi_mode_wait_ms": 100,
+    "tradeoff": "Lower minimap/marker refresh frequency; game/audio scheduling unchanged",
+    "map_resampling": "Division-free exact integer coordinate stepping",
+    "diagnostics": "LOG rows 15-17: max native/panel ms, hit/draw counts, interval/fallback count",
+    "tests": [
+      "Actual runtime cache glue tested with a simulated 180 ms native draw",
+      "Policy: expiry boundary, wraparound, invalid capture, map/object/geometry changes, DS/DSi intervals",
+      "Pixel comparison against frozen renderer: 6900 regular sizes plus 2000 large/tall cases",
+      "Repaint gate, 40000 randomized blits, RGB565 conversion, callback/cache guards, external-file backend and guarded native wrapper tests passed"
+    ],
+    "hardware_timing_available": false
+  }
 }

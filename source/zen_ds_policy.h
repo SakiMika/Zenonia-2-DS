@@ -18,13 +18,21 @@ struct RepaintGate {
 struct MinimapCache {
  bool initialized=false;
  uint32_t self=0,map=0,width=0,height=0,stamp=0,result=0,generation=0;
+ uint32_t interval_ms=250,hits=0,draws=0,last_cost_ms=0,max_cost_ms=0;
  bool reuse(uint32_t now,uint32_t object,uint32_t id,uint32_t w,uint32_t h) const {
-  return initialized && self==object && map==id && width==w && height==h && uint32_t(now-stamp)<100;
+  return initialized && self==object && map==id && width==w && height==h && uint32_t(now-stamp)<interval_ms;
  }
  void begin(uint32_t now,uint32_t object,uint32_t id,uint32_t w,uint32_t h) {
   self=object;map=id;width=w;height=h;stamp=now;
  }
- void finish(uint32_t value,bool valid){result=value;initialized=valid;if(valid)++generation;}
+ void finish(uint32_t value,bool valid,uint32_t completed) {
+  // Start cache lifetime AFTER native rendering. On a slow DS, timing from
+  // begin() could consume the whole old 100 ms window before the first reuse.
+  last_cost_ms=uint32_t(completed-stamp);
+  if(last_cost_ms>max_cost_ms)max_cost_ms=last_cost_ms;
+  ++draws;stamp=completed;
+  result=value;initialized=valid;if(valid)++generation;
+ }
  void invalidate(){initialized=false;}
 };
 struct PanelCache {

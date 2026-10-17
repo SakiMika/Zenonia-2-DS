@@ -1,4 +1,4 @@
-# Zenonia 2 — NDS
+# Zenonia — DSI
 
 A Nintendo DS / DSi runner for the supported native ARM WIPI version of **Zenonia 2: The Lost Memories**.
 
@@ -134,6 +134,25 @@ The emulator must be able to access the complete game folder through its emulate
 - **The old language is still shown:** select the desired package, click **Create Game Folder**, copy the updated folder and restart the game.
 - **KR cannot be checked:** this is intentional. KR uses the original resources, so **Check Error** is disabled.
 - **An older ROM still requests NitroFS:** rebuild the external-folder runner. Older NitroFS-based ROMs do not use this folder-loading workflow.
+
+## DS Fat minimap update
+
+This source includes a minimap performance fix for DS mode:
+
+- Cache expiry starts after native rendering completes, rather than before it starts.
+- DS mode waits 250 ms after each completed map capture before refreshing again (at most about four refreshes per second). DSi mode keeps a 100 ms interval.
+- Map scaling uses exact integer stepping instead of repeated software division. Output pixels remain identical in the tested cases.
+- Game timers, input handling, guest clock scaling and audio scheduling are not slowed down. The map marker may update less frequently than the main scene.
+
+Rebuild `Zenonia 2 DS Runner.nds` and replace the old NDS on your card. Existing `zenonia2nds/` resources, translations and `ZKR1.sav` do not need to be regenerated for this change.
+
+To collect hardware measurements, play with the bottom minimap enabled for 20–30 seconds, then tap the gear icon and open **LOG**. Photograph these rows:
+
+- `MAP native... panel... ms`: maximum native map-capture and bottom-panel update times measured by the runner.
+- `MAP hit... draw...`: cache reuse and actual capture counts.
+- `MAP wait... fallback...`: configured cache interval and uncached capture-fallback count. DS mode should show `wait250`.
+
+These counters help distinguish expensive native drawing from panel rendering or an unsupported capture geometry. Host tests are not a hardware FPS benchmark; DS Fat performance still requires verification on the device.
 
 ## Validation status
 

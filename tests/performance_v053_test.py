@@ -72,7 +72,15 @@ int main(){
   ReferenceMapUI::draw(expected.data()+1,capture.data(),w,h,valid);
   assert(actual==expected);assert(actual.front()==0x1234 && actual.back()==0x1234);
  }
- puts("PASS minimap: 6900 sizes, valid/invalid states, bit-exact against v052, guards intact");
+ // Large/tall/shrinking geometries beyond the older 92x75 test range.
+ for(int test=0;test<2000;test++){
+  int w=1+rnd(256),h=1+rnd(128);bool valid=test%3;
+  std::fill(actual.begin(),actual.end(),0x1234);expected=actual;
+  ZenMapUI::draw(actual.data()+1,capture.data(),w,h,valid);
+  ReferenceMapUI::draw(expected.data()+1,capture.data(),w,h,valid);
+  assert(actual==expected && actual.front()==0x1234 && actual.back()==0x1234);
+ }
+ puts("PASS minimap: 6900 regular sizes + 2000 large/tall cases, division-free scaling remains pixel-exact; guards intact");
 }
 '''
 # Frozen pre-optimization map renderer for pixel-for-pixel comparison.

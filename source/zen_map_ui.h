@@ -36,11 +36,19 @@ inline void draw(uint16_t *out,const uint16_t *capture,int w,int h,bool valid){
  if(!valid||!capture)return;
  Fit f=fit(w,h);
  // ARM9 has no hardware divide: map X once, and Y once per row.
- int source_x[224];for(int x=0;x<f.w;x++)source_x[x]=x*w/f.w;
+ // Exact floor(x*w/dw), floor(y*h/dh), without per-pixel software
+ // integer division on the ARM946. No floating point or visual resampling change.
+ int source_x[224];int map_sx=0,map_ex=0;
+ for(int x=0;x<f.w;x++){
+  source_x[x]=map_sx;map_ex+=w;
+  while(map_ex>=f.w){map_ex-=f.w;++map_sx;}
+ }
+ int map_sy=0,map_ey=0;
  for(int y=0;y<f.h;y++){
-  const uint16_t *row=capture+(y*h/f.h)*256;
+  const uint16_t *row=capture+map_sy*256;
   uint16_t *dst=out+(f.y+y)*256+f.x;
   for(int x=0;x<f.w;x++)dst[x]=from565(row[source_x[x]]);
+  map_ey+=h;while(map_ey>=f.h){map_ey-=f.h;++map_sy;}
  }
  // Native game-font title is captured in a separate scratch band, never ASCII replacement.
  int left=256,right=-1,top=160,bottom=127;

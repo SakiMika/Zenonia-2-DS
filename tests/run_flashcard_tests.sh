@@ -4,6 +4,7 @@ cd "$(dirname "$0")/.."
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
 python3 tests/flashcard_structure_test.py
+python3 tests/minimap_ds_runtime_test.py
 g++ -std=c++17 -O2 -Wall -Wextra -Isource tests/flashcard_assets_test.cpp source/embedded_assets.cpp source/zen_predecoded_audio.cpp -o "$tmp/assets"
 "$tmp/assets"
 g++ -std=c++17 -fsyntax-only -Itests/stubs -Isource source/runner_game_profile.cpp source/embedded_assets.cpp source/zen_predecoded_audio.cpp

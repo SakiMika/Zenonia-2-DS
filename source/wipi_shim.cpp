@@ -7,6 +7,7 @@
 #include "zen_map_ui.h"
 #include "zen_render_fast.h"
 #include "zen_ds_policy.h"
+#include "runner_package_config.h"
 
 #ifndef ZEN_CONSERVATIVE_CALLBACK_CACHE
 #define ZEN_CONSERVATIVE_CALLBACK_CACHE 0
@@ -169,6 +170,7 @@ static uint16_t *g_minimap_fb=nullptr;
 static bool g_minimap_ready=false,g_minimap_bottom=false,g_minimap_capture=false,g_minimap_valid=false;
 static int g_minimap_w=0,g_minimap_h=0;
 static ZenDS::MinimapCache g_minimap_cache;
+static uint32_t g_minimap_panel_max_ms=0,g_minimap_fallbacks=0;
 static ZenDS::PanelCache g_minimap_panel;
 static ZenDS::RepaintGate g_repaint_gate;
 static WipiFramebuffer g_minimap_alias{};
@@ -488,10 +490,16 @@ static void runner_ui_draw(void) {
         for(int i=0;i<13;++i) {
             ZenBootProfile::line(i,row,sizeof(row));runner_ui_set_row(2+i,row);
         }
+        snprintf(row,sizeof(row),"MAP native%lu panel%lu ms",(unsigned long)g_minimap_cache.max_cost_ms,(unsigned long)g_minimap_panel_max_ms);
+        runner_ui_set_row(15,row);
+        snprintf(row,sizeof(row),"MAP hit%lu draw%lu",(unsigned long)g_minimap_cache.hits,(unsigned long)g_minimap_cache.draws);
+        runner_ui_set_row(16,row);
+        snprintf(row,sizeof(row),"MAP wait%lu fallback%lu",(unsigned long)g_minimap_cache.interval_ms,(unsigned long)g_minimap_fallbacks);
+        runner_ui_set_row(17,row);
         int start=g_ui_log_head-g_ui_log_count;if(start<0) start+=UI_LOG_CAP;
-        for(int i=0;i<7;++i) {
-            const int logical=g_ui_log_count-7+i;
-            runner_ui_set_row(15+i,logical<0?"":g_ui_log_lines[(start+logical)%UI_LOG_CAP]);
+        for(int i=0;i<4;++i) {
+            const int logical=g_ui_log_count-4+i;
+            runner_ui_set_row(18+i,logical<0?"":g_ui_log_lines[(start+logical)%UI_LOG_CAP]);
         }
         runner_ui_set_row(22,"tap SINGLE/COMBO to remap");
         runner_ui_set_row(23,"settings are RAM-only for now");
@@ -2612,6 +2620,7 @@ void wipi_init_video(PrintConsole *log_console) {
     g_screen_fb.width=PHONE_W; g_screen_fb.height=PHONE_H; g_screen_fb.bpl=PHONE_W*2;
     g_screen_fb.bpp=16; g_screen_fb.buf=(uint32_t)(uintptr_t)g_phone_fb;
 
+    g_minimap_cache.interval_ms=isDSiMode()?RUNNER_DSI_MINIMAP_INTERVAL_MS:RUNNER_DS_MINIMAP_INTERVAL_MS;
     runner_ui_defaults();
     runner_ui_log_push_line("WIPI Runner settings ready");
 
@@ -2815,6 +2824,7 @@ bool wipi_try_cached_minimap(uint32_t self,uint32_t map,int w,int h,uint32_t *re
     if(!g_minimap_bottom){g_minimap_cache.invalidate();return false;}
     const uint32_t now=(uint32_t)real_monotonic_ms();
     if(g_minimap_cache.reuse(now,self,map,(uint32_t)w,(uint32_t)h)) {
+        ++g_minimap_cache.hits;
         g_minimap_valid=true;
         if(result)*result=g_minimap_cache.result;
         return true;
@@ -2823,7 +2833,7 @@ bool wipi_try_cached_minimap(uint32_t self,uint32_t map,int w,int h,uint32_t *re
     return false;
 }
 void wipi_store_minimap_cache(uint32_t result) {
-    g_minimap_cache.finish(result,g_minimap_valid);
+    g_minimap_cache.finish(result,g_minimap_valid,(uint32_t)real_monotonic_ms());
 }
 
 bool wipi_prepare_minimap(void) {
@@ -2833,7 +2843,7 @@ bool wipi_prepare_minimap(void) {
 }
 bool wipi_begin_minimap(int w,int h) {
     if(!g_minimap_ready || !g_minimap_bottom || g_minimap_capture || !g_phone_fb ||
-       w<1 || w>252 || h<1 || h>124) return false;
+       w<1 || w>252 || h<1 || h>124) { if(g_minimap_bottom)++g_minimap_fallbacks;return false; }
     g_minimap_w=w+4;g_minimap_h=h+4;
     memset(g_minimap_fb,0,PHONE_W*PHONE_H*2);
     g_minimap_capture=true;
@@ -2873,6 +2883,7 @@ void wipi_present(void) {
     const bool refresh=g_minimap_panel.refresh(g_minimap_bottom,g_log_visible,
         g_minimap_valid,g_minimap_cache.generation);
     if(!g_log_visible && refresh && (g_minimap_bottom || !g_sub_static_valid)) {
+        const uint32_t panel_begin=(uint32_t)real_monotonic_ms();
         uint16_t *subdst=g_sub_comp ? g_sub_comp : g_sub_fb;
         const uint16_t black=(uint16_t)(BIT(15) | RGB15(0,0,0));
         if(g_minimap_bottom) ZenMapUI::draw(subdst,g_minimap_fb,g_minimap_w,g_minimap_h,g_minimap_valid);
@@ -2880,6 +2891,8 @@ void wipi_present(void) {
         draw_log_button_to(subdst);
         if(subdst!=g_sub_fb) memcpy(g_sub_fb,subdst,DS_W*DS_H*2);
         g_sub_static_valid=!g_minimap_bottom;
+        const uint32_t elapsed=(uint32_t)real_monotonic_ms()-panel_begin;
+        if(elapsed>g_minimap_panel_max_ms)g_minimap_panel_max_ms=elapsed;
     }
 }
 

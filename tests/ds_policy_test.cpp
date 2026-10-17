@@ -17,13 +17,22 @@ int main(){
  }
  puts("PASS source repaint gate: 5000 model comparisons, timer/key/log/wrap semantics");
  ZenDS::MinimapCache m;
- assert(!m.reuse(0,1,2,3,4));m.begin(0xffffffd0,1,2,3,4);m.finish(123,true);
- assert(m.reuse(0x20,1,2,3,4));assert(!m.reuse(0x34,1,2,3,4));
+ assert(m.interval_ms==250 && !m.reuse(0,1,2,3,4));
+ m.begin(0xffffffd0,1,2,3,4);m.finish(123,true,0xfffffff0);
+ assert(m.last_cost_ms==32 && m.max_cost_ms==32 && m.draws==1);
+ assert(m.reuse(0x20,1,2,3,4));assert(m.reuse(0xe9,1,2,3,4));assert(!m.reuse(0xea,1,2,3,4));
  assert(!m.reuse(0x20,1,3,3,4));assert(!m.reuse(0x20,2,2,3,4));
  assert(!m.reuse(0x20,1,2,4,4));assert(m.generation==1&&m.result==123);
- m.finish(456,false);assert(!m.initialized&&m.generation==1);m.invalidate();
+ m.begin(1000,1,2,3,4);m.finish(456,false,1010);assert(!m.initialized&&m.generation==1);m.invalidate();
+ // A slow native draw must not expire the cache before its first reuse.
+ m.interval_ms=250;m.begin(2000,1,2,3,4);m.finish(789,true,2180);
+ assert(m.reuse(2196,1,2,3,4) && m.reuse(2429,1,2,3,4));assert(!m.reuse(2430,1,2,3,4));
+ assert(m.last_cost_ms==180 && m.max_cost_ms==180);
+ // DSi keeps its old 100 ms rate, also measured from completion.
+ m.interval_ms=100;m.begin(3000,1,2,3,4);m.finish(789,true,3180);
+ assert(m.reuse(3279,1,2,3,4));assert(!m.reuse(3280,1,2,3,4));
  ZenDS::PanelCache p;assert(p.refresh(true,false,true,1));assert(!p.refresh(true,false,true,1));assert(p.refresh(true,false,true,2));assert(p.refresh(true,false,false,2));assert(!p.refresh(true,false,false,2));assert(p.refresh(true,true,false,2));assert(p.refresh(true,false,false,2));assert(p.refresh(false,false,false,2));assert(p.refresh(true,false,true,2));
- puts("PASS source 100ms minimap cache, identity/geometry keys, validity and panel generation invalidation");
+ puts("PASS completion-based DS 250ms / DSi 100ms minimap cache; slow draw, wraparound, identity/geometry, validity and panel generation");
  assert(ZenDS::consoleMap(0x80,0x06204000)==0x0689c000);
  assert(ZenDS::consoleMap(0x81,0x0689c000)==0x06204000);
  assert(ZenDS::consoleMap(0x80,0x06208000)==0x06208000);
